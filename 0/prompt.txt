@@ -1,0 +1,10 @@
+<bash-input>cd /Users/alanye/duquantum-pasqal && git push</bash-input><bash-stdout>[entire] Pushing 1 checkpoint ref(s) to origin.... done
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (5/5), 1.02 KiB | 1.02 MiB/s, done.
+Total 5 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To github.com:zianye183/duquantum-pasqal.git
+   cc5dbc1..852bd04  main -&gt; main</bash-stdout><bash-stderr></bash-stderr>
