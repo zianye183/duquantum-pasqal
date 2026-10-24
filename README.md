@@ -26,6 +26,23 @@ If the organizers provide a pinned environment, use theirs instead.
 
 Cloud/QPU credentials: keep them in `.env` (gitignored), never in notebooks, repos or slides.
 
+## Collaborating with Entire
+
+This repo uses [Entire](https://docs.entire.com) to link Claude Code sessions to commits (checkpoints).
+Shared config is committed: `.entire/settings.json` and the Claude Code hooks in `.claude/settings.json`.
+Git hooks are per-clone, so each person runs the setup once:
+
+```bash
+brew install --cask entireio/tap/entire   # or: curl -fsSL https://entire.com/install.sh | bash
+git clone <repo-url> && cd duquantum-pasqal
+entire enable --agent claude-code          # installs git hooks in your clone
+python3.12 -m venv .venv && source .venv/bin/activate && pip install -r requirements.lock.txt
+```
+
+When you commit after a Claude Code session, Entire asks to link the commit; answer `a` (always) to stop being asked.
+`entire checkpoint list` shows checkpoints; `entire why <file>:<line>` explains where a line came from.
+Checkpoints are pushed with `git push`, so teammates see them after `git fetch`.
+
 ## Pre-reading checklist
 
 - [ ] IBM Decision Optimization: Linear Programming notebook
