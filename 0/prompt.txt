@@ -1,0 +1,1 @@
+Permission to use Bash with command curl -s -o /dev/null -w "%{http_code}\n" --max-time 15 https://api.github.com/repos/IBMDecisionOptimization/docplex-examples has been denied.
