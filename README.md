@@ -29,13 +29,13 @@ Cloud/QPU credentials: keep them in `.env` (gitignored), never in notebooks, rep
 ## Collaborating with Entire
 
 This repo uses [Entire](https://docs.entire.com) to link Claude Code sessions to commits (checkpoints).
-Shared config is committed: `.entire/settings.json` and the Claude Code hooks in `.claude/settings.json`.
+Shared config is committed: `.entire/settings.json` plus agent hooks for Claude Code (`.claude/settings.json`) and Codex (`.codex/hooks.json`).
 Git hooks are per-clone, so each person runs the setup once:
 
 ```bash
 brew install --cask entireio/tap/entire   # or: curl -fsSL https://entire.com/install.sh | bash
-git clone <repo-url> && cd duquantum-pasqal
-entire enable --agent claude-code          # installs git hooks in your clone
+git clone git@github.com:zianye183/duquantum-pasqal.git && cd duquantum-pasqal
+entire enable --agent claude-code          # or codex, cursor, copilot-cli, opencode, ...; installs git hooks in your clone
 python3.12 -m venv .venv && source .venv/bin/activate && pip install -r requirements.lock.txt
 ```
 
