@@ -1,0 +1,3 @@
+<bash-input>gh auth login -h github.com</bash-input><bash-stdout>? What is your preferred protocol for Git operations on this host?  [Use arrows to move, type to filter]
+&gt; HTTPS
+[The user typed into the terminal pane (tab 0) while this command was running, so output after that point is not included; it may still be running there, or they may have stopped it. Use read_terminal with tab_id "0" to check on it.]</bash-stdout><bash-stderr></bash-stderr>
