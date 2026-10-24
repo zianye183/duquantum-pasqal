@@ -51,3 +51,6 @@ Checkpoints are pushed with `git push`, so teammates see them after `git fetch`.
 - [ ] Qubo Solver tutorial (first solve)
 - [ ] unitaryCON Pasqal QUBO demo notebook
 - [ ] Papers: Henriet et al. 2020; Pulser 2022; Glover et al. QUBO tutorial
+
+## Proposal
+A link to the real-time updated proposal/brainstorming can be found here: https://docs.google.com/document/d/1vER8kar7FdvSJa-OeLuvMvhn1kvkRucwKiXOJtq8apU/edit?tab=t.ev0bnfkdvnwq#heading=h.x5u0l8hx0kbh
