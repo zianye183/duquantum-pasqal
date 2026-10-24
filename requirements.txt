@@ -1,0 +1,9 @@
+pulser
+qoolqit
+qubo-solver
+emu-sv
+emu-mps
+pasqal-cloud
+jupyterlab
+ipykernel
+matplotlib
