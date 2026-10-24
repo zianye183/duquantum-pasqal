@@ -1,0 +1,5 @@
+I ran gh auth login. Create the private repo duquantum-pasqal and push.
+
+---
+
+What if my teammates use codex/other coding harnesses
