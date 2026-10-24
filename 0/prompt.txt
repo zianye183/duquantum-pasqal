@@ -1,0 +1,1 @@
+Yes, commit and push the Codex hooks and README update.
