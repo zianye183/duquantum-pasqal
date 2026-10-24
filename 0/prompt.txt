@@ -1,0 +1,1 @@
+I threw a pdf into the folder. Should it be git ignored?
