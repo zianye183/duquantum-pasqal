@@ -1,0 +1,71 @@
+{
+  "objective": "mean optimal_full_encoding probability: original intended-QUBO ground-state set, including exact slack equations, acrossfirst3developmentinstances",
+  "new_pulse_family": "detuning ramp I_s(a,b), a=ramp_power,b=ramp_beta in[1,3]; sinusoidal powerdriveunchanged. Both objective and family differ from priorsearch.",
+  "warm_starts": 12,
+  "warm_start_source_hash": "a6fb90c39e81332a96aa0199e3913b33946c9e57366ba984120a6494e7173cbd",
+  "warm_start_policy": "All12existingpoints per formulation/arm copied as completed observations withb=1; samecachedobservations reusedacrossthreeoptimizerseeds. Neithernewquantumexperiments norindependentreplicates.",
+  "new_adaptive_trials_per_study": 24,
+  "seeds": [
+    11,
+    29,
+    47
+  ],
+  "formulation_rules": [
+    0,
+    1,
+    24
+  ],
+  "arms": [
+    "intended",
+    "geometric"
+  ],
+  "studies": 18,
+  "total_new_coarse_trials": 432,
+  "total_new_coarse_propagations": 1296,
+  "development_instances": [
+    2002,
+    2006,
+    2012
+  ],
+  "retrospective_correctness_selected_across_all_instances": true,
+  "layout_manifest_hash": "8a09b7fe0e3d8b7154f6fbbf2a7c7758fb19a20de1d61eb06e52af761810181e",
+  "bounds": {
+    "duration": [
+      1.0,
+      12.0
+    ],
+    "omega": [
+      1.0,
+      12.566370614359172
+    ],
+    "initial_detuning": [
+      -40.0,
+      -1.0
+    ],
+    "ramp_power": [
+      1.0,
+      3.0
+    ],
+    "ramp_beta": [
+      1.0,
+      3.0
+    ],
+    "drive_power": [
+      1.0,
+      3.0
+    ]
+  },
+  "duration_log": true,
+  "search_dt": 0.01,
+  "fine_gate_TV": 0.001,
+  "finalists_perstudy": 3,
+  "refined_winners": "Retainalloptimizerseedwinners; evaluate unchangedwinner onoppositearm. Allsame10smallinstances separateddevelopment3/validation2/evaluation5; nooutcomeoutsidefirst3selectswinners.",
+  "reporting": "Alwaysboth clustering-optimal and intended-QUBO-ground probabilities, feasibility, perinstance minimum, and 1-(1-p)^shots underindependentrepeatedpreparations assumption.",
+  "virtual_control_warning": "Individualfields idealized; beta family notyet serialized or hardware-validated. T<=12us doesnotestablishdevicedurationcompatibility.",
+  "sources": {
+    "audit/quantum_compare/formulation_search/full_ground_tuning.py": "a6c865521ee174a79b71fe801e86195efcb0418e684a354383e46624afcde681",
+    "audit/quantum_compare/dynamics.py": "fbda77897b0bb18bcf7092fc874a5b19d883d4f7b5eef1abfe319b2aef1d5af1",
+    "audit/quantum_compare/formulations.py": "9ac4bfc96ee15f528cc11dd6c1ef56dba64d32ec935d72cd5e10a3647ef7636d",
+    "audit/quantum_compare/formulation_search/quantum_screen.py": "a7b7ddf0237e42fcc1f9621c830e70caae5f51ad6999d608f231f6e99d5fca92"
+  }
+}

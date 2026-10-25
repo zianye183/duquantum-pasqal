@@ -1,0 +1,756 @@
+[
+  {
+    "seed": 2002,
+    "encoding": "slack",
+    "atoms": 14,
+    "assignment_weight": 118.0,
+    "capacity_or_balance_weight": 118.0,
+    "algebra_max_error": 1.4551915228366852e-11,
+    "f_star": 100.4038457708054,
+    "geometry_valid": true,
+    "pair_error": 0.5283506527066547,
+    "alpha": 0.011218103398146785,
+    "arms": {
+      "exact": {
+        "probability": {
+          "assignment_valid": 0.06445805100096154,
+          "feasible": 0.05776940965048951,
+          "optimal": 0.026980030621676407,
+          "complete_optimal": 0.007011043066595716
+        },
+        "numerical_gate_passed": true,
+        "refinement": [
+          {
+            "dt": 0.01,
+            "tv_previous": null,
+            "seconds": 0.31431245896965265
+          },
+          {
+            "dt": 0.005,
+            "tv_previous": 0.002087450467881266,
+            "seconds": 0.6197252500569448
+          },
+          {
+            "dt": 0.0025,
+            "tv_previous": 0.0005203912282519332,
+            "seconds": 1.228678375016898
+          },
+          {
+            "dt": 0.00125,
+            "tv_previous": 0.0001300056672140906,
+            "seconds": 2.397065667086281
+          },
+          {
+            "dt": 0.000625,
+            "tv_previous": 3.249565511281918e-05,
+            "seconds": 4.613436916959472
+          }
+        ],
+        "endpoint_all_minima_feasible": true,
+        "endpoint_all_minima_original_optimal": true,
+        "ground_count": 2
+      },
+      "geometric": {
+        "probability": {
+          "assignment_valid": 0.00982172604508178,
+          "feasible": 0.00653588164791632,
+          "optimal": 0.000497215347759342,
+          "complete_optimal": 6.824180705561908e-07
+        },
+        "numerical_gate_passed": true,
+        "refinement": [
+          {
+            "dt": 0.01,
+            "tv_previous": null,
+            "seconds": 0.30662908300291747
+          },
+          {
+            "dt": 0.005,
+            "tv_previous": 0.0011169533208967096,
+            "seconds": 0.6031914999475703
+          },
+          {
+            "dt": 0.0025,
+            "tv_previous": 0.00027879121786412986,
+            "seconds": 1.1843653749674559
+          },
+          {
+            "dt": 0.00125,
+            "tv_previous": 6.966992297703082e-05,
+            "seconds": 2.3959120420040563
+          }
+        ],
+        "endpoint_all_minima_feasible": false,
+        "endpoint_all_minima_original_optimal": false,
+        "ground_count": 1
+      }
+    },
+    "status": "complete"
+  },
+  {
+    "seed": 2002,
+    "encoding": "full_balance",
+    "atoms": 8,
+    "assignment_weight": 121.0,
+    "capacity_or_balance_weight": 2.7249863091705984,
+    "algebra_max_error": 4.547473508864641e-13,
+    "f_star": 100.4038457708054,
+    "geometry_valid": true,
+    "pair_error": 0.36628268988922624,
+    "alpha": 0.2078233704306882,
+    "arms": {
+      "exact": {
+        "probability": {
+          "assignment_valid": 0.3124016437947249,
+          "feasible": 0.1544401884418102,
+          "optimal": 0.15070450129918256,
+          "complete_optimal": 0.15070450129918256
+        },
+        "numerical_gate_passed": true,
+        "refinement": [
+          {
+            "dt": 0.01,
+            "tv_previous": null,
+            "seconds": 0.017970375018194318
+          },
+          {
+            "dt": 0.005,
+            "tv_previous": 0.0006398474793857186,
+            "seconds": 0.04265783401206136
+          },
+          {
+            "dt": 0.0025,
+            "tv_previous": 0.00015912888124302972,
+            "seconds": 0.07702129206154495
+          },
+          {
+            "dt": 0.00125,
+            "tv_previous": 3.9730828596625857e-05,
+            "seconds": 0.13696766691282392
+          }
+        ],
+        "endpoint_all_minima_feasible": true,
+        "endpoint_all_minima_original_optimal": true,
+        "ground_count": 2,
+        "independent_DOP853": {
+          "tv": 1.3239000201746792e-05,
+          "passed": true,
+          "norm": 0.9999999990546433,
+          "seconds": 0.10970316606108099
+        }
+      },
+      "geometric": {
+        "probability": {
+          "assignment_valid": 0.21964297850847259,
+          "feasible": 0.12924518294163836,
+          "optimal": 0.1194373021021575,
+          "complete_optimal": 0.1194373021021575
+        },
+        "numerical_gate_passed": true,
+        "refinement": [
+          {
+            "dt": 0.01,
+            "tv_previous": null,
+            "seconds": 0.01698408299125731
+          },
+          {
+            "dt": 0.005,
+            "tv_previous": 0.0005756487055367001,
+            "seconds": 0.033983291941694915
+          },
+          {
+            "dt": 0.0025,
+            "tv_previous": 0.00014360547739970448,
+            "seconds": 0.06896175001747906
+          },
+          {
+            "dt": 0.00125,
+            "tv_previous": 3.588235158144566e-05,
+            "seconds": 0.13371879199985415
+          }
+        ],
+        "endpoint_all_minima_feasible": true,
+        "endpoint_all_minima_original_optimal": true,
+        "ground_count": 1,
+        "independent_DOP853": {
+          "tv": 1.1959649514351203e-05,
+          "passed": true,
+          "norm": 0.999999998620889,
+          "seconds": 0.11641483299899846
+        }
+      }
+    },
+    "status": "complete"
+  },
+  {
+    "seed": 2002,
+    "encoding": "reduced_balance",
+    "atoms": 4,
+    "assignment_weight": 0.0,
+    "capacity_or_balance_weight": 2.7249863091705984,
+    "algebra_max_error": 1.7053025658242404e-13,
+    "f_star": 100.4038457708054,
+    "geometry_valid": true,
+    "pair_error": 0.22632884560196784,
+    "alpha": 0.1532393983790989,
+    "arms": {
+      "exact": {
+        "probability": {
+          "assignment_valid": 0.9999999999999793,
+          "feasible": 0.3564728261490552,
+          "optimal": 0.3152777928819141,
+          "complete_optimal": 0.3152777928819141
+        },
+        "numerical_gate_passed": true,
+        "refinement": [
+          {
+            "dt": 0.01,
+            "tv_previous": null,
+            "seconds": 0.007250041933730245
+          },
+          {
+            "dt": 0.005,
+            "tv_previous": 0.00032600678772737286,
+            "seconds": 0.014065125025808811
+          },
+          {
+            "dt": 0.0025,
+            "tv_previous": 8.129674882037101e-05,
+            "seconds": 0.02862212504260242
+          }
+        ],
+        "endpoint_all_minima_feasible": true,
+        "endpoint_all_minima_original_optimal": true,
+        "ground_count": 2
+      },
+      "geometric": {
+        "probability": {
+          "assignment_valid": 0.9999999999999862,
+          "feasible": 0.2737948238108445,
+          "optimal": 0.14128368693535703,
+          "complete_optimal": 0.14128368693535703
+        },
+        "numerical_gate_passed": true,
+        "refinement": [
+          {
+            "dt": 0.01,
+            "tv_previous": null,
+            "seconds": 0.007085458026267588
+          },
+          {
+            "dt": 0.005,
+            "tv_previous": 0.00023841757015575374,
+            "seconds": 0.01421904203016311
+          },
+          {
+            "dt": 0.0025,
+            "tv_previous": 5.97682943815002e-05,
+            "seconds": 0.028421791968867183
+          }
+        ],
+        "endpoint_all_minima_feasible": true,
+        "endpoint_all_minima_original_optimal": true,
+        "ground_count": 1
+      }
+    },
+    "status": "complete"
+  },
+  {
+    "seed": 2006,
+    "encoding": "slack",
+    "atoms": 14,
+    "assignment_weight": 121.0,
+    "capacity_or_balance_weight": 121.0,
+    "algebra_max_error": 1.4551915228366852e-11,
+    "f_star": 119.63480215448502,
+    "geometry_valid": true,
+    "pair_error": 0.47378021723094754,
+    "alpha": 0.011602117659972395,
+    "arms": {
+      "exact": {
+        "probability": {
+          "assignment_valid": 0.10059329508176017,
+          "feasible": 0.08905220529778206,
+          "optimal": 0.04726054236902315,
+          "complete_optimal": 0.0050552727799185165
+        },
+        "numerical_gate_passed": true,
+        "refinement": [
+          {
+            "dt": 0.01,
+            "tv_previous": null,
+            "seconds": 0.3177207919070497
+          },
+          {
+            "dt": 0.005,
+            "tv_previous": 0.0016586954290077973,
+            "seconds": 0.5887372500728816
+          },
+          {
+            "dt": 0.0025,
+            "tv_previous": 0.00041396669808793646,
+            "seconds": 1.1287993340520188
+          },
+          {
+            "dt": 0.00125,
+            "tv_previous": 0.00010344755606716629,
+            "seconds": 2.7036241670139134
+          },
+          {
+            "dt": 0.000625,
+            "tv_previous": 2.585914222170888e-05,
+            "seconds": 4.578584457980469
+          }
+        ],
+        "endpoint_all_minima_feasible": true,
+        "endpoint_all_minima_original_optimal": true,
+        "ground_count": 2
+      },
+      "geometric": {
+        "probability": {
+          "assignment_valid": 0.0037668953404047254,
+          "feasible": 0.002236640575251359,
+          "optimal": 0.0009038622720994532,
+          "complete_optimal": 5.872307244112309e-06
+        },
+        "numerical_gate_passed": true,
+        "refinement": [
+          {
+            "dt": 0.01,
+            "tv_previous": null,
+            "seconds": 0.2951499589253217
+          },
+          {
+            "dt": 0.005,
+            "tv_previous": 0.0014640176055992482,
+            "seconds": 0.5851137089775875
+          },
+          {
+            "dt": 0.0025,
+            "tv_previous": 0.0003650454150553185,
+            "seconds": 1.1878567500971258
+          },
+          {
+            "dt": 0.00125,
+            "tv_previous": 9.120161932887465e-05,
+            "seconds": 2.3529954160330817
+          }
+        ],
+        "endpoint_all_minima_feasible": false,
+        "endpoint_all_minima_original_optimal": false,
+        "ground_count": 1
+      }
+    },
+    "status": "complete"
+  },
+  {
+    "seed": 2006,
+    "encoding": "full_balance",
+    "atoms": 8,
+    "assignment_weight": 135.0,
+    "capacity_or_balance_weight": 3.4747795455736106,
+    "algebra_max_error": 4.547473508864641e-13,
+    "f_star": 119.63480215448502,
+    "geometry_valid": true,
+    "pair_error": 0.4152422741988318,
+    "alpha": 0.1749991764428674,
+    "arms": {
+      "exact": {
+        "probability": {
+          "assignment_valid": 0.31808736848737945,
+          "feasible": 0.2932667104513585,
+          "optimal": 0.1569090929511493,
+          "complete_optimal": 0.1569090929511493
+        },
+        "numerical_gate_passed": true,
+        "refinement": [
+          {
+            "dt": 0.01,
+            "tv_previous": null,
+            "seconds": 0.016755332937464118
+          },
+          {
+            "dt": 0.005,
+            "tv_previous": 0.00048120360393319076,
+            "seconds": 0.03273766697384417
+          },
+          {
+            "dt": 0.0025,
+            "tv_previous": 0.00011986405401359033,
+            "seconds": 0.06281445792410523
+          },
+          {
+            "dt": 0.00125,
+            "tv_previous": 2.9942614485778506e-05,
+            "seconds": 0.13399237499106675
+          }
+        ],
+        "endpoint_all_minima_feasible": false,
+        "endpoint_all_minima_original_optimal": false,
+        "ground_count": 2
+      },
+      "geometric": {
+        "probability": {
+          "assignment_valid": 0.3199129616161651,
+          "feasible": 0.04141502460006796,
+          "optimal": 0.03409603482073964,
+          "complete_optimal": 0.03409603482073964
+        },
+        "numerical_gate_passed": true,
+        "refinement": [
+          {
+            "dt": 0.01,
+            "tv_previous": null,
+            "seconds": 0.01653287501540035
+          },
+          {
+            "dt": 0.005,
+            "tv_previous": 0.0006841504604484235,
+            "seconds": 0.03282950003631413
+          },
+          {
+            "dt": 0.0025,
+            "tv_previous": 0.00017131765994391233,
+            "seconds": 0.06580083293374628
+          },
+          {
+            "dt": 0.00125,
+            "tv_previous": 4.284690911245647e-05,
+            "seconds": 0.13075495907105505
+          }
+        ],
+        "endpoint_all_minima_feasible": false,
+        "endpoint_all_minima_original_optimal": false,
+        "ground_count": 1
+      }
+    },
+    "status": "complete"
+  },
+  {
+    "seed": 2006,
+    "encoding": "reduced_balance",
+    "atoms": 4,
+    "assignment_weight": 0.0,
+    "capacity_or_balance_weight": 3.4747795455736106,
+    "algebra_max_error": 2.2737367544323206e-13,
+    "f_star": 119.63480215448502,
+    "geometry_valid": true,
+    "pair_error": 0.28917952686958476,
+    "alpha": 0.15508638395023913,
+    "arms": {
+      "exact": {
+        "probability": {
+          "assignment_valid": 0.9999999999999877,
+          "feasible": 0.23099855687757742,
+          "optimal": 0.18582733600067075,
+          "complete_optimal": 0.18582733600067075
+        },
+        "numerical_gate_passed": true,
+        "refinement": [
+          {
+            "dt": 0.01,
+            "tv_previous": null,
+            "seconds": 0.00740441691596061
+          },
+          {
+            "dt": 0.005,
+            "tv_previous": 0.0007630564523796312,
+            "seconds": 0.014669000054709613
+          },
+          {
+            "dt": 0.0025,
+            "tv_previous": 0.00018992352433899013,
+            "seconds": 0.029096707934513688
+          },
+          {
+            "dt": 0.00125,
+            "tv_previous": 4.7428543368233065e-05,
+            "seconds": 0.05855850002262741
+          }
+        ],
+        "endpoint_all_minima_feasible": false,
+        "endpoint_all_minima_original_optimal": false,
+        "ground_count": 2
+      },
+      "geometric": {
+        "probability": {
+          "assignment_valid": 0.9999999999999983,
+          "feasible": 0.15689961851714387,
+          "optimal": 0.10354043701563888,
+          "complete_optimal": 0.10354043701563888
+        },
+        "numerical_gate_passed": true,
+        "refinement": [
+          {
+            "dt": 0.01,
+            "tv_previous": null,
+            "seconds": 0.007196083897724748
+          },
+          {
+            "dt": 0.005,
+            "tv_previous": 0.000558695647497601,
+            "seconds": 0.01442124997265637
+          },
+          {
+            "dt": 0.0025,
+            "tv_previous": 0.00013927726534437634,
+            "seconds": 0.029718374949879944
+          },
+          {
+            "dt": 0.00125,
+            "tv_previous": 3.479452958556719e-05,
+            "seconds": 0.05674241704400629
+          }
+        ],
+        "endpoint_all_minima_feasible": true,
+        "endpoint_all_minima_original_optimal": true,
+        "ground_count": 1
+      }
+    },
+    "status": "complete"
+  },
+  {
+    "seed": 2012,
+    "encoding": "slack",
+    "atoms": 14,
+    "assignment_weight": 84.0,
+    "capacity_or_balance_weight": 84.0,
+    "algebra_max_error": 7.275957614183426e-12,
+    "f_star": 82.26066441704111,
+    "geometry_valid": true,
+    "pair_error": 0.5066367058647434,
+    "alpha": 0.015880875077945687,
+    "arms": {
+      "exact": {
+        "probability": {
+          "assignment_valid": 0.0974716553245144,
+          "feasible": 0.08756319747174375,
+          "optimal": 0.042806776808632985,
+          "complete_optimal": 0.003210166547953177
+        },
+        "numerical_gate_passed": true,
+        "refinement": [
+          {
+            "dt": 0.01,
+            "tv_previous": null,
+            "seconds": 0.3294972500298172
+          },
+          {
+            "dt": 0.005,
+            "tv_previous": 0.0014725823348843803,
+            "seconds": 0.6510702089872211
+          },
+          {
+            "dt": 0.0025,
+            "tv_previous": 0.00036724717523546683,
+            "seconds": 1.1638422920368612
+          },
+          {
+            "dt": 0.00125,
+            "tv_previous": 9.175549318220881e-05,
+            "seconds": 2.3066221250919625
+          }
+        ],
+        "endpoint_all_minima_feasible": true,
+        "endpoint_all_minima_original_optimal": true,
+        "ground_count": 2
+      },
+      "geometric": {
+        "probability": {
+          "assignment_valid": 0.04379898609414196,
+          "feasible": 0.02418267044540325,
+          "optimal": 0.015026509851858707,
+          "complete_optimal": 0.0009190939540281195
+        },
+        "numerical_gate_passed": true,
+        "refinement": [
+          {
+            "dt": 0.01,
+            "tv_previous": null,
+            "seconds": 0.2982960829976946
+          },
+          {
+            "dt": 0.005,
+            "tv_previous": 0.0013248152107541284,
+            "seconds": 0.5721165420254692
+          },
+          {
+            "dt": 0.0025,
+            "tv_previous": 0.0003303357183209435,
+            "seconds": 1.1349505410762504
+          },
+          {
+            "dt": 0.00125,
+            "tv_previous": 8.253018150105823e-05,
+            "seconds": 2.2795060420176014
+          }
+        ],
+        "endpoint_all_minima_feasible": false,
+        "endpoint_all_minima_original_optimal": false,
+        "ground_count": 1
+      }
+    },
+    "status": "complete"
+  },
+  {
+    "seed": 2012,
+    "encoding": "full_balance",
+    "atoms": 8,
+    "assignment_weight": 96.0,
+    "capacity_or_balance_weight": 2.9407917514421844,
+    "algebra_max_error": 3.410605131648481e-13,
+    "f_star": 82.26066441704111,
+    "geometry_valid": true,
+    "pair_error": 0.3974028200982843,
+    "alpha": 0.24931965933221847,
+    "arms": {
+      "exact": {
+        "probability": {
+          "assignment_valid": 0.2308024863260786,
+          "feasible": 0.2005003430223726,
+          "optimal": 0.17247502282635457,
+          "complete_optimal": 0.17247502282635457
+        },
+        "numerical_gate_passed": true,
+        "refinement": [
+          {
+            "dt": 0.01,
+            "tv_previous": null,
+            "seconds": 0.01625345798674971
+          },
+          {
+            "dt": 0.005,
+            "tv_previous": 0.0006889893998269689,
+            "seconds": 0.03194362507201731
+          },
+          {
+            "dt": 0.0025,
+            "tv_previous": 0.00017120334723712716,
+            "seconds": 0.06389229197520763
+          },
+          {
+            "dt": 0.00125,
+            "tv_previous": 4.27366054539147e-05,
+            "seconds": 0.1265163329662755
+          }
+        ],
+        "endpoint_all_minima_feasible": true,
+        "endpoint_all_minima_original_optimal": true,
+        "ground_count": 2
+      },
+      "geometric": {
+        "probability": {
+          "assignment_valid": 0.27948516153286773,
+          "feasible": 0.14589296107364128,
+          "optimal": 0.1366133536656391,
+          "complete_optimal": 0.1366133536656391
+        },
+        "numerical_gate_passed": true,
+        "refinement": [
+          {
+            "dt": 0.01,
+            "tv_previous": null,
+            "seconds": 0.015861625084653497
+          },
+          {
+            "dt": 0.005,
+            "tv_previous": 0.0007774172827991624,
+            "seconds": 0.03163516602944583
+          },
+          {
+            "dt": 0.0025,
+            "tv_previous": 0.00019424411431791946,
+            "seconds": 0.06249533302616328
+          },
+          {
+            "dt": 0.00125,
+            "tv_previous": 4.855321607711212e-05,
+            "seconds": 0.12509991705883294
+          }
+        ],
+        "endpoint_all_minima_feasible": true,
+        "endpoint_all_minima_original_optimal": true,
+        "ground_count": 1
+      }
+    },
+    "status": "complete"
+  },
+  {
+    "seed": 2012,
+    "encoding": "reduced_balance",
+    "atoms": 4,
+    "assignment_weight": 0.0,
+    "capacity_or_balance_weight": 2.9407917514421844,
+    "algebra_max_error": 1.1368683772161603e-13,
+    "f_star": 82.26066441704111,
+    "geometry_valid": true,
+    "pair_error": 0.10912414608081851,
+    "alpha": 0.14545627569112457,
+    "arms": {
+      "exact": {
+        "probability": {
+          "assignment_valid": 0.999999999999994,
+          "feasible": 0.4940479288677772,
+          "optimal": 0.36992158727941477,
+          "complete_optimal": 0.36992158727941477
+        },
+        "numerical_gate_passed": true,
+        "refinement": [
+          {
+            "dt": 0.01,
+            "tv_previous": null,
+            "seconds": 0.007251415983773768
+          },
+          {
+            "dt": 0.005,
+            "tv_previous": 0.00046598370169618185,
+            "seconds": 0.013774042017757893
+          },
+          {
+            "dt": 0.0025,
+            "tv_previous": 0.00011625820916797332,
+            "seconds": 0.027778042014688253
+          },
+          {
+            "dt": 0.00125,
+            "tv_previous": 2.9049780868161377e-05,
+            "seconds": 0.05573174997698516
+          }
+        ],
+        "endpoint_all_minima_feasible": true,
+        "endpoint_all_minima_original_optimal": true,
+        "ground_count": 2
+      },
+      "geometric": {
+        "probability": {
+          "assignment_valid": 0.9999999999999812,
+          "feasible": 0.2893299553791437,
+          "optimal": 0.24652275200611506,
+          "complete_optimal": 0.24652275200611506
+        },
+        "numerical_gate_passed": true,
+        "refinement": [
+          {
+            "dt": 0.01,
+            "tv_previous": null,
+            "seconds": 0.0072735829744488
+          },
+          {
+            "dt": 0.005,
+            "tv_previous": 0.00029013103781123895,
+            "seconds": 0.01426049997098744
+          },
+          {
+            "dt": 0.0025,
+            "tv_previous": 7.241353067589086e-05,
+            "seconds": 0.028393915970809758
+          }
+        ],
+        "endpoint_all_minima_feasible": false,
+        "endpoint_all_minima_original_optimal": false,
+        "ground_count": 1
+      }
+    },
+    "status": "complete"
+  }
+]

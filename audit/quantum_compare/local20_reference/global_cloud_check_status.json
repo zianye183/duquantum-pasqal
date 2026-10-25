@@ -1,0 +1,8 @@
+{
+  "status": "complete_after_authorized_retry",
+  "original_timeout_retained": true,
+  "frozen_plan_unchanged": true,
+  "coarse_substitution": false,
+  "new_quantum_runs_for_test": 0,
+  "independent_verification": true
+}

@@ -1,0 +1,22 @@
+{
+  "id": "L_2005_slack_custom_1",
+  "tier": "L",
+  "instance_seed": 2005,
+  "encoding": "slack",
+  "embedder": "custom",
+  "placement_seed": 1,
+  "started_at": "2026-10-24T22:05:33.505744-04:00",
+  "status": "preparation_failed",
+  "shots": 2000,
+  "cohort": "primary",
+  "instance_path": "/Users/alanye/duquantum-pasqal/audit/scaling/references/instances.json",
+  "reference_status": "proven_exact_subset_dynamic_programming",
+  "atoms": 80,
+  "parameters": {
+    "A": 1882.0,
+    "W": 1882.0,
+    "rule": "independent_feasible_certificate_bound"
+  },
+  "finished_at": "2026-10-24T22:05:50.661487-04:00",
+  "error": "ValueError: Could not fit enough empty traps for device filling constraint"
+}

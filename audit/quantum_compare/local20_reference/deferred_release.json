@@ -1,0 +1,16 @@
+{
+  "status": "complete",
+  "authorized_by": "parent explicit message: one unchanged-input rerun after PID93809 absent,3600s cap oneCPU",
+  "released_at": "2026-10-25T06:39:22.077834-04:00",
+  "scheduler_pid": 50738,
+  "wait_for_pid": 93809,
+  "plan_sha256": "31eca1a72525362853392c7a0ade6bc27f4cbd5c912460543de0876d87c1da76",
+  "scheduler_sha256": "c3960d93b6d4dd5972ae8984eac65fd2cafe82bc74e573de57cfeda8e6b9724c",
+  "analysis_source_hashes": {
+    "global_cloud_check_retry.py": "69f969d594c34bcfd3b3dc0dfb0149469f2cebd2722f0a9b86f64c054dfe50b5",
+    "geometric_compare_retry.py": "e2091e966a940ee0c311f07902f860a73ed6cba35534ea153446a5fa06ab8a3b"
+  },
+  "started_at": "2026-10-25T07:15:52.628273-04:00",
+  "process_returncode": 0,
+  "finished_at": "2026-10-25T07:25:54.832380-04:00"
+}

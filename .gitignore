@@ -5,3 +5,6 @@ __pycache__/
 *.token
 .claude/.cc-writes/
 .DS_Store
+
+# Submission reproduction outputs
+reproduction_output/

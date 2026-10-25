@@ -1,0 +1,31 @@
+{
+  "worker_sha256": "b3d2225b2571f617372657e37cd1e43d48740072d4bef3415477472bc4ac05aa",
+  "per_run_wall_limit_seconds": 1200,
+  "cpu_threads": 1,
+  "runs": [
+    {
+      "name": "M_2002_reduced_original_geometric",
+      "dt": 5,
+      "process_outcome": "wall_timeout",
+      "elapsed_seconds": 1200.037527999957,
+      "result": {
+        "id": "M_2002_reduced_original_geometric",
+        "status": "timeout",
+        "configuration_changes": [
+          "gpu=False",
+          "additional local final-state observable",
+          "dt=5 ns"
+        ],
+        "dt_ns": 5,
+        "source_hashes": {
+          "sequence": "d01b5d5358c25f029906c865b8643a79861e7b14b8276d8aba01c3d4dca6a03b",
+          "config": "f14dd3fb22405a3cfc5dad2638243c8d2851882e2f71deaf4ec1a0c2ebafd24e",
+          "metadata": "5b8ffa260951aa2a900903ef5c0fc71046d01b8c3f2d1ba1f87b55f21dedef68"
+        },
+        "seconds": 1200.037527999957
+      }
+    }
+  ],
+  "complete": true,
+  "all_passed": false
+}

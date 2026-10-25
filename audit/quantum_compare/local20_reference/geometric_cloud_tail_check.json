@@ -1,0 +1,27 @@
+{
+  "identity_checks": {
+    "sequence_json_identical": true,
+    "config_json_identical": true
+  },
+  "atom_order_equal": true,
+  "optimal_bitstrings": [
+    {
+      "bitstring": "00100110010100010010",
+      "count": 1,
+      "logical_index": 297572,
+      "local_probability": 1.2323968774017577e-06
+    },
+    {
+      "bitstring": "10010001000010001001",
+      "count": 1,
+      "logical_index": 594057,
+      "local_probability": 4.781064588479835e-06
+    }
+  ],
+  "observed_optimal": 2,
+  "shots": 20000,
+  "local_optimal_probability": 1.146500767671123e-05,
+  "expected_optimal_shots": 0.22930015353422462,
+  "exact_binomial_upper_tail": 0.022595121487796823,
+  "interpretation": "Retain marginal discrepancy. Tail calculation conditional on fixed local dt10 distribution; not a simultaneous test and not a proof of backend inequivalence. No selective resampling."
+}

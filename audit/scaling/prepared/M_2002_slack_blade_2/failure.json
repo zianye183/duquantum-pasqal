@@ -1,0 +1,22 @@
+{
+  "id": "M_2002_slack_blade_2",
+  "tier": "M",
+  "instance_seed": 2002,
+  "encoding": "slack",
+  "embedder": "blade",
+  "placement_seed": 2,
+  "started_at": "2026-10-24T22:07:07.970096-04:00",
+  "status": "preparation_failed",
+  "shots": 2000,
+  "cohort": "primary",
+  "instance_path": "/Users/alanye/duquantum-pasqal/audit/scaling/references/instances.json",
+  "reference_status": "proven_exact_subset_dynamic_programming",
+  "atoms": 45,
+  "parameters": {
+    "A": 803.0,
+    "W": 803.0,
+    "rule": "independent_feasible_certificate_bound"
+  },
+  "finished_at": "2026-10-24T22:07:13.343895-04:00",
+  "error": "ValueError: Embedding violates device geometry; cannot construct physical pulse"
+}

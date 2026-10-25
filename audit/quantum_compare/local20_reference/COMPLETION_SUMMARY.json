@@ -1,0 +1,130 @@
+{
+  "status": "complete_with_preserved_failed_attempt",
+  "reference_conditions": 4,
+  "completed_conditions": 4,
+  "original_geometric_dt5_attempt": "timeout_after1200.04s_703of800steps",
+  "retry_release": {
+    "status": "complete",
+    "authorized_by": "parent explicit message: one unchanged-input rerun after PID93809 absent,3600s cap oneCPU",
+    "released_at": "2026-10-25T06:39:22.077834-04:00",
+    "scheduler_pid": 50738,
+    "wait_for_pid": 93809,
+    "plan_sha256": "31eca1a72525362853392c7a0ade6bc27f4cbd5c912460543de0876d87c1da76",
+    "scheduler_sha256": "c3960d93b6d4dd5972ae8984eac65fd2cafe82bc74e573de57cfeda8e6b9724c",
+    "analysis_source_hashes": {
+      "global_cloud_check_retry.py": "69f969d594c34bcfd3b3dc0dfb0149469f2cebd2722f0a9b86f64c054dfe50b5",
+      "geometric_compare_retry.py": "e2091e966a940ee0c311f07902f860a73ed6cba35534ea153446a5fa06ab8a3b"
+    },
+    "started_at": "2026-10-25T07:15:52.628273-04:00",
+    "process_returncode": 0,
+    "finished_at": "2026-10-25T07:25:54.832380-04:00"
+  },
+  "verification": {
+    "passed": true,
+    "source_hashes": {
+      "global_cloud_check_retry.py": "69f969d594c34bcfd3b3dc0dfb0149469f2cebd2722f0a9b86f64c054dfe50b5",
+      "geometric_compare_retry.py": "e2091e966a940ee0c311f07902f860a73ed6cba35534ea153446a5fa06ab8a3b"
+    },
+    "runs": [
+      {
+        "arm": "intended",
+        "dt": 10,
+        "raw_to_logical_max_error": 0.0,
+        "score_recompute_max_error": 5.551115123125783e-17,
+        "norm": 1.0000000000003817,
+        "seconds": 891.140326666995,
+        "source_hashes_verified": true
+      },
+      {
+        "arm": "geometric",
+        "dt": 10,
+        "raw_to_logical_max_error": 0.0,
+        "score_recompute_max_error": 1.1102230246251565e-16,
+        "norm": 0.9999999999999023,
+        "seconds": 569.7590525830165,
+        "source_hashes_verified": true
+      },
+      {
+        "arm": "intended",
+        "dt": 5,
+        "raw_to_logical_max_error": 0.0,
+        "score_recompute_max_error": 1.1102230246251565e-16,
+        "norm": 1.0000000000002485,
+        "seconds": 749.1893691249425,
+        "source_hashes_verified": true
+      },
+      {
+        "arm": "geometric",
+        "dt": 5,
+        "raw_to_logical_max_error": 0.0,
+        "score_recompute_max_error": 1.1102230246251565e-16,
+        "norm": 1.0000000000000553,
+        "seconds": 596.2239877500106,
+        "source_hashes_verified": true
+      }
+    ],
+    "timestep_TV": {
+      "intended": 3.600600056110107e-05,
+      "geometric": 2.4789925006191174e-05
+    },
+    "global_checks": [
+      {
+        "arm": "intended",
+        "grouping_and_counts_match": true,
+        "MC_exceedances_reproduced": 1433,
+        "tail": 0.7166416791604198
+      },
+      {
+        "arm": "geometric",
+        "grouping_and_counts_match": true,
+        "MC_exceedances_reproduced": 160,
+        "tail": 0.08045977011494253
+      }
+    ],
+    "original_timeout_retained": true,
+    "scope": "Artifact/source checks and deterministic scoring/Monte Carlo replay only; no new quantum simulation. Empirical diagnostic agreement is not a universal convergence or rare-tail accuracy certificate."
+  },
+  "global_cloud_check": {
+    "checks": [
+      {
+        "arm": "intended",
+        "local_dt_ns": 5,
+        "shots": 20000,
+        "individual_bins": 650,
+        "pooled_states": 1047926,
+        "pooled_probability": 0.37756719019618384,
+        "pooled_observed": 7592,
+        "pearson_statistic": 627.4899465742546,
+        "monte_carlo_replicates": 2000,
+        "exceedances": 1433,
+        "monte_carlo_upper_tail": 0.7166416791604198,
+        "mc_standard_error": 0.010073849820211575,
+        "seed": 542,
+        "inconsistent_at_familywise_01": false
+      },
+      {
+        "arm": "geometric",
+        "local_dt_ns": 5,
+        "shots": 20000,
+        "individual_bins": 477,
+        "pooled_states": 1048099,
+        "pooled_probability": 0.3578589142022432,
+        "pooled_observed": 7140,
+        "pearson_statistic": 521.7595402140984,
+        "monte_carlo_replicates": 2000,
+        "exceedances": 160,
+        "monte_carlo_upper_tail": 0.08045977011494253,
+        "mc_standard_error": 0.006080666945224611,
+        "seed": 543,
+        "inconsistent_at_familywise_01": false
+      }
+    ],
+    "scope": "Two whole-distribution diagnostic tests with grouping fixed by fine local probabilities alone. All states expected at least5 shots individually, all remaining states pooled. Pearson statistic calibrated by2000 multinomial replicates; two-test Bonferroni threshold0.005 for familywise0.01. Coarse pooling can conceal rare-tail discrepancies; prior rare-category observations retained. Finite MC uncertainty and local numerical error remain."
+  },
+  "rare_category_findings": {
+    "intended": 0.015376090419155393,
+    "geometric": 0.02259715069848549
+  },
+  "additional_quantum_simulations_in_final_review": 0,
+  "limitations": "Single original reduced20case/fixedpulse; one timestep halving at unchanged tolerances; grouped test cannot certify rare tails or broad physical accuracy."
+}

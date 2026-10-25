@@ -1,0 +1,176 @@
+{
+  "id": "S_2002_slack_alternative_geometric",
+  "pair_id": "S_2002_slack_alternative",
+  "interaction_mode": "geometric",
+  "backend": "cloud-sv",
+  "shots": 20000,
+  "status": "ready",
+  "target": {
+    "id": "S_2002_slack_alternative",
+    "tier": "S",
+    "instance_seed": 2002,
+    "encoding": "slack",
+    "variant": "alternative",
+    "atoms": 14,
+    "npz_path": "audit/fidelity/multistart/targets/S_2002_slack_alternative.npz",
+    "sha256": "4554546fea82ad6d4f36707b7542a4e94c5f104a3f56973f6fe87e6823801c2d",
+    "parameters": {
+      "A": 300.4438596800388,
+      "W": 16.14751042174375
+    },
+    "certificate": {
+      "valid": true,
+      "scope": "Exhaustive binary state enumeration with independent squared-expression energy and saved polynomial comparison.",
+      "states": 16384,
+      "polynomial_max_error": 2.7284841053187847e-12,
+      "ground_state_count": 2,
+      "ground_feasible_count": 2,
+      "ground_optimal_count": 2,
+      "ground_correct_exact_helper_count": 2,
+      "incorrect_minus_ground": 16.147510421743746,
+      "ground_energy": 100.4038457708054
+    },
+    "selection": {
+      "lp_success": true,
+      "ideal_device_scale": 0.09220736502820452,
+      "ideal_device_gap": 1.4889193877544626,
+      "max_constraint_violation": 2.220446049250313e-16,
+      "selection_states": 16384
+    },
+    "target_edges": 46,
+    "target_density": 0.5054945054945055,
+    "N": 4,
+    "K": 2,
+    "Q": 7,
+    "q": [
+      4,
+      4,
+      3,
+      2
+    ],
+    "c": [
+      [
+        0.0,
+        84.16738586427773,
+        83.20606088540308,
+        96.96181610961733
+      ],
+      [
+        84.16738586427773,
+        0.0,
+        3.442029661188079,
+        33.345295307146074
+      ],
+      [
+        83.20606088540308,
+        3.442029661188079,
+        0.0,
+        36.775714509521954
+      ],
+      [
+        96.96181610961733,
+        33.345295307146074,
+        36.775714509521954,
+        0.0
+      ]
+    ],
+    "f_star": 100.4038457708054
+  },
+  "geometry": {
+    "id": "S_2002_slack_alternative",
+    "target": {
+      "id": "S_2002_slack_alternative",
+      "tier": "S",
+      "instance_seed": 2002,
+      "encoding": "slack",
+      "variant": "alternative",
+      "atoms": 14,
+      "npz_path": "audit/fidelity/multistart/targets/S_2002_slack_alternative.npz",
+      "sha256": "4554546fea82ad6d4f36707b7542a4e94c5f104a3f56973f6fe87e6823801c2d",
+      "parameters": {
+        "A": 300.4438596800388,
+        "W": 16.14751042174375
+      },
+      "certificate": {
+        "valid": true,
+        "scope": "Exhaustive binary state enumeration with independent squared-expression energy and saved polynomial comparison.",
+        "states": 16384,
+        "polynomial_max_error": 2.7284841053187847e-12,
+        "ground_state_count": 2,
+        "ground_feasible_count": 2,
+        "ground_optimal_count": 2,
+        "ground_correct_exact_helper_count": 2,
+        "incorrect_minus_ground": 16.147510421743746,
+        "ground_energy": 100.4038457708054
+      },
+      "selection": {
+        "lp_success": true,
+        "ideal_device_scale": 0.09220736502820452,
+        "ideal_device_gap": 1.4889193877544626,
+        "max_constraint_violation": 2.220446049250313e-16,
+        "selection_states": 16384
+      },
+      "target_edges": 46,
+      "target_density": 0.5054945054945055,
+      "N": 4,
+      "K": 2,
+      "Q": 7,
+      "q": [
+        4,
+        4,
+        3,
+        2
+      ],
+      "c": [
+        [
+          0.0,
+          84.16738586427773,
+          83.20606088540308,
+          96.96181610961733
+        ],
+        [
+          84.16738586427773,
+          0.0,
+          3.442029661188079,
+          33.345295307146074
+        ],
+        [
+          83.20606088540308,
+          3.442029661188079,
+          0.0,
+          36.775714509521954
+        ],
+        [
+          96.96181610961733,
+          33.345295307146074,
+          36.775714509521954,
+          0.0
+        ]
+      ],
+      "f_star": 100.4038457708054
+    },
+    "target_path": "audit/fidelity/multistart/targets/S_2002_slack_alternative.npz",
+    "geometry_path": "audit/quantum_compare/geometries/S_2002_slack_alternative.npz",
+    "geometry_sha256": "6c6ef2679cc64dddf746c8ce76bd4e1139b8e1f93ee4ac98f38fcde77e9a558f",
+    "alpha": 0.07313980237672939,
+    "pair_relative_error": 0.6106711143378183,
+    "selection_source": {
+      "target_id": "S_2002_slack_alternative",
+      "source": "audit/fidelity/multistart/blade_results/full/S_2002_slack_alternative__mds__s1000__steps200.json",
+      "source_sha256": "dd87cb677d8e5828b1e6af7a2311d7bdc7f73628b77db142ece8d2aecb324b82",
+      "kind": "blade"
+    },
+    "valid_candidate_count": 82
+  },
+  "source_sha256": "a87afcd64dc9d47d260082a0b7f8530450be45ff76429e15b4fe15343ce875aa",
+  "duration_ns": 4000,
+  "omega": 4.0,
+  "initial_detuning": -8.0,
+  "drive_power": 1.0,
+  "ramp_power": 1.0,
+  "sample_time_convention": "linspace(0,1,T_ns); endpoint-inclusive 1ns samples",
+  "emulator_only_individual_detuning": true,
+  "mps_convergence": null,
+  "control_representation": "Linear global and DMM detuning ramps replace sampled custom waveform; amplitude unchanged",
+  "maximum_sampled_control_difference": 2.842170943040401e-14
+}

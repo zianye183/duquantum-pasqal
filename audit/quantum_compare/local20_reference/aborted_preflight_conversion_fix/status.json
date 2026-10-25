@@ -1,0 +1,18 @@
+{
+  "id": "M_2002_reduced_original_intended",
+  "status": "aborted_preflight",
+  "configuration_changes": [
+    "gpu=False",
+    "additional local final-state observable",
+    "dt=10 ns"
+  ],
+  "dt_ns": 10,
+  "source_hashes": {
+    "sequence": "d01b5d5358c25f029906c865b8643a79861e7b14b8276d8aba01c3d4dca6a03b",
+    "config": "b3dfc2613d3483d4b367533e43890a9c787e53032cba939c0cd9d6707cd800e9",
+    "metadata": "2de5c25ed3f47540076828db94d785a6a14c95b0b81c795d918fec986e6ffbea"
+  },
+  "reason": "Reviewer caught stale14-bit raw-index shift in newly adapted20-bit postprocessing; stopped before result, corrected and restarted.",
+  "elapsed_seconds_approximate": 40,
+  "scientific_output_produced": false
+}

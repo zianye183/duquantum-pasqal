@@ -1,0 +1,35 @@
+{
+  "pinned_files_verified": 2545,
+  "instances_and_certificates": 20,
+  "raw_count_conditions_rescored": 303,
+  "primary_conditions": 240,
+  "primary_completed": 209,
+  "pulse_coverage": {
+    "assignment": {
+      "expected_studies": 16,
+      "winners": 16,
+      "expected_case_arm_rows": 320,
+      "case_arm_rows": 320,
+      "converged_rows": 320,
+      "completion_marker": true,
+      "completed_fresh_trials": 512
+    },
+    "full_encoding": {
+      "expected_studies": 18,
+      "winners": 18,
+      "expected_case_arm_rows": 360,
+      "case_arm_rows": 360,
+      "converged_rows": 360,
+      "completion_marker": true,
+      "completed_fresh_trials": 432
+    }
+  },
+  "ramp14_completed": 2,
+  "ramp_remaining_completed": 10,
+  "matched_distributions_rescored": 18,
+  "fresh_simulation_max_probability_difference": 0.0,
+  "cplex_reference_solves": 20,
+  "status": "passed",
+  "elapsed_seconds": 95.49196150002535,
+  "new_cloud_jobs": 0
+}

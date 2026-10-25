@@ -1,0 +1,1389 @@
+{
+  "proof": "Nonnegative distance objective; every violated integer assignment/capacity square costs at least min(A,W)>f_star. Exact reference partition admits represented nonnegative residual slack and attains f_star. Positive alpha preserves minimizers. Independently reconstructed polynomial matches saved model.",
+  "cases": 72,
+  "independent_instances": 16,
+  "rows": [
+    {
+      "id": "S_2002_slack_blade_0",
+      "tier": "S",
+      "instance_seed": 2002,
+      "atoms": 14,
+      "all_intended_groundstates_feasible": true,
+      "all_intended_groundstates_original_optimal": true,
+      "minimum_constraint_violation_penalty": 118.0,
+      "original_optimum": 100.4038457708054,
+      "constraint_violation_margin": 17.596154229194596,
+      "scaled_constraint_violation_margin": 0.1973954775528428,
+      "certified_intended_energy": -133.89475177666623,
+      "explicit_bitstring": "10010110100000",
+      "loads": [
+        6,
+        7
+      ],
+      "energy_check_error": 0.0
+    },
+    {
+      "id": "S_2002_slack_blade_1",
+      "tier": "S",
+      "instance_seed": 2002,
+      "atoms": 14,
+      "all_intended_groundstates_feasible": true,
+      "all_intended_groundstates_original_optimal": true,
+      "minimum_constraint_violation_penalty": 118.0,
+      "original_optimum": 100.4038457708054,
+      "constraint_violation_margin": 17.596154229194596,
+      "scaled_constraint_violation_margin": 0.19472281683068016,
+      "certified_intended_energy": -132.08186706211436,
+      "explicit_bitstring": "10010110100000",
+      "loads": [
+        6,
+        7
+      ],
+      "energy_check_error": 0.0
+    },
+    {
+      "id": "S_2002_slack_blade_2",
+      "tier": "S",
+      "instance_seed": 2002,
+      "atoms": 14,
+      "all_intended_groundstates_feasible": true,
+      "all_intended_groundstates_original_optimal": true,
+      "minimum_constraint_violation_penalty": 118.0,
+      "original_optimum": 100.4038457708054,
+      "constraint_violation_margin": 17.596154229194596,
+      "scaled_constraint_violation_margin": 0.1946097905438006,
+      "certified_intended_energy": -132.00520053047143,
+      "explicit_bitstring": "10010110100000",
+      "loads": [
+        6,
+        7
+      ],
+      "energy_check_error": 2.842170943040401e-14
+    },
+    {
+      "id": "S_2002_slack_custom_0",
+      "tier": "S",
+      "instance_seed": 2002,
+      "atoms": 14,
+      "all_intended_groundstates_feasible": true,
+      "all_intended_groundstates_original_optimal": true,
+      "minimum_constraint_violation_penalty": 118.0,
+      "original_optimum": 100.4038457708054,
+      "constraint_violation_margin": 17.596154229194596,
+      "scaled_constraint_violation_margin": 0.17263508958638935,
+      "certified_intended_energy": -117.09960509061949,
+      "explicit_bitstring": "10010110100000",
+      "loads": [
+        6,
+        7
+      ],
+      "energy_check_error": 2.842170943040401e-14
+    },
+    {
+      "id": "S_2002_slack_custom_1",
+      "tier": "S",
+      "instance_seed": 2002,
+      "atoms": 14,
+      "all_intended_groundstates_feasible": true,
+      "all_intended_groundstates_original_optimal": true,
+      "minimum_constraint_violation_penalty": 118.0,
+      "original_optimum": 100.4038457708054,
+      "constraint_violation_margin": 17.596154229194596,
+      "scaled_constraint_violation_margin": 0.15791827353944535,
+      "certified_intended_energy": -107.11708443727312,
+      "explicit_bitstring": "10010110100000",
+      "loads": [
+        6,
+        7
+      ],
+      "energy_check_error": 2.842170943040401e-14
+    },
+    {
+      "id": "S_2002_slack_custom_2",
+      "tier": "S",
+      "instance_seed": 2002,
+      "atoms": 14,
+      "all_intended_groundstates_feasible": true,
+      "all_intended_groundstates_original_optimal": true,
+      "minimum_constraint_violation_penalty": 118.0,
+      "original_optimum": 100.4038457708054,
+      "constraint_violation_margin": 17.596154229194596,
+      "scaled_constraint_violation_margin": 0.1431634459843289,
+      "certified_intended_energy": -97.1087803084667,
+      "explicit_bitstring": "10010110100000",
+      "loads": [
+        6,
+        7
+      ],
+      "energy_check_error": 2.842170943040401e-14
+    },
+    {
+      "id": "S_2006_slack_blade_0",
+      "tier": "S",
+      "instance_seed": 2006,
+      "atoms": 14,
+      "all_intended_groundstates_feasible": true,
+      "all_intended_groundstates_original_optimal": true,
+      "minimum_constraint_violation_penalty": 121.0,
+      "original_optimum": 119.63480215448502,
+      "constraint_violation_margin": 1.3651978455149845,
+      "scaled_constraint_violation_margin": 0.015839186032805666,
+      "certified_intended_energy": -141.80531910855544,
+      "explicit_bitstring": "11000011000010",
+      "loads": [
+        7,
+        5
+      ],
+      "energy_check_error": 0.0
+    },
+    {
+      "id": "S_2006_slack_blade_1",
+      "tier": "S",
+      "instance_seed": 2006,
+      "atoms": 14,
+      "all_intended_groundstates_feasible": true,
+      "all_intended_groundstates_original_optimal": true,
+      "minimum_constraint_violation_penalty": 121.0,
+      "original_optimum": 119.63480215448502,
+      "constraint_violation_margin": 1.3651978455149845,
+      "scaled_constraint_violation_margin": 0.015706018264136784,
+      "certified_intended_energy": -140.6130925704017,
+      "explicit_bitstring": "11000011000010",
+      "loads": [
+        7,
+        5
+      ],
+      "energy_check_error": 0.0
+    },
+    {
+      "id": "S_2006_slack_blade_2",
+      "tier": "S",
+      "instance_seed": 2006,
+      "atoms": 14,
+      "all_intended_groundstates_feasible": true,
+      "all_intended_groundstates_original_optimal": true,
+      "minimum_constraint_violation_penalty": 121.0,
+      "original_optimum": 119.63480215448502,
+      "constraint_violation_margin": 1.3651978455149845,
+      "scaled_constraint_violation_margin": 0.01572160229589155,
+      "certified_intended_energy": -140.75261354019176,
+      "explicit_bitstring": "11000011000010",
+      "loads": [
+        7,
+        5
+      ],
+      "energy_check_error": 0.0
+    },
+    {
+      "id": "S_2006_slack_custom_0",
+      "tier": "S",
+      "instance_seed": 2006,
+      "atoms": 14,
+      "all_intended_groundstates_feasible": true,
+      "all_intended_groundstates_original_optimal": true,
+      "minimum_constraint_violation_penalty": 121.0,
+      "original_optimum": 119.63480215448502,
+      "constraint_violation_margin": 1.3651978455149845,
+      "scaled_constraint_violation_margin": 0.012542297573681232,
+      "certified_intended_energy": -112.28888316019625,
+      "explicit_bitstring": "11000011000010",
+      "loads": [
+        7,
+        5
+      ],
+      "energy_check_error": 1.4210854715202004e-14
+    },
+    {
+      "id": "S_2006_slack_custom_1",
+      "tier": "S",
+      "instance_seed": 2006,
+      "atoms": 14,
+      "all_intended_groundstates_feasible": true,
+      "all_intended_groundstates_original_optimal": true,
+      "minimum_constraint_violation_penalty": 121.0,
+      "original_optimum": 119.63480215448502,
+      "constraint_violation_margin": 1.3651978455149845,
+      "scaled_constraint_violation_margin": 0.013693742767493543,
+      "certified_intended_energy": -122.59756018478477,
+      "explicit_bitstring": "11000011000010",
+      "loads": [
+        7,
+        5
+      ],
+      "energy_check_error": 1.4210854715202004e-14
+    },
+    {
+      "id": "S_2006_slack_custom_2",
+      "tier": "S",
+      "instance_seed": 2006,
+      "atoms": 14,
+      "all_intended_groundstates_feasible": true,
+      "all_intended_groundstates_original_optimal": true,
+      "minimum_constraint_violation_penalty": 121.0,
+      "original_optimum": 119.63480215448502,
+      "constraint_violation_margin": 1.3651978455149845,
+      "scaled_constraint_violation_margin": 0.01423279519743042,
+      "certified_intended_energy": -127.42359743727488,
+      "explicit_bitstring": "11000011000010",
+      "loads": [
+        7,
+        5
+      ],
+      "energy_check_error": 0.0
+    },
+    {
+      "id": "S_2012_slack_blade_0",
+      "tier": "S",
+      "instance_seed": 2012,
+      "atoms": 14,
+      "all_intended_groundstates_feasible": true,
+      "all_intended_groundstates_original_optimal": true,
+      "minimum_constraint_violation_penalty": 84.0,
+      "original_optimum": 82.26066441704111,
+      "constraint_violation_margin": 1.739335582958887,
+      "scaled_constraint_violation_margin": 0.02762217111159592,
+      "certified_intended_energy": -134.7609663324028,
+      "explicit_bitstring": "11000011010000",
+      "loads": [
+        5,
+        7
+      ],
+      "energy_check_error": 2.842170943040401e-14
+    },
+    {
+      "id": "S_2012_slack_blade_1",
+      "tier": "S",
+      "instance_seed": 2012,
+      "atoms": 14,
+      "all_intended_groundstates_feasible": true,
+      "all_intended_groundstates_original_optimal": true,
+      "minimum_constraint_violation_penalty": 84.0,
+      "original_optimum": 82.26066441704111,
+      "constraint_violation_margin": 1.739335582958887,
+      "scaled_constraint_violation_margin": 0.028626781624379965,
+      "certified_intended_energy": -139.66218437726656,
+      "explicit_bitstring": "11000011010000",
+      "loads": [
+        5,
+        7
+      ],
+      "energy_check_error": 2.842170943040401e-14
+    },
+    {
+      "id": "S_2012_slack_blade_2",
+      "tier": "S",
+      "instance_seed": 2012,
+      "atoms": 14,
+      "all_intended_groundstates_feasible": true,
+      "all_intended_groundstates_original_optimal": true,
+      "minimum_constraint_violation_penalty": 84.0,
+      "original_optimum": 82.26066441704111,
+      "constraint_violation_margin": 1.739335582958887,
+      "scaled_constraint_violation_margin": 0.028440668115503682,
+      "certified_intended_energy": -138.75418781890937,
+      "explicit_bitstring": "11000011010000",
+      "loads": [
+        5,
+        7
+      ],
+      "energy_check_error": 0.0
+    },
+    {
+      "id": "S_2012_slack_custom_0",
+      "tier": "S",
+      "instance_seed": 2012,
+      "atoms": 14,
+      "all_intended_groundstates_feasible": true,
+      "all_intended_groundstates_original_optimal": true,
+      "minimum_constraint_violation_penalty": 84.0,
+      "original_optimum": 82.26066441704111,
+      "constraint_violation_margin": 1.739335582958887,
+      "scaled_constraint_violation_margin": 0.019346416274357472,
+      "certified_intended_energy": -94.38583743718995,
+      "explicit_bitstring": "11000011010000",
+      "loads": [
+        5,
+        7
+      ],
+      "energy_check_error": 1.4210854715202004e-14
+    },
+    {
+      "id": "S_2012_slack_custom_1",
+      "tier": "S",
+      "instance_seed": 2012,
+      "atoms": 14,
+      "all_intended_groundstates_feasible": true,
+      "all_intended_groundstates_original_optimal": true,
+      "minimum_constraint_violation_penalty": 84.0,
+      "original_optimum": 82.26066441704111,
+      "constraint_violation_margin": 1.739335582958887,
+      "scaled_constraint_violation_margin": 0.025266280225744685,
+      "certified_intended_energy": -123.26722345939119,
+      "explicit_bitstring": "11000011010000",
+      "loads": [
+        5,
+        7
+      ],
+      "energy_check_error": 1.4210854715202004e-14
+    },
+    {
+      "id": "S_2012_slack_custom_2",
+      "tier": "S",
+      "instance_seed": 2012,
+      "atoms": 14,
+      "all_intended_groundstates_feasible": true,
+      "all_intended_groundstates_original_optimal": true,
+      "minimum_constraint_violation_penalty": 84.0,
+      "original_optimum": 82.26066441704111,
+      "constraint_violation_margin": 1.739335582958887,
+      "scaled_constraint_violation_margin": 0.026144984384257997,
+      "certified_intended_energy": -127.55417907352985,
+      "explicit_bitstring": "11000011010000",
+      "loads": [
+        5,
+        7
+      ],
+      "energy_check_error": 0.0
+    },
+    {
+      "id": "S_2031_slack_blade_0",
+      "tier": "S",
+      "instance_seed": 2031,
+      "atoms": 14,
+      "all_intended_groundstates_feasible": true,
+      "all_intended_groundstates_original_optimal": true,
+      "minimum_constraint_violation_penalty": 115.0,
+      "original_optimum": 89.50159272885391,
+      "constraint_violation_margin": 25.498407271146093,
+      "scaled_constraint_violation_margin": 0.32399926243323973,
+      "certified_intended_energy": -147.91170515889377,
+      "explicit_bitstring": "10000111110000",
+      "loads": [
+        4,
+        7
+      ],
+      "energy_check_error": 2.842170943040401e-14
+    },
+    {
+      "id": "S_2031_slack_blade_1",
+      "tier": "S",
+      "instance_seed": 2031,
+      "atoms": 14,
+      "all_intended_groundstates_feasible": true,
+      "all_intended_groundstates_original_optimal": true,
+      "minimum_constraint_violation_penalty": 115.0,
+      "original_optimum": 89.50159272885391,
+      "constraint_violation_margin": 25.498407271146093,
+      "scaled_constraint_violation_margin": 0.327072072266576,
+      "certified_intended_energy": -149.3145001488096,
+      "explicit_bitstring": "10000111110000",
+      "loads": [
+        4,
+        7
+      ],
+      "energy_check_error": 0.0
+    },
+    {
+      "id": "S_2031_slack_blade_2",
+      "tier": "S",
+      "instance_seed": 2031,
+      "atoms": 14,
+      "all_intended_groundstates_feasible": true,
+      "all_intended_groundstates_original_optimal": true,
+      "minimum_constraint_violation_penalty": 115.0,
+      "original_optimum": 89.50159272885391,
+      "constraint_violation_margin": 25.498407271146093,
+      "scaled_constraint_violation_margin": 0.32744083197382623,
+      "certified_intended_energy": -149.48284583170917,
+      "explicit_bitstring": "10000111110000",
+      "loads": [
+        4,
+        7
+      ],
+      "energy_check_error": 2.842170943040401e-14
+    },
+    {
+      "id": "S_2031_slack_custom_0",
+      "tier": "S",
+      "instance_seed": 2031,
+      "atoms": 14,
+      "all_intended_groundstates_feasible": true,
+      "all_intended_groundstates_original_optimal": true,
+      "minimum_constraint_violation_penalty": 115.0,
+      "original_optimum": 89.50159272885391,
+      "constraint_violation_margin": 25.498407271146093,
+      "scaled_constraint_violation_margin": 0.28156177177654157,
+      "certified_intended_energy": -128.53819931028022,
+      "explicit_bitstring": "10000111110000",
+      "loads": [
+        4,
+        7
+      ],
+      "energy_check_error": 0.0
+    },
+    {
+      "id": "S_2031_slack_custom_1",
+      "tier": "S",
+      "instance_seed": 2031,
+      "atoms": 14,
+      "all_intended_groundstates_feasible": true,
+      "all_intended_groundstates_original_optimal": true,
+      "minimum_constraint_violation_penalty": 115.0,
+      "original_optimum": 89.50159272885391,
+      "constraint_violation_margin": 25.498407271146093,
+      "scaled_constraint_violation_margin": 0.2804651100308505,
+      "certified_intended_energy": -128.0375527730952,
+      "explicit_bitstring": "10000111110000",
+      "loads": [
+        4,
+        7
+      ],
+      "energy_check_error": 2.842170943040401e-14
+    },
+    {
+      "id": "S_2031_slack_custom_2",
+      "tier": "S",
+      "instance_seed": 2031,
+      "atoms": 14,
+      "all_intended_groundstates_feasible": true,
+      "all_intended_groundstates_original_optimal": true,
+      "minimum_constraint_violation_penalty": 115.0,
+      "original_optimum": 89.50159272885391,
+      "constraint_violation_margin": 25.498407271146093,
+      "scaled_constraint_violation_margin": 0.2549993429644982,
+      "certified_intended_energy": -116.41195522797891,
+      "explicit_bitstring": "10000111110000",
+      "loads": [
+        4,
+        7
+      ],
+      "energy_check_error": 1.4210854715202004e-14
+    },
+    {
+      "id": "S_2040_slack_blade_0",
+      "tier": "S",
+      "instance_seed": 2040,
+      "atoms": 14,
+      "all_intended_groundstates_feasible": true,
+      "all_intended_groundstates_original_optimal": true,
+      "minimum_constraint_violation_penalty": 124.0,
+      "original_optimum": 122.78669948367123,
+      "constraint_violation_margin": 1.213300516328772,
+      "scaled_constraint_violation_margin": 0.013074887318894677,
+      "certified_intended_energy": -134.97542475700698,
+      "explicit_bitstring": "10100101000100",
+      "loads": [
+        7,
+        6
+      ],
+      "energy_check_error": 0.0
+    },
+    {
+      "id": "S_2040_slack_blade_1",
+      "tier": "S",
+      "instance_seed": 2040,
+      "atoms": 14,
+      "all_intended_groundstates_feasible": true,
+      "all_intended_groundstates_original_optimal": true,
+      "minimum_constraint_violation_penalty": 124.0,
+      "original_optimum": 122.78669948367123,
+      "constraint_violation_margin": 1.213300516328772,
+      "scaled_constraint_violation_margin": 0.012998351918013075,
+      "certified_intended_energy": -134.18533012819796,
+      "explicit_bitstring": "10100101000100",
+      "loads": [
+        7,
+        6
+      ],
+      "energy_check_error": 0.0
+    },
+    {
+      "id": "S_2040_slack_blade_2",
+      "tier": "S",
+      "instance_seed": 2040,
+      "atoms": 14,
+      "all_intended_groundstates_feasible": true,
+      "all_intended_groundstates_original_optimal": true,
+      "minimum_constraint_violation_penalty": 124.0,
+      "original_optimum": 122.78669948367123,
+      "constraint_violation_margin": 1.213300516328772,
+      "scaled_constraint_violation_margin": 0.012902145169923343,
+      "certified_intended_energy": -133.19216312253386,
+      "explicit_bitstring": "10100101000100",
+      "loads": [
+        7,
+        6
+      ],
+      "energy_check_error": 2.842170943040401e-14
+    },
+    {
+      "id": "S_2040_slack_custom_0",
+      "tier": "S",
+      "instance_seed": 2040,
+      "atoms": 14,
+      "all_intended_groundstates_feasible": true,
+      "all_intended_groundstates_original_optimal": true,
+      "minimum_constraint_violation_penalty": 124.0,
+      "original_optimum": 122.78669948367123,
+      "constraint_violation_margin": 1.213300516328772,
+      "scaled_constraint_violation_margin": 0.011226149882146336,
+      "certified_intended_energy": -115.89043268761586,
+      "explicit_bitstring": "10100101000100",
+      "loads": [
+        7,
+        6
+      ],
+      "energy_check_error": 0.0
+    },
+    {
+      "id": "S_2040_slack_custom_1",
+      "tier": "S",
+      "instance_seed": 2040,
+      "atoms": 14,
+      "all_intended_groundstates_feasible": true,
+      "all_intended_groundstates_original_optimal": true,
+      "minimum_constraint_violation_penalty": 124.0,
+      "original_optimum": 122.78669948367123,
+      "constraint_violation_margin": 1.213300516328772,
+      "scaled_constraint_violation_margin": 0.010171159645878029,
+      "certified_intended_energy": -104.99949712681531,
+      "explicit_bitstring": "10100101000100",
+      "loads": [
+        7,
+        6
+      ],
+      "energy_check_error": 1.4210854715202004e-14
+    },
+    {
+      "id": "S_2040_slack_custom_2",
+      "tier": "S",
+      "instance_seed": 2040,
+      "atoms": 14,
+      "all_intended_groundstates_feasible": true,
+      "all_intended_groundstates_original_optimal": true,
+      "minimum_constraint_violation_penalty": 124.0,
+      "original_optimum": 122.78669948367123,
+      "constraint_violation_margin": 1.213300516328772,
+      "scaled_constraint_violation_margin": 0.011918212566280647,
+      "certified_intended_energy": -123.03477377991061,
+      "explicit_bitstring": "10100101000100",
+      "loads": [
+        7,
+        6
+      ],
+      "energy_check_error": 0.0
+    },
+    {
+      "id": "S_2042_slack_blade_0",
+      "tier": "S",
+      "instance_seed": 2042,
+      "atoms": 14,
+      "all_intended_groundstates_feasible": true,
+      "all_intended_groundstates_original_optimal": true,
+      "minimum_constraint_violation_penalty": 121.0,
+      "original_optimum": 107.79579076654369,
+      "constraint_violation_margin": 13.20420923345631,
+      "scaled_constraint_violation_margin": 0.1912757994913722,
+      "certified_intended_energy": -177.22433429277746,
+      "explicit_bitstring": "10100101100010",
+      "loads": [
+        6,
+        5
+      ],
+      "energy_check_error": 2.842170943040401e-14
+    },
+    {
+      "id": "S_2042_slack_blade_1",
+      "tier": "S",
+      "instance_seed": 2042,
+      "atoms": 14,
+      "all_intended_groundstates_feasible": true,
+      "all_intended_groundstates_original_optimal": true,
+      "minimum_constraint_violation_penalty": 121.0,
+      "original_optimum": 107.79579076654369,
+      "constraint_violation_margin": 13.20420923345631,
+      "scaled_constraint_violation_margin": 0.17852218467760037,
+      "certified_intended_energy": -165.4076230245066,
+      "explicit_bitstring": "10100101100010",
+      "loads": [
+        6,
+        5
+      ],
+      "energy_check_error": 2.842170943040401e-14
+    },
+    {
+      "id": "S_2042_slack_blade_2",
+      "tier": "S",
+      "instance_seed": 2042,
+      "atoms": 14,
+      "all_intended_groundstates_feasible": true,
+      "all_intended_groundstates_original_optimal": true,
+      "minimum_constraint_violation_penalty": 121.0,
+      "original_optimum": 107.79579076654369,
+      "constraint_violation_margin": 13.20420923345631,
+      "scaled_constraint_violation_margin": 0.18802588879154383,
+      "certified_intended_energy": -174.21316789420734,
+      "explicit_bitstring": "10100101100010",
+      "loads": [
+        6,
+        5
+      ],
+      "energy_check_error": 0.0
+    },
+    {
+      "id": "S_2042_slack_custom_0",
+      "tier": "S",
+      "instance_seed": 2042,
+      "atoms": 14,
+      "all_intended_groundstates_feasible": true,
+      "all_intended_groundstates_original_optimal": true,
+      "minimum_constraint_violation_penalty": 121.0,
+      "original_optimum": 107.79579076654369,
+      "constraint_violation_margin": 13.20420923345631,
+      "scaled_constraint_violation_margin": 0.14005560882675475,
+      "certified_intended_energy": -129.76687121054675,
+      "explicit_bitstring": "10100101100010",
+      "loads": [
+        6,
+        5
+      ],
+      "energy_check_error": 0.0
+    },
+    {
+      "id": "S_2042_slack_custom_1",
+      "tier": "S",
+      "instance_seed": 2042,
+      "atoms": 14,
+      "all_intended_groundstates_feasible": true,
+      "all_intended_groundstates_original_optimal": true,
+      "minimum_constraint_violation_penalty": 121.0,
+      "original_optimum": 107.79579076654369,
+      "constraint_violation_margin": 13.20420923345631,
+      "scaled_constraint_violation_margin": 0.14182648204711557,
+      "certified_intended_energy": -131.407652890351,
+      "explicit_bitstring": "10100101100010",
+      "loads": [
+        6,
+        5
+      ],
+      "energy_check_error": 2.842170943040401e-14
+    },
+    {
+      "id": "S_2042_slack_custom_2",
+      "tier": "S",
+      "instance_seed": 2042,
+      "atoms": 14,
+      "all_intended_groundstates_feasible": true,
+      "all_intended_groundstates_original_optimal": true,
+      "minimum_constraint_violation_penalty": 121.0,
+      "original_optimum": 107.79579076654369,
+      "constraint_violation_margin": 13.20420923345631,
+      "scaled_constraint_violation_margin": 0.15946972351018074,
+      "certified_intended_energy": -147.75479001576394,
+      "explicit_bitstring": "10100101100010",
+      "loads": [
+        6,
+        5
+      ],
+      "energy_check_error": 0.0
+    },
+    {
+      "id": "S_2060_slack_blade_0",
+      "tier": "S",
+      "instance_seed": 2060,
+      "atoms": 14,
+      "all_intended_groundstates_feasible": true,
+      "all_intended_groundstates_original_optimal": true,
+      "minimum_constraint_violation_penalty": 209.0,
+      "original_optimum": 162.62332095687128,
+      "constraint_violation_margin": 46.37667904312872,
+      "scaled_constraint_violation_margin": 0.327883949908738,
+      "certified_intended_energy": -149.56889131455804,
+      "explicit_bitstring": "11000011010100",
+      "loads": [
+        5,
+        6
+      ],
+      "energy_check_error": 2.842170943040401e-14
+    },
+    {
+      "id": "S_2060_slack_blade_1",
+      "tier": "S",
+      "instance_seed": 2060,
+      "atoms": 14,
+      "all_intended_groundstates_feasible": true,
+      "all_intended_groundstates_original_optimal": true,
+      "minimum_constraint_violation_penalty": 209.0,
+      "original_optimum": 162.62332095687128,
+      "constraint_violation_margin": 46.37667904312872,
+      "scaled_constraint_violation_margin": 0.32760353383343954,
+      "certified_intended_energy": -149.440975564181,
+      "explicit_bitstring": "11000011010100",
+      "loads": [
+        5,
+        6
+      ],
+      "energy_check_error": 0.0
+    },
+    {
+      "id": "S_2060_slack_blade_2",
+      "tier": "S",
+      "instance_seed": 2060,
+      "atoms": 14,
+      "all_intended_groundstates_feasible": true,
+      "all_intended_groundstates_original_optimal": true,
+      "minimum_constraint_violation_penalty": 209.0,
+      "original_optimum": 162.62332095687128,
+      "constraint_violation_margin": 46.37667904312872,
+      "scaled_constraint_violation_margin": 0.3278155577918657,
+      "certified_intended_energy": -149.53769328520013,
+      "explicit_bitstring": "11000011010100",
+      "loads": [
+        5,
+        6
+      ],
+      "energy_check_error": 0.0
+    },
+    {
+      "id": "S_2060_slack_custom_0",
+      "tier": "S",
+      "instance_seed": 2060,
+      "atoms": 14,
+      "all_intended_groundstates_feasible": true,
+      "all_intended_groundstates_original_optimal": true,
+      "minimum_constraint_violation_penalty": 209.0,
+      "original_optimum": 162.62332095687128,
+      "constraint_violation_margin": 46.37667904312872,
+      "scaled_constraint_violation_margin": 0.2507604445348683,
+      "certified_intended_energy": -114.38791586189335,
+      "explicit_bitstring": "11000011010100",
+      "loads": [
+        5,
+        6
+      ],
+      "energy_check_error": 0.0
+    },
+    {
+      "id": "S_2060_slack_custom_1",
+      "tier": "S",
+      "instance_seed": 2060,
+      "atoms": 14,
+      "all_intended_groundstates_feasible": true,
+      "all_intended_groundstates_original_optimal": true,
+      "minimum_constraint_violation_penalty": 209.0,
+      "original_optimum": 162.62332095687128,
+      "constraint_violation_margin": 46.37667904312872,
+      "scaled_constraint_violation_margin": 0.29852160431035346,
+      "certified_intended_energy": -136.17484296675804,
+      "explicit_bitstring": "11000011010100",
+      "loads": [
+        5,
+        6
+      ],
+      "energy_check_error": 0.0
+    },
+    {
+      "id": "S_2060_slack_custom_2",
+      "tier": "S",
+      "instance_seed": 2060,
+      "atoms": 14,
+      "all_intended_groundstates_feasible": true,
+      "all_intended_groundstates_original_optimal": true,
+      "minimum_constraint_violation_penalty": 209.0,
+      "original_optimum": 162.62332095687128,
+      "constraint_violation_margin": 46.37667904312872,
+      "scaled_constraint_violation_margin": 0.2674796736932885,
+      "certified_intended_energy": -122.01462820799928,
+      "explicit_bitstring": "11000011010100",
+      "loads": [
+        5,
+        6
+      ],
+      "energy_check_error": 1.4210854715202004e-14
+    },
+    {
+      "id": "S_2062_slack_blade_0",
+      "tier": "S",
+      "instance_seed": 2062,
+      "atoms": 14,
+      "all_intended_groundstates_feasible": true,
+      "all_intended_groundstates_original_optimal": true,
+      "minimum_constraint_violation_penalty": 87.0,
+      "original_optimum": 76.42125535046779,
+      "constraint_violation_margin": 10.578744649532211,
+      "scaled_constraint_violation_margin": 0.1670394464493771,
+      "certified_intended_energy": -138.91465691688157,
+      "explicit_bitstring": "10010110000010",
+      "loads": [
+        7,
+        5
+      ],
+      "energy_check_error": 2.842170943040401e-14
+    },
+    {
+      "id": "S_2062_slack_blade_1",
+      "tier": "S",
+      "instance_seed": 2062,
+      "atoms": 14,
+      "all_intended_groundstates_feasible": true,
+      "all_intended_groundstates_original_optimal": true,
+      "minimum_constraint_violation_penalty": 87.0,
+      "original_optimum": 76.42125535046779,
+      "constraint_violation_margin": 10.578744649532211,
+      "scaled_constraint_violation_margin": 0.16918757301077128,
+      "certified_intended_energy": -140.7010988061065,
+      "explicit_bitstring": "10010110000010",
+      "loads": [
+        7,
+        5
+      ],
+      "energy_check_error": 0.0
+    },
+    {
+      "id": "S_2062_slack_blade_2",
+      "tier": "S",
+      "instance_seed": 2062,
+      "atoms": 14,
+      "all_intended_groundstates_feasible": true,
+      "all_intended_groundstates_original_optimal": true,
+      "minimum_constraint_violation_penalty": 87.0,
+      "original_optimum": 76.42125535046779,
+      "constraint_violation_margin": 10.578744649532211,
+      "scaled_constraint_violation_margin": 0.1693336648625328,
+      "certified_intended_energy": -140.82259285973984,
+      "explicit_bitstring": "10010110000010",
+      "loads": [
+        7,
+        5
+      ],
+      "energy_check_error": 2.842170943040401e-14
+    },
+    {
+      "id": "S_2062_slack_custom_0",
+      "tier": "S",
+      "instance_seed": 2062,
+      "atoms": 14,
+      "all_intended_groundstates_feasible": true,
+      "all_intended_groundstates_original_optimal": true,
+      "minimum_constraint_violation_penalty": 87.0,
+      "original_optimum": 76.42125535046779,
+      "constraint_violation_margin": 10.578744649532211,
+      "scaled_constraint_violation_margin": 0.1442370869626673,
+      "certified_intended_energy": -119.95157955807544,
+      "explicit_bitstring": "10010110000010",
+      "loads": [
+        7,
+        5
+      ],
+      "energy_check_error": 1.4210854715202004e-14
+    },
+    {
+      "id": "S_2062_slack_custom_1",
+      "tier": "S",
+      "instance_seed": 2062,
+      "atoms": 14,
+      "all_intended_groundstates_feasible": true,
+      "all_intended_groundstates_original_optimal": true,
+      "minimum_constraint_violation_penalty": 87.0,
+      "original_optimum": 76.42125535046779,
+      "constraint_violation_margin": 10.578744649532211,
+      "scaled_constraint_violation_margin": 0.1457694534370985,
+      "certified_intended_energy": -121.2259382056363,
+      "explicit_bitstring": "10010110000010",
+      "loads": [
+        7,
+        5
+      ],
+      "energy_check_error": 0.0
+    },
+    {
+      "id": "S_2062_slack_custom_2",
+      "tier": "S",
+      "instance_seed": 2062,
+      "atoms": 14,
+      "all_intended_groundstates_feasible": true,
+      "all_intended_groundstates_original_optimal": true,
+      "minimum_constraint_violation_penalty": 87.0,
+      "original_optimum": 76.42125535046779,
+      "constraint_violation_margin": 10.578744649532211,
+      "scaled_constraint_violation_margin": 0.11820951564246092,
+      "certified_intended_energy": -98.30632619319506,
+      "explicit_bitstring": "10010110000010",
+      "loads": [
+        7,
+        5
+      ],
+      "energy_check_error": 1.4210854715202004e-14
+    },
+    {
+      "id": "S_2063_slack_blade_0",
+      "tier": "S",
+      "instance_seed": 2063,
+      "atoms": 14,
+      "all_intended_groundstates_feasible": true,
+      "all_intended_groundstates_original_optimal": true,
+      "minimum_constraint_violation_penalty": 140.0,
+      "original_optimum": 138.6705917859201,
+      "constraint_violation_margin": 1.3294082140799048,
+      "scaled_constraint_violation_margin": 0.012890696038848962,
+      "certified_intended_energy": -137.12235042318375,
+      "explicit_bitstring": "11000011000010",
+      "loads": [
+        7,
+        5
+      ],
+      "energy_check_error": 2.842170943040401e-14
+    },
+    {
+      "id": "S_2063_slack_blade_1",
+      "tier": "S",
+      "instance_seed": 2063,
+      "atoms": 14,
+      "all_intended_groundstates_feasible": true,
+      "all_intended_groundstates_original_optimal": true,
+      "minimum_constraint_violation_penalty": 140.0,
+      "original_optimum": 138.6705917859201,
+      "constraint_violation_margin": 1.3294082140799048,
+      "scaled_constraint_violation_margin": 0.013162451237057914,
+      "certified_intended_energy": -140.01309514370365,
+      "explicit_bitstring": "11000011000010",
+      "loads": [
+        7,
+        5
+      ],
+      "energy_check_error": 0.0
+    },
+    {
+      "id": "S_2063_slack_blade_2",
+      "tier": "S",
+      "instance_seed": 2063,
+      "atoms": 14,
+      "all_intended_groundstates_feasible": true,
+      "all_intended_groundstates_original_optimal": true,
+      "minimum_constraint_violation_penalty": 140.0,
+      "original_optimum": 138.6705917859201,
+      "constraint_violation_margin": 1.3294082140799048,
+      "scaled_constraint_violation_margin": 0.013114436879847306,
+      "certified_intended_energy": -139.50235146508965,
+      "explicit_bitstring": "11000011000010",
+      "loads": [
+        7,
+        5
+      ],
+      "energy_check_error": 2.842170943040401e-14
+    },
+    {
+      "id": "S_2063_slack_custom_0",
+      "tier": "S",
+      "instance_seed": 2063,
+      "atoms": 14,
+      "all_intended_groundstates_feasible": true,
+      "all_intended_groundstates_original_optimal": true,
+      "minimum_constraint_violation_penalty": 140.0,
+      "original_optimum": 138.6705917859201,
+      "constraint_violation_margin": 1.3294082140799048,
+      "scaled_constraint_violation_margin": 0.011746138691094558,
+      "certified_intended_energy": -124.94733727841464,
+      "explicit_bitstring": "11000011000010",
+      "loads": [
+        7,
+        5
+      ],
+      "energy_check_error": 2.842170943040401e-14
+    },
+    {
+      "id": "S_2063_slack_custom_1",
+      "tier": "S",
+      "instance_seed": 2063,
+      "atoms": 14,
+      "all_intended_groundstates_feasible": true,
+      "all_intended_groundstates_original_optimal": true,
+      "minimum_constraint_violation_penalty": 140.0,
+      "original_optimum": 138.6705917859201,
+      "constraint_violation_margin": 1.3294082140799048,
+      "scaled_constraint_violation_margin": 0.01164570760277415,
+      "certified_intended_energy": -123.8790204982695,
+      "explicit_bitstring": "11000011000010",
+      "loads": [
+        7,
+        5
+      ],
+      "energy_check_error": 1.4210854715202004e-14
+    },
+    {
+      "id": "S_2063_slack_custom_2",
+      "tier": "S",
+      "instance_seed": 2063,
+      "atoms": 14,
+      "all_intended_groundstates_feasible": true,
+      "all_intended_groundstates_original_optimal": true,
+      "minimum_constraint_violation_penalty": 140.0,
+      "original_optimum": 138.6705917859201,
+      "constraint_violation_margin": 1.3294082140799048,
+      "scaled_constraint_violation_margin": 0.009476317772813676,
+      "certified_intended_energy": -100.80254490906671,
+      "explicit_bitstring": "11000011000010",
+      "loads": [
+        7,
+        5
+      ],
+      "energy_check_error": 1.4210854715202004e-14
+    },
+    {
+      "id": "S_2073_slack_blade_0",
+      "tier": "S",
+      "instance_seed": 2073,
+      "atoms": 14,
+      "all_intended_groundstates_feasible": true,
+      "all_intended_groundstates_original_optimal": true,
+      "minimum_constraint_violation_penalty": 144.0,
+      "original_optimum": 134.41571652616196,
+      "constraint_violation_margin": 9.584283473838042,
+      "scaled_constraint_violation_margin": 0.08775256788270953,
+      "certified_intended_energy": -133.25089937692024,
+      "explicit_bitstring": "10100101000100",
+      "loads": [
+        7,
+        6
+      ],
+      "energy_check_error": 0.0
+    },
+    {
+      "id": "S_2073_slack_blade_1",
+      "tier": "S",
+      "instance_seed": 2073,
+      "atoms": 14,
+      "all_intended_groundstates_feasible": true,
+      "all_intended_groundstates_original_optimal": true,
+      "minimum_constraint_violation_penalty": 144.0,
+      "original_optimum": 134.41571652616196,
+      "constraint_violation_margin": 9.584283473838042,
+      "scaled_constraint_violation_margin": 0.08863106008700607,
+      "certified_intended_energy": -134.5848760244708,
+      "explicit_bitstring": "10100101000100",
+      "loads": [
+        7,
+        6
+      ],
+      "energy_check_error": 0.0
+    },
+    {
+      "id": "S_2073_slack_blade_2",
+      "tier": "S",
+      "instance_seed": 2073,
+      "atoms": 14,
+      "all_intended_groundstates_feasible": true,
+      "all_intended_groundstates_original_optimal": true,
+      "minimum_constraint_violation_penalty": 144.0,
+      "original_optimum": 134.41571652616196,
+      "constraint_violation_margin": 9.584283473838042,
+      "scaled_constraint_violation_margin": 0.08842929759732897,
+      "certified_intended_energy": -134.27850284521597,
+      "explicit_bitstring": "10100101000100",
+      "loads": [
+        7,
+        6
+      ],
+      "energy_check_error": 2.842170943040401e-14
+    },
+    {
+      "id": "S_2073_slack_custom_0",
+      "tier": "S",
+      "instance_seed": 2073,
+      "atoms": 14,
+      "all_intended_groundstates_feasible": true,
+      "all_intended_groundstates_original_optimal": true,
+      "minimum_constraint_violation_penalty": 144.0,
+      "original_optimum": 134.41571652616196,
+      "constraint_violation_margin": 9.584283473838042,
+      "scaled_constraint_violation_margin": 0.07104626481525493,
+      "certified_intended_energy": -107.88263993205497,
+      "explicit_bitstring": "10100101000100",
+      "loads": [
+        7,
+        6
+      ],
+      "energy_check_error": 0.0
+    },
+    {
+      "id": "S_2073_slack_custom_1",
+      "tier": "S",
+      "instance_seed": 2073,
+      "atoms": 14,
+      "all_intended_groundstates_feasible": true,
+      "all_intended_groundstates_original_optimal": true,
+      "minimum_constraint_violation_penalty": 144.0,
+      "original_optimum": 134.41571652616196,
+      "constraint_violation_margin": 9.584283473838042,
+      "scaled_constraint_violation_margin": 0.0711755168763281,
+      "certified_intended_energy": -108.07890716160593,
+      "explicit_bitstring": "10100101000100",
+      "loads": [
+        7,
+        6
+      ],
+      "energy_check_error": 1.4210854715202004e-14
+    },
+    {
+      "id": "S_2073_slack_custom_2",
+      "tier": "S",
+      "instance_seed": 2073,
+      "atoms": 14,
+      "all_intended_groundstates_feasible": true,
+      "all_intended_groundstates_original_optimal": true,
+      "minimum_constraint_violation_penalty": 144.0,
+      "original_optimum": 134.41571652616196,
+      "constraint_violation_margin": 9.584283473838042,
+      "scaled_constraint_violation_margin": 0.08398908441222758,
+      "certified_intended_energy": -127.53610869521411,
+      "explicit_bitstring": "10100101000100",
+      "loads": [
+        7,
+        6
+      ],
+      "energy_check_error": 0.0
+    },
+    {
+      "id": "M_2002_slack_blade_0",
+      "tier": "M",
+      "instance_seed": 2002,
+      "atoms": 45,
+      "all_intended_groundstates_feasible": true,
+      "all_intended_groundstates_original_optimal": true,
+      "minimum_constraint_violation_penalty": 803.0,
+      "original_optimum": 438.92329718537223,
+      "constraint_violation_margin": 364.07670281462777,
+      "scaled_constraint_violation_margin": 0.09801230206686089,
+      "certified_intended_energy": -261.45225013999897,
+      "explicit_bitstring": "100000101001010000010010110100011001100000000",
+      "loads": [
+        14,
+        17,
+        20
+      ],
+      "energy_check_error": 5.684341886080802e-14
+    },
+    {
+      "id": "M_2002_slack_custom_0",
+      "tier": "M",
+      "instance_seed": 2002,
+      "atoms": 45,
+      "all_intended_groundstates_feasible": true,
+      "all_intended_groundstates_original_optimal": true,
+      "minimum_constraint_violation_penalty": 803.0,
+      "original_optimum": 438.92329718537223,
+      "constraint_violation_margin": 364.07670281462777,
+      "scaled_constraint_violation_margin": 0.07162006825206507,
+      "certified_intended_energy": -191.04977237356348,
+      "explicit_bitstring": "100000101001010000010010110100011001100000000",
+      "loads": [
+        14,
+        17,
+        20
+      ],
+      "energy_check_error": 0.0
+    },
+    {
+      "id": "M_2006_slack_blade_0",
+      "tier": "M",
+      "instance_seed": 2006,
+      "atoms": 45,
+      "all_intended_groundstates_feasible": true,
+      "all_intended_groundstates_original_optimal": true,
+      "minimum_constraint_violation_penalty": 994.0,
+      "original_optimum": 498.5978004266756,
+      "constraint_violation_margin": 495.4021995733244,
+      "scaled_constraint_violation_margin": 0.12357836888692258,
+      "certified_intended_energy": -299.8998220438057,
+      "explicit_bitstring": "100001000101010001000010101010110001100001001",
+      "loads": [
+        17,
+        17,
+        13
+      ],
+      "energy_check_error": 5.684341886080802e-14
+    },
+    {
+      "id": "M_2006_slack_custom_0",
+      "tier": "M",
+      "instance_seed": 2006,
+      "atoms": 45,
+      "all_intended_groundstates_feasible": true,
+      "all_intended_groundstates_original_optimal": true,
+      "minimum_constraint_violation_penalty": 994.0,
+      "original_optimum": 498.5978004266756,
+      "constraint_violation_margin": 495.4021995733244,
+      "scaled_constraint_violation_margin": 0.0659729082250303,
+      "certified_intended_energy": -160.10296635734807,
+      "explicit_bitstring": "100001000101010001000010101010110001100001001",
+      "loads": [
+        17,
+        17,
+        13
+      ],
+      "energy_check_error": 0.0
+    },
+    {
+      "id": "M_2007_slack_blade_0",
+      "tier": "M",
+      "instance_seed": 2007,
+      "atoms": 45,
+      "all_intended_groundstates_feasible": true,
+      "all_intended_groundstates_original_optimal": true,
+      "minimum_constraint_violation_penalty": 848.0,
+      "original_optimum": 305.0055349457854,
+      "constraint_violation_margin": 542.9944650542145,
+      "scaled_constraint_violation_margin": 0.1815025999307172,
+      "certified_intended_energy": -342.8779488953639,
+      "explicit_bitstring": "100001011001100010000001100001100000111011000",
+      "loads": [
+        19,
+        6,
+        17
+      ],
+      "energy_check_error": 0.0
+    },
+    {
+      "id": "M_2007_slack_custom_0",
+      "tier": "M",
+      "instance_seed": 2007,
+      "atoms": 45,
+      "all_intended_groundstates_feasible": true,
+      "all_intended_groundstates_original_optimal": true,
+      "minimum_constraint_violation_penalty": 848.0,
+      "original_optimum": 305.0055349457854,
+      "constraint_violation_margin": 542.9944650542145,
+      "scaled_constraint_violation_margin": 0.08480732540898532,
+      "certified_intended_energy": -160.21016667879343,
+      "explicit_bitstring": "100001011001100010000001100001100000111011000",
+      "loads": [
+        19,
+        6,
+        17
+      ],
+      "energy_check_error": 0.0
+    },
+    {
+      "id": "M_2017_slack_blade_0",
+      "tier": "M",
+      "instance_seed": 2017,
+      "atoms": 45,
+      "all_intended_groundstates_feasible": true,
+      "all_intended_groundstates_original_optimal": true,
+      "minimum_constraint_violation_penalty": 632.0,
+      "original_optimum": 320.1130659489033,
+      "constraint_violation_margin": 311.8869340510967,
+      "scaled_constraint_violation_margin": 0.12184852282396942,
+      "certified_intended_energy": -298.637060103531,
+      "explicit_bitstring": "110100000000101000100000011101010000010011000",
+      "loads": [
+        18,
+        16,
+        17
+      ],
+      "energy_check_error": 5.684341886080802e-14
+    },
+    {
+      "id": "M_2017_slack_custom_0",
+      "tier": "M",
+      "instance_seed": 2017,
+      "atoms": 45,
+      "all_intended_groundstates_feasible": true,
+      "all_intended_groundstates_original_optimal": true,
+      "minimum_constraint_violation_penalty": 632.0,
+      "original_optimum": 320.1130659489033,
+      "constraint_violation_margin": 311.8869340510967,
+      "scaled_constraint_violation_margin": 0.0618263682530326,
+      "certified_intended_energy": -151.52949271808373,
+      "explicit_bitstring": "110100000000101000100000011101010000010011000",
+      "loads": [
+        18,
+        16,
+        17
+      ],
+      "energy_check_error": 2.842170943040401e-14
+    },
+    {
+      "id": "M_2018_slack_blade_0",
+      "tier": "M",
+      "instance_seed": 2018,
+      "atoms": 45,
+      "all_intended_groundstates_feasible": true,
+      "all_intended_groundstates_original_optimal": true,
+      "minimum_constraint_violation_penalty": 857.0,
+      "original_optimum": 457.7205293710015,
+      "constraint_violation_margin": 399.2794706289985,
+      "scaled_constraint_violation_margin": 0.10057402569316652,
+      "certified_intended_energy": -261.08583159193995,
+      "explicit_bitstring": "101000010101010100000000101010110001000001000",
+      "loads": [
+        17,
+        19,
+        18
+      ],
+      "energy_check_error": 0.0
+    },
+    {
+      "id": "M_2018_slack_custom_0",
+      "tier": "M",
+      "instance_seed": 2018,
+      "atoms": 45,
+      "all_intended_groundstates_feasible": true,
+      "all_intended_groundstates_original_optimal": true,
+      "minimum_constraint_violation_penalty": 857.0,
+      "original_optimum": 457.7205293710015,
+      "constraint_violation_margin": 399.2794706289985,
+      "scaled_constraint_violation_margin": 0.048045901191017974,
+      "certified_intended_energy": -124.72508662734587,
+      "explicit_bitstring": "101000010101010100000000101010110001000001000",
+      "loads": [
+        17,
+        19,
+        18
+      ],
+      "energy_check_error": 1.4210854715202004e-14
+    },
+    {
+      "id": "L_2005_slack_blade_0",
+      "tier": "L",
+      "instance_seed": 2005,
+      "atoms": 80,
+      "all_intended_groundstates_feasible": true,
+      "all_intended_groundstates_original_optimal": true,
+      "minimum_constraint_violation_penalty": 1882.0,
+      "original_optimum": 544.2794730904949,
+      "constraint_violation_margin": 1337.7205269095052,
+      "scaled_constraint_violation_margin": 0.07748585147281976,
+      "certified_intended_energy": -394.0489675710672,
+      "explicit_bitstring": "10000100010010001000011000001000101000001000000010000100100100001000001000110000",
+      "loads": [
+        15,
+        30,
+        14,
+        29
+      ],
+      "energy_check_error": 5.684341886080802e-14
+    },
+    {
+      "id": "L_2005_slack_custom_0",
+      "tier": "L",
+      "instance_seed": 2005,
+      "atoms": 80,
+      "all_intended_groundstates_feasible": true,
+      "all_intended_groundstates_original_optimal": true,
+      "minimum_constraint_violation_penalty": 1882.0,
+      "original_optimum": 544.2794730904949,
+      "constraint_violation_margin": 1337.7205269095052,
+      "scaled_constraint_violation_margin": 0.015714029885394405,
+      "certified_intended_energy": -79.91261804605199,
+      "explicit_bitstring": "10000100010010001000011000001000101000001000000010000100100100001000001000110000",
+      "loads": [
+        15,
+        30,
+        14,
+        29
+      ],
+      "energy_check_error": 0.0
+    }
+  ]
+}

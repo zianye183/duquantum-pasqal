@@ -1,0 +1,37 @@
+{
+  "checks": [
+    {
+      "arm": "intended",
+      "local_dt_ns": 5,
+      "shots": 20000,
+      "individual_bins": 650,
+      "pooled_states": 1047926,
+      "pooled_probability": 0.37756719019618384,
+      "pooled_observed": 7592,
+      "pearson_statistic": 627.4899465742546,
+      "monte_carlo_replicates": 2000,
+      "exceedances": 1433,
+      "monte_carlo_upper_tail": 0.7166416791604198,
+      "mc_standard_error": 0.010073849820211575,
+      "seed": 542,
+      "inconsistent_at_familywise_01": false
+    },
+    {
+      "arm": "geometric",
+      "local_dt_ns": 5,
+      "shots": 20000,
+      "individual_bins": 477,
+      "pooled_states": 1048099,
+      "pooled_probability": 0.3578589142022432,
+      "pooled_observed": 7140,
+      "pearson_statistic": 521.7595402140984,
+      "monte_carlo_replicates": 2000,
+      "exceedances": 160,
+      "monte_carlo_upper_tail": 0.08045977011494253,
+      "mc_standard_error": 0.006080666945224611,
+      "seed": 543,
+      "inconsistent_at_familywise_01": false
+    }
+  ],
+  "scope": "Two whole-distribution diagnostic tests with grouping fixed by fine local probabilities alone. All states expected at least5 shots individually, all remaining states pooled. Pearson statistic calibrated by2000 multinomial replicates; two-test Bonferroni threshold0.005 for familywise0.01. Coarse pooling can conceal rare-tail discrepancies; prior rare-category observations retained. Finite MC uncertainty and local numerical error remain."
+}

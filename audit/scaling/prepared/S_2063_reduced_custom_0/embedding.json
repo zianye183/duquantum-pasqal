@@ -1,0 +1,149 @@
+{
+  "method": "custom",
+  "seed": 0,
+  "n": 4,
+  "positions": [
+    [
+      -0.14175066185224736,
+      -2.6144906879524212
+    ],
+    [
+      4.753549266087887,
+      -0.3437863196637909
+    ],
+    [
+      0.30836624381942956,
+      2.3662116491912637
+    ],
+    [
+      -4.92016484805507,
+      0.5920653584249485
+    ]
+  ],
+  "realized_U": [
+    [
+      0.0,
+      35.059214554711744,
+      55.33983226852269,
+      23.839387611527474
+    ],
+    [
+      35.059214554711744,
+      0.0,
+      43.48017120815049,
+      1.0272651327125755
+    ],
+    [
+      55.33983226852269,
+      43.48017120815049,
+      0.0,
+      30.55728096641535
+    ],
+    [
+      23.839387611527474,
+      1.0272651327125755,
+      30.55728096641535,
+      0.0
+    ]
+  ],
+  "alpha": 0.12204490970447691,
+  "eps_J": 0.11062876133121961,
+  "zero_coupling_leakage": 0.0,
+  "zero_coupling_leakage_max": 0.0,
+  "target_density": 1.0,
+  "realized_density": 1.0,
+  "realized_density_1pct": 1.0,
+  "density_threshold_fraction": 0.01,
+  "physical_valid": true,
+  "min_distance": 5.001,
+  "max_radius": 4.955659746258175,
+  "controls": {
+    "delta_global": 49.06218313631191,
+    "delta_top": 63.838366953795195,
+    "dmm_weights": [
+      0.23562597373931152,
+      0.623603495523602,
+      0.0,
+      1.0
+    ],
+    "delta_dmm": -31.789908802039953
+  },
+  "h": [
+    -461.6975740624735,
+    -360.638299532881,
+    -523.0727533690284,
+    -262.59561524817633
+  ],
+  "optimizer": {
+    "success": true,
+    "restarts": 8,
+    "maxiter": 3000,
+    "runs": [
+      {
+        "success": true,
+        "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+        "nit": 18,
+        "nfev": 26,
+        "loss": 0.5453785892530815,
+        "seconds": 0.0025926250964403152
+      },
+      {
+        "success": true,
+        "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+        "nit": 40,
+        "nfev": 80,
+        "loss": 0.4160430004220675,
+        "seconds": 0.005376375047490001
+      },
+      {
+        "success": true,
+        "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+        "nit": 43,
+        "nfev": 64,
+        "loss": 0.3545583286654607,
+        "seconds": 0.004218833986669779
+      },
+      {
+        "success": true,
+        "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+        "nit": 28,
+        "nfev": 40,
+        "loss": 0.41604300058324767,
+        "seconds": 0.00262283394113183
+      },
+      {
+        "success": true,
+        "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+        "nit": 21,
+        "nfev": 33,
+        "loss": 0.2671571976410074,
+        "seconds": 0.002283458015881479
+      },
+      {
+        "success": true,
+        "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+        "nit": 31,
+        "nfev": 56,
+        "loss": 0.11062876133121963,
+        "seconds": 0.003833749913610518
+      },
+      {
+        "success": true,
+        "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+        "nit": 29,
+        "nfev": 55,
+        "loss": 0.11062876134252876,
+        "seconds": 0.0036476670065894723
+      },
+      {
+        "success": true,
+        "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+        "nit": 17,
+        "nfev": 29,
+        "loss": 0.4160430013312715,
+        "seconds": 0.0019015000434592366
+      }
+    ]
+  },
+  "seconds": 0.026744041009806097
+}

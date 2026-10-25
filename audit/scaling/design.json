@@ -1,0 +1,1933 @@
+{
+  "started_at": "2026-10-24T22:03:32.307214-04:00",
+  "primary_conditions": 240,
+  "accuracy_conditions": 8,
+  "source_hashes": {
+    "embedding.py": "7424c2ca09af82d2c023681bd2a3edd355d234fd86c7401c21920791b1152bcd",
+    "track_a.py": "d84ab76ef99246978b024b9b6ffbc098d094c5b1a3afa8b84d1ffdc84ef8435a",
+    "instances.json": "d65bdd7b9df0ac84cc8fa706d29d0524eae5d89244da6472151d552ca82cea96",
+    "prepare.py": "efceff34dd60fc3fb8e49adb2a5db8e626d6272930ec55a68b07e9b5c762d289"
+  },
+  "tasks": [
+    {
+      "tier": "M",
+      "instance_seed": 2002,
+      "encoding": "reduced",
+      "embedder": "blade",
+      "placement_seed": 0,
+      "accuracy": true
+    },
+    {
+      "tier": "M",
+      "instance_seed": 2002,
+      "encoding": "reduced",
+      "embedder": "custom",
+      "placement_seed": 0,
+      "accuracy": true
+    },
+    {
+      "tier": "M",
+      "instance_seed": 2002,
+      "encoding": "slack",
+      "embedder": "blade",
+      "placement_seed": 0,
+      "accuracy": true
+    },
+    {
+      "tier": "M",
+      "instance_seed": 2002,
+      "encoding": "slack",
+      "embedder": "custom",
+      "placement_seed": 0,
+      "accuracy": true
+    },
+    {
+      "tier": "L",
+      "instance_seed": 2005,
+      "encoding": "reduced",
+      "embedder": "blade",
+      "placement_seed": 0,
+      "accuracy": true
+    },
+    {
+      "tier": "L",
+      "instance_seed": 2005,
+      "encoding": "reduced",
+      "embedder": "custom",
+      "placement_seed": 0,
+      "accuracy": true
+    },
+    {
+      "tier": "L",
+      "instance_seed": 2005,
+      "encoding": "slack",
+      "embedder": "blade",
+      "placement_seed": 0,
+      "accuracy": true
+    },
+    {
+      "tier": "L",
+      "instance_seed": 2005,
+      "encoding": "slack",
+      "embedder": "custom",
+      "placement_seed": 0,
+      "accuracy": true
+    },
+    {
+      "tier": "S",
+      "instance_seed": 2002,
+      "encoding": "reduced",
+      "embedder": "blade",
+      "placement_seed": 0,
+      "accuracy": false
+    },
+    {
+      "tier": "S",
+      "instance_seed": 2002,
+      "encoding": "reduced",
+      "embedder": "custom",
+      "placement_seed": 0,
+      "accuracy": false
+    },
+    {
+      "tier": "S",
+      "instance_seed": 2002,
+      "encoding": "slack",
+      "embedder": "blade",
+      "placement_seed": 0,
+      "accuracy": false
+    },
+    {
+      "tier": "S",
+      "instance_seed": 2002,
+      "encoding": "slack",
+      "embedder": "custom",
+      "placement_seed": 0,
+      "accuracy": false
+    },
+    {
+      "tier": "M",
+      "instance_seed": 2006,
+      "encoding": "reduced",
+      "embedder": "blade",
+      "placement_seed": 0,
+      "accuracy": false
+    },
+    {
+      "tier": "M",
+      "instance_seed": 2006,
+      "encoding": "reduced",
+      "embedder": "custom",
+      "placement_seed": 0,
+      "accuracy": false
+    },
+    {
+      "tier": "M",
+      "instance_seed": 2006,
+      "encoding": "slack",
+      "embedder": "blade",
+      "placement_seed": 0,
+      "accuracy": false
+    },
+    {
+      "tier": "M",
+      "instance_seed": 2006,
+      "encoding": "slack",
+      "embedder": "custom",
+      "placement_seed": 0,
+      "accuracy": false
+    },
+    {
+      "tier": "S",
+      "instance_seed": 2006,
+      "encoding": "reduced",
+      "embedder": "blade",
+      "placement_seed": 0,
+      "accuracy": false
+    },
+    {
+      "tier": "S",
+      "instance_seed": 2006,
+      "encoding": "reduced",
+      "embedder": "custom",
+      "placement_seed": 0,
+      "accuracy": false
+    },
+    {
+      "tier": "S",
+      "instance_seed": 2006,
+      "encoding": "slack",
+      "embedder": "blade",
+      "placement_seed": 0,
+      "accuracy": false
+    },
+    {
+      "tier": "S",
+      "instance_seed": 2006,
+      "encoding": "slack",
+      "embedder": "custom",
+      "placement_seed": 0,
+      "accuracy": false
+    },
+    {
+      "tier": "M",
+      "instance_seed": 2007,
+      "encoding": "reduced",
+      "embedder": "blade",
+      "placement_seed": 0,
+      "accuracy": false
+    },
+    {
+      "tier": "M",
+      "instance_seed": 2007,
+      "encoding": "reduced",
+      "embedder": "custom",
+      "placement_seed": 0,
+      "accuracy": false
+    },
+    {
+      "tier": "M",
+      "instance_seed": 2007,
+      "encoding": "slack",
+      "embedder": "blade",
+      "placement_seed": 0,
+      "accuracy": false
+    },
+    {
+      "tier": "M",
+      "instance_seed": 2007,
+      "encoding": "slack",
+      "embedder": "custom",
+      "placement_seed": 0,
+      "accuracy": false
+    },
+    {
+      "tier": "L",
+      "instance_seed": 2011,
+      "encoding": "reduced",
+      "embedder": "blade",
+      "placement_seed": 0,
+      "accuracy": false
+    },
+    {
+      "tier": "L",
+      "instance_seed": 2011,
+      "encoding": "reduced",
+      "embedder": "custom",
+      "placement_seed": 0,
+      "accuracy": false
+    },
+    {
+      "tier": "L",
+      "instance_seed": 2011,
+      "encoding": "slack",
+      "embedder": "blade",
+      "placement_seed": 0,
+      "accuracy": false
+    },
+    {
+      "tier": "L",
+      "instance_seed": 2011,
+      "encoding": "slack",
+      "embedder": "custom",
+      "placement_seed": 0,
+      "accuracy": false
+    },
+    {
+      "tier": "L",
+      "instance_seed": 2013,
+      "encoding": "reduced",
+      "embedder": "blade",
+      "placement_seed": 0,
+      "accuracy": false
+    },
+    {
+      "tier": "L",
+      "instance_seed": 2013,
+      "encoding": "reduced",
+      "embedder": "custom",
+      "placement_seed": 0,
+      "accuracy": false
+    },
+    {
+      "tier": "L",
+      "instance_seed": 2013,
+      "encoding": "slack",
+      "embedder": "blade",
+      "placement_seed": 0,
+      "accuracy": false
+    },
+    {
+      "tier": "L",
+      "instance_seed": 2013,
+      "encoding": "slack",
+      "embedder": "custom",
+      "placement_seed": 0,
+      "accuracy": false
+    },
+    {
+      "tier": "L",
+      "instance_seed": 2015,
+      "encoding": "reduced",
+      "embedder": "blade",
+      "placement_seed": 0,
+      "accuracy": false
+    },
+    {
+      "tier": "L",
+      "instance_seed": 2015,
+      "encoding": "reduced",
+      "embedder": "custom",
+      "placement_seed": 0,
+      "accuracy": false
+    },
+    {
+      "tier": "L",
+      "instance_seed": 2015,
+      "encoding": "slack",
+      "embedder": "blade",
+      "placement_seed": 0,
+      "accuracy": false
+    },
+    {
+      "tier": "L",
+      "instance_seed": 2015,
+      "encoding": "slack",
+      "embedder": "custom",
+      "placement_seed": 0,
+      "accuracy": false
+    },
+    {
+      "tier": "S",
+      "instance_seed": 2012,
+      "encoding": "reduced",
+      "embedder": "blade",
+      "placement_seed": 0,
+      "accuracy": false
+    },
+    {
+      "tier": "S",
+      "instance_seed": 2012,
+      "encoding": "reduced",
+      "embedder": "custom",
+      "placement_seed": 0,
+      "accuracy": false
+    },
+    {
+      "tier": "S",
+      "instance_seed": 2012,
+      "encoding": "slack",
+      "embedder": "blade",
+      "placement_seed": 0,
+      "accuracy": false
+    },
+    {
+      "tier": "S",
+      "instance_seed": 2012,
+      "encoding": "slack",
+      "embedder": "custom",
+      "placement_seed": 0,
+      "accuracy": false
+    },
+    {
+      "tier": "L",
+      "instance_seed": 2017,
+      "encoding": "reduced",
+      "embedder": "blade",
+      "placement_seed": 0,
+      "accuracy": false
+    },
+    {
+      "tier": "L",
+      "instance_seed": 2017,
+      "encoding": "reduced",
+      "embedder": "custom",
+      "placement_seed": 0,
+      "accuracy": false
+    },
+    {
+      "tier": "L",
+      "instance_seed": 2017,
+      "encoding": "slack",
+      "embedder": "blade",
+      "placement_seed": 0,
+      "accuracy": false
+    },
+    {
+      "tier": "L",
+      "instance_seed": 2017,
+      "encoding": "slack",
+      "embedder": "custom",
+      "placement_seed": 0,
+      "accuracy": false
+    },
+    {
+      "tier": "M",
+      "instance_seed": 2017,
+      "encoding": "reduced",
+      "embedder": "blade",
+      "placement_seed": 0,
+      "accuracy": false
+    },
+    {
+      "tier": "M",
+      "instance_seed": 2017,
+      "encoding": "reduced",
+      "embedder": "custom",
+      "placement_seed": 0,
+      "accuracy": false
+    },
+    {
+      "tier": "M",
+      "instance_seed": 2017,
+      "encoding": "slack",
+      "embedder": "blade",
+      "placement_seed": 0,
+      "accuracy": false
+    },
+    {
+      "tier": "M",
+      "instance_seed": 2017,
+      "encoding": "slack",
+      "embedder": "custom",
+      "placement_seed": 0,
+      "accuracy": false
+    },
+    {
+      "tier": "M",
+      "instance_seed": 2018,
+      "encoding": "reduced",
+      "embedder": "blade",
+      "placement_seed": 0,
+      "accuracy": false
+    },
+    {
+      "tier": "M",
+      "instance_seed": 2018,
+      "encoding": "reduced",
+      "embedder": "custom",
+      "placement_seed": 0,
+      "accuracy": false
+    },
+    {
+      "tier": "M",
+      "instance_seed": 2018,
+      "encoding": "slack",
+      "embedder": "blade",
+      "placement_seed": 0,
+      "accuracy": false
+    },
+    {
+      "tier": "M",
+      "instance_seed": 2018,
+      "encoding": "slack",
+      "embedder": "custom",
+      "placement_seed": 0,
+      "accuracy": false
+    },
+    {
+      "tier": "S",
+      "instance_seed": 2031,
+      "encoding": "reduced",
+      "embedder": "blade",
+      "placement_seed": 0,
+      "accuracy": false
+    },
+    {
+      "tier": "S",
+      "instance_seed": 2031,
+      "encoding": "reduced",
+      "embedder": "custom",
+      "placement_seed": 0,
+      "accuracy": false
+    },
+    {
+      "tier": "S",
+      "instance_seed": 2031,
+      "encoding": "slack",
+      "embedder": "blade",
+      "placement_seed": 0,
+      "accuracy": false
+    },
+    {
+      "tier": "S",
+      "instance_seed": 2031,
+      "encoding": "slack",
+      "embedder": "custom",
+      "placement_seed": 0,
+      "accuracy": false
+    },
+    {
+      "tier": "S",
+      "instance_seed": 2040,
+      "encoding": "reduced",
+      "embedder": "blade",
+      "placement_seed": 0,
+      "accuracy": false
+    },
+    {
+      "tier": "S",
+      "instance_seed": 2040,
+      "encoding": "reduced",
+      "embedder": "custom",
+      "placement_seed": 0,
+      "accuracy": false
+    },
+    {
+      "tier": "S",
+      "instance_seed": 2040,
+      "encoding": "slack",
+      "embedder": "blade",
+      "placement_seed": 0,
+      "accuracy": false
+    },
+    {
+      "tier": "S",
+      "instance_seed": 2040,
+      "encoding": "slack",
+      "embedder": "custom",
+      "placement_seed": 0,
+      "accuracy": false
+    },
+    {
+      "tier": "S",
+      "instance_seed": 2042,
+      "encoding": "reduced",
+      "embedder": "blade",
+      "placement_seed": 0,
+      "accuracy": false
+    },
+    {
+      "tier": "S",
+      "instance_seed": 2042,
+      "encoding": "reduced",
+      "embedder": "custom",
+      "placement_seed": 0,
+      "accuracy": false
+    },
+    {
+      "tier": "S",
+      "instance_seed": 2042,
+      "encoding": "slack",
+      "embedder": "blade",
+      "placement_seed": 0,
+      "accuracy": false
+    },
+    {
+      "tier": "S",
+      "instance_seed": 2042,
+      "encoding": "slack",
+      "embedder": "custom",
+      "placement_seed": 0,
+      "accuracy": false
+    },
+    {
+      "tier": "S",
+      "instance_seed": 2060,
+      "encoding": "reduced",
+      "embedder": "blade",
+      "placement_seed": 0,
+      "accuracy": false
+    },
+    {
+      "tier": "S",
+      "instance_seed": 2060,
+      "encoding": "reduced",
+      "embedder": "custom",
+      "placement_seed": 0,
+      "accuracy": false
+    },
+    {
+      "tier": "S",
+      "instance_seed": 2060,
+      "encoding": "slack",
+      "embedder": "blade",
+      "placement_seed": 0,
+      "accuracy": false
+    },
+    {
+      "tier": "S",
+      "instance_seed": 2060,
+      "encoding": "slack",
+      "embedder": "custom",
+      "placement_seed": 0,
+      "accuracy": false
+    },
+    {
+      "tier": "S",
+      "instance_seed": 2062,
+      "encoding": "reduced",
+      "embedder": "blade",
+      "placement_seed": 0,
+      "accuracy": false
+    },
+    {
+      "tier": "S",
+      "instance_seed": 2062,
+      "encoding": "reduced",
+      "embedder": "custom",
+      "placement_seed": 0,
+      "accuracy": false
+    },
+    {
+      "tier": "S",
+      "instance_seed": 2062,
+      "encoding": "slack",
+      "embedder": "blade",
+      "placement_seed": 0,
+      "accuracy": false
+    },
+    {
+      "tier": "S",
+      "instance_seed": 2062,
+      "encoding": "slack",
+      "embedder": "custom",
+      "placement_seed": 0,
+      "accuracy": false
+    },
+    {
+      "tier": "S",
+      "instance_seed": 2063,
+      "encoding": "reduced",
+      "embedder": "blade",
+      "placement_seed": 0,
+      "accuracy": false
+    },
+    {
+      "tier": "S",
+      "instance_seed": 2063,
+      "encoding": "reduced",
+      "embedder": "custom",
+      "placement_seed": 0,
+      "accuracy": false
+    },
+    {
+      "tier": "S",
+      "instance_seed": 2063,
+      "encoding": "slack",
+      "embedder": "blade",
+      "placement_seed": 0,
+      "accuracy": false
+    },
+    {
+      "tier": "S",
+      "instance_seed": 2063,
+      "encoding": "slack",
+      "embedder": "custom",
+      "placement_seed": 0,
+      "accuracy": false
+    },
+    {
+      "tier": "S",
+      "instance_seed": 2073,
+      "encoding": "reduced",
+      "embedder": "blade",
+      "placement_seed": 0,
+      "accuracy": false
+    },
+    {
+      "tier": "S",
+      "instance_seed": 2073,
+      "encoding": "reduced",
+      "embedder": "custom",
+      "placement_seed": 0,
+      "accuracy": false
+    },
+    {
+      "tier": "S",
+      "instance_seed": 2073,
+      "encoding": "slack",
+      "embedder": "blade",
+      "placement_seed": 0,
+      "accuracy": false
+    },
+    {
+      "tier": "S",
+      "instance_seed": 2073,
+      "encoding": "slack",
+      "embedder": "custom",
+      "placement_seed": 0,
+      "accuracy": false
+    },
+    {
+      "tier": "M",
+      "instance_seed": 2002,
+      "encoding": "reduced",
+      "embedder": "blade",
+      "placement_seed": 1,
+      "accuracy": false
+    },
+    {
+      "tier": "M",
+      "instance_seed": 2002,
+      "encoding": "reduced",
+      "embedder": "custom",
+      "placement_seed": 1,
+      "accuracy": false
+    },
+    {
+      "tier": "M",
+      "instance_seed": 2002,
+      "encoding": "slack",
+      "embedder": "blade",
+      "placement_seed": 1,
+      "accuracy": false
+    },
+    {
+      "tier": "M",
+      "instance_seed": 2002,
+      "encoding": "slack",
+      "embedder": "custom",
+      "placement_seed": 1,
+      "accuracy": false
+    },
+    {
+      "tier": "L",
+      "instance_seed": 2005,
+      "encoding": "reduced",
+      "embedder": "blade",
+      "placement_seed": 1,
+      "accuracy": false
+    },
+    {
+      "tier": "L",
+      "instance_seed": 2005,
+      "encoding": "reduced",
+      "embedder": "custom",
+      "placement_seed": 1,
+      "accuracy": false
+    },
+    {
+      "tier": "L",
+      "instance_seed": 2005,
+      "encoding": "slack",
+      "embedder": "blade",
+      "placement_seed": 1,
+      "accuracy": false
+    },
+    {
+      "tier": "L",
+      "instance_seed": 2005,
+      "encoding": "slack",
+      "embedder": "custom",
+      "placement_seed": 1,
+      "accuracy": false
+    },
+    {
+      "tier": "S",
+      "instance_seed": 2002,
+      "encoding": "reduced",
+      "embedder": "blade",
+      "placement_seed": 1,
+      "accuracy": false
+    },
+    {
+      "tier": "S",
+      "instance_seed": 2002,
+      "encoding": "reduced",
+      "embedder": "custom",
+      "placement_seed": 1,
+      "accuracy": false
+    },
+    {
+      "tier": "S",
+      "instance_seed": 2002,
+      "encoding": "slack",
+      "embedder": "blade",
+      "placement_seed": 1,
+      "accuracy": false
+    },
+    {
+      "tier": "S",
+      "instance_seed": 2002,
+      "encoding": "slack",
+      "embedder": "custom",
+      "placement_seed": 1,
+      "accuracy": false
+    },
+    {
+      "tier": "M",
+      "instance_seed": 2006,
+      "encoding": "reduced",
+      "embedder": "blade",
+      "placement_seed": 1,
+      "accuracy": false
+    },
+    {
+      "tier": "M",
+      "instance_seed": 2006,
+      "encoding": "reduced",
+      "embedder": "custom",
+      "placement_seed": 1,
+      "accuracy": false
+    },
+    {
+      "tier": "M",
+      "instance_seed": 2006,
+      "encoding": "slack",
+      "embedder": "blade",
+      "placement_seed": 1,
+      "accuracy": false
+    },
+    {
+      "tier": "M",
+      "instance_seed": 2006,
+      "encoding": "slack",
+      "embedder": "custom",
+      "placement_seed": 1,
+      "accuracy": false
+    },
+    {
+      "tier": "S",
+      "instance_seed": 2006,
+      "encoding": "reduced",
+      "embedder": "blade",
+      "placement_seed": 1,
+      "accuracy": false
+    },
+    {
+      "tier": "S",
+      "instance_seed": 2006,
+      "encoding": "reduced",
+      "embedder": "custom",
+      "placement_seed": 1,
+      "accuracy": false
+    },
+    {
+      "tier": "S",
+      "instance_seed": 2006,
+      "encoding": "slack",
+      "embedder": "blade",
+      "placement_seed": 1,
+      "accuracy": false
+    },
+    {
+      "tier": "S",
+      "instance_seed": 2006,
+      "encoding": "slack",
+      "embedder": "custom",
+      "placement_seed": 1,
+      "accuracy": false
+    },
+    {
+      "tier": "M",
+      "instance_seed": 2007,
+      "encoding": "reduced",
+      "embedder": "blade",
+      "placement_seed": 1,
+      "accuracy": false
+    },
+    {
+      "tier": "M",
+      "instance_seed": 2007,
+      "encoding": "reduced",
+      "embedder": "custom",
+      "placement_seed": 1,
+      "accuracy": false
+    },
+    {
+      "tier": "M",
+      "instance_seed": 2007,
+      "encoding": "slack",
+      "embedder": "blade",
+      "placement_seed": 1,
+      "accuracy": false
+    },
+    {
+      "tier": "M",
+      "instance_seed": 2007,
+      "encoding": "slack",
+      "embedder": "custom",
+      "placement_seed": 1,
+      "accuracy": false
+    },
+    {
+      "tier": "L",
+      "instance_seed": 2011,
+      "encoding": "reduced",
+      "embedder": "blade",
+      "placement_seed": 1,
+      "accuracy": false
+    },
+    {
+      "tier": "L",
+      "instance_seed": 2011,
+      "encoding": "reduced",
+      "embedder": "custom",
+      "placement_seed": 1,
+      "accuracy": false
+    },
+    {
+      "tier": "L",
+      "instance_seed": 2011,
+      "encoding": "slack",
+      "embedder": "blade",
+      "placement_seed": 1,
+      "accuracy": false
+    },
+    {
+      "tier": "L",
+      "instance_seed": 2011,
+      "encoding": "slack",
+      "embedder": "custom",
+      "placement_seed": 1,
+      "accuracy": false
+    },
+    {
+      "tier": "L",
+      "instance_seed": 2013,
+      "encoding": "reduced",
+      "embedder": "blade",
+      "placement_seed": 1,
+      "accuracy": false
+    },
+    {
+      "tier": "L",
+      "instance_seed": 2013,
+      "encoding": "reduced",
+      "embedder": "custom",
+      "placement_seed": 1,
+      "accuracy": false
+    },
+    {
+      "tier": "L",
+      "instance_seed": 2013,
+      "encoding": "slack",
+      "embedder": "blade",
+      "placement_seed": 1,
+      "accuracy": false
+    },
+    {
+      "tier": "L",
+      "instance_seed": 2013,
+      "encoding": "slack",
+      "embedder": "custom",
+      "placement_seed": 1,
+      "accuracy": false
+    },
+    {
+      "tier": "L",
+      "instance_seed": 2015,
+      "encoding": "reduced",
+      "embedder": "blade",
+      "placement_seed": 1,
+      "accuracy": false
+    },
+    {
+      "tier": "L",
+      "instance_seed": 2015,
+      "encoding": "reduced",
+      "embedder": "custom",
+      "placement_seed": 1,
+      "accuracy": false
+    },
+    {
+      "tier": "L",
+      "instance_seed": 2015,
+      "encoding": "slack",
+      "embedder": "blade",
+      "placement_seed": 1,
+      "accuracy": false
+    },
+    {
+      "tier": "L",
+      "instance_seed": 2015,
+      "encoding": "slack",
+      "embedder": "custom",
+      "placement_seed": 1,
+      "accuracy": false
+    },
+    {
+      "tier": "S",
+      "instance_seed": 2012,
+      "encoding": "reduced",
+      "embedder": "blade",
+      "placement_seed": 1,
+      "accuracy": false
+    },
+    {
+      "tier": "S",
+      "instance_seed": 2012,
+      "encoding": "reduced",
+      "embedder": "custom",
+      "placement_seed": 1,
+      "accuracy": false
+    },
+    {
+      "tier": "S",
+      "instance_seed": 2012,
+      "encoding": "slack",
+      "embedder": "blade",
+      "placement_seed": 1,
+      "accuracy": false
+    },
+    {
+      "tier": "S",
+      "instance_seed": 2012,
+      "encoding": "slack",
+      "embedder": "custom",
+      "placement_seed": 1,
+      "accuracy": false
+    },
+    {
+      "tier": "L",
+      "instance_seed": 2017,
+      "encoding": "reduced",
+      "embedder": "blade",
+      "placement_seed": 1,
+      "accuracy": false
+    },
+    {
+      "tier": "L",
+      "instance_seed": 2017,
+      "encoding": "reduced",
+      "embedder": "custom",
+      "placement_seed": 1,
+      "accuracy": false
+    },
+    {
+      "tier": "L",
+      "instance_seed": 2017,
+      "encoding": "slack",
+      "embedder": "blade",
+      "placement_seed": 1,
+      "accuracy": false
+    },
+    {
+      "tier": "L",
+      "instance_seed": 2017,
+      "encoding": "slack",
+      "embedder": "custom",
+      "placement_seed": 1,
+      "accuracy": false
+    },
+    {
+      "tier": "M",
+      "instance_seed": 2017,
+      "encoding": "reduced",
+      "embedder": "blade",
+      "placement_seed": 1,
+      "accuracy": false
+    },
+    {
+      "tier": "M",
+      "instance_seed": 2017,
+      "encoding": "reduced",
+      "embedder": "custom",
+      "placement_seed": 1,
+      "accuracy": false
+    },
+    {
+      "tier": "M",
+      "instance_seed": 2017,
+      "encoding": "slack",
+      "embedder": "blade",
+      "placement_seed": 1,
+      "accuracy": false
+    },
+    {
+      "tier": "M",
+      "instance_seed": 2017,
+      "encoding": "slack",
+      "embedder": "custom",
+      "placement_seed": 1,
+      "accuracy": false
+    },
+    {
+      "tier": "M",
+      "instance_seed": 2018,
+      "encoding": "reduced",
+      "embedder": "blade",
+      "placement_seed": 1,
+      "accuracy": false
+    },
+    {
+      "tier": "M",
+      "instance_seed": 2018,
+      "encoding": "reduced",
+      "embedder": "custom",
+      "placement_seed": 1,
+      "accuracy": false
+    },
+    {
+      "tier": "M",
+      "instance_seed": 2018,
+      "encoding": "slack",
+      "embedder": "blade",
+      "placement_seed": 1,
+      "accuracy": false
+    },
+    {
+      "tier": "M",
+      "instance_seed": 2018,
+      "encoding": "slack",
+      "embedder": "custom",
+      "placement_seed": 1,
+      "accuracy": false
+    },
+    {
+      "tier": "S",
+      "instance_seed": 2031,
+      "encoding": "reduced",
+      "embedder": "blade",
+      "placement_seed": 1,
+      "accuracy": false
+    },
+    {
+      "tier": "S",
+      "instance_seed": 2031,
+      "encoding": "reduced",
+      "embedder": "custom",
+      "placement_seed": 1,
+      "accuracy": false
+    },
+    {
+      "tier": "S",
+      "instance_seed": 2031,
+      "encoding": "slack",
+      "embedder": "blade",
+      "placement_seed": 1,
+      "accuracy": false
+    },
+    {
+      "tier": "S",
+      "instance_seed": 2031,
+      "encoding": "slack",
+      "embedder": "custom",
+      "placement_seed": 1,
+      "accuracy": false
+    },
+    {
+      "tier": "S",
+      "instance_seed": 2040,
+      "encoding": "reduced",
+      "embedder": "blade",
+      "placement_seed": 1,
+      "accuracy": false
+    },
+    {
+      "tier": "S",
+      "instance_seed": 2040,
+      "encoding": "reduced",
+      "embedder": "custom",
+      "placement_seed": 1,
+      "accuracy": false
+    },
+    {
+      "tier": "S",
+      "instance_seed": 2040,
+      "encoding": "slack",
+      "embedder": "blade",
+      "placement_seed": 1,
+      "accuracy": false
+    },
+    {
+      "tier": "S",
+      "instance_seed": 2040,
+      "encoding": "slack",
+      "embedder": "custom",
+      "placement_seed": 1,
+      "accuracy": false
+    },
+    {
+      "tier": "S",
+      "instance_seed": 2042,
+      "encoding": "reduced",
+      "embedder": "blade",
+      "placement_seed": 1,
+      "accuracy": false
+    },
+    {
+      "tier": "S",
+      "instance_seed": 2042,
+      "encoding": "reduced",
+      "embedder": "custom",
+      "placement_seed": 1,
+      "accuracy": false
+    },
+    {
+      "tier": "S",
+      "instance_seed": 2042,
+      "encoding": "slack",
+      "embedder": "blade",
+      "placement_seed": 1,
+      "accuracy": false
+    },
+    {
+      "tier": "S",
+      "instance_seed": 2042,
+      "encoding": "slack",
+      "embedder": "custom",
+      "placement_seed": 1,
+      "accuracy": false
+    },
+    {
+      "tier": "S",
+      "instance_seed": 2060,
+      "encoding": "reduced",
+      "embedder": "blade",
+      "placement_seed": 1,
+      "accuracy": false
+    },
+    {
+      "tier": "S",
+      "instance_seed": 2060,
+      "encoding": "reduced",
+      "embedder": "custom",
+      "placement_seed": 1,
+      "accuracy": false
+    },
+    {
+      "tier": "S",
+      "instance_seed": 2060,
+      "encoding": "slack",
+      "embedder": "blade",
+      "placement_seed": 1,
+      "accuracy": false
+    },
+    {
+      "tier": "S",
+      "instance_seed": 2060,
+      "encoding": "slack",
+      "embedder": "custom",
+      "placement_seed": 1,
+      "accuracy": false
+    },
+    {
+      "tier": "S",
+      "instance_seed": 2062,
+      "encoding": "reduced",
+      "embedder": "blade",
+      "placement_seed": 1,
+      "accuracy": false
+    },
+    {
+      "tier": "S",
+      "instance_seed": 2062,
+      "encoding": "reduced",
+      "embedder": "custom",
+      "placement_seed": 1,
+      "accuracy": false
+    },
+    {
+      "tier": "S",
+      "instance_seed": 2062,
+      "encoding": "slack",
+      "embedder": "blade",
+      "placement_seed": 1,
+      "accuracy": false
+    },
+    {
+      "tier": "S",
+      "instance_seed": 2062,
+      "encoding": "slack",
+      "embedder": "custom",
+      "placement_seed": 1,
+      "accuracy": false
+    },
+    {
+      "tier": "S",
+      "instance_seed": 2063,
+      "encoding": "reduced",
+      "embedder": "blade",
+      "placement_seed": 1,
+      "accuracy": false
+    },
+    {
+      "tier": "S",
+      "instance_seed": 2063,
+      "encoding": "reduced",
+      "embedder": "custom",
+      "placement_seed": 1,
+      "accuracy": false
+    },
+    {
+      "tier": "S",
+      "instance_seed": 2063,
+      "encoding": "slack",
+      "embedder": "blade",
+      "placement_seed": 1,
+      "accuracy": false
+    },
+    {
+      "tier": "S",
+      "instance_seed": 2063,
+      "encoding": "slack",
+      "embedder": "custom",
+      "placement_seed": 1,
+      "accuracy": false
+    },
+    {
+      "tier": "S",
+      "instance_seed": 2073,
+      "encoding": "reduced",
+      "embedder": "blade",
+      "placement_seed": 1,
+      "accuracy": false
+    },
+    {
+      "tier": "S",
+      "instance_seed": 2073,
+      "encoding": "reduced",
+      "embedder": "custom",
+      "placement_seed": 1,
+      "accuracy": false
+    },
+    {
+      "tier": "S",
+      "instance_seed": 2073,
+      "encoding": "slack",
+      "embedder": "blade",
+      "placement_seed": 1,
+      "accuracy": false
+    },
+    {
+      "tier": "S",
+      "instance_seed": 2073,
+      "encoding": "slack",
+      "embedder": "custom",
+      "placement_seed": 1,
+      "accuracy": false
+    },
+    {
+      "tier": "M",
+      "instance_seed": 2002,
+      "encoding": "reduced",
+      "embedder": "blade",
+      "placement_seed": 2,
+      "accuracy": false
+    },
+    {
+      "tier": "M",
+      "instance_seed": 2002,
+      "encoding": "reduced",
+      "embedder": "custom",
+      "placement_seed": 2,
+      "accuracy": false
+    },
+    {
+      "tier": "M",
+      "instance_seed": 2002,
+      "encoding": "slack",
+      "embedder": "blade",
+      "placement_seed": 2,
+      "accuracy": false
+    },
+    {
+      "tier": "M",
+      "instance_seed": 2002,
+      "encoding": "slack",
+      "embedder": "custom",
+      "placement_seed": 2,
+      "accuracy": false
+    },
+    {
+      "tier": "L",
+      "instance_seed": 2005,
+      "encoding": "reduced",
+      "embedder": "blade",
+      "placement_seed": 2,
+      "accuracy": false
+    },
+    {
+      "tier": "L",
+      "instance_seed": 2005,
+      "encoding": "reduced",
+      "embedder": "custom",
+      "placement_seed": 2,
+      "accuracy": false
+    },
+    {
+      "tier": "L",
+      "instance_seed": 2005,
+      "encoding": "slack",
+      "embedder": "blade",
+      "placement_seed": 2,
+      "accuracy": false
+    },
+    {
+      "tier": "L",
+      "instance_seed": 2005,
+      "encoding": "slack",
+      "embedder": "custom",
+      "placement_seed": 2,
+      "accuracy": false
+    },
+    {
+      "tier": "S",
+      "instance_seed": 2002,
+      "encoding": "reduced",
+      "embedder": "blade",
+      "placement_seed": 2,
+      "accuracy": false
+    },
+    {
+      "tier": "S",
+      "instance_seed": 2002,
+      "encoding": "reduced",
+      "embedder": "custom",
+      "placement_seed": 2,
+      "accuracy": false
+    },
+    {
+      "tier": "S",
+      "instance_seed": 2002,
+      "encoding": "slack",
+      "embedder": "blade",
+      "placement_seed": 2,
+      "accuracy": false
+    },
+    {
+      "tier": "S",
+      "instance_seed": 2002,
+      "encoding": "slack",
+      "embedder": "custom",
+      "placement_seed": 2,
+      "accuracy": false
+    },
+    {
+      "tier": "M",
+      "instance_seed": 2006,
+      "encoding": "reduced",
+      "embedder": "blade",
+      "placement_seed": 2,
+      "accuracy": false
+    },
+    {
+      "tier": "M",
+      "instance_seed": 2006,
+      "encoding": "reduced",
+      "embedder": "custom",
+      "placement_seed": 2,
+      "accuracy": false
+    },
+    {
+      "tier": "M",
+      "instance_seed": 2006,
+      "encoding": "slack",
+      "embedder": "blade",
+      "placement_seed": 2,
+      "accuracy": false
+    },
+    {
+      "tier": "M",
+      "instance_seed": 2006,
+      "encoding": "slack",
+      "embedder": "custom",
+      "placement_seed": 2,
+      "accuracy": false
+    },
+    {
+      "tier": "S",
+      "instance_seed": 2006,
+      "encoding": "reduced",
+      "embedder": "blade",
+      "placement_seed": 2,
+      "accuracy": false
+    },
+    {
+      "tier": "S",
+      "instance_seed": 2006,
+      "encoding": "reduced",
+      "embedder": "custom",
+      "placement_seed": 2,
+      "accuracy": false
+    },
+    {
+      "tier": "S",
+      "instance_seed": 2006,
+      "encoding": "slack",
+      "embedder": "blade",
+      "placement_seed": 2,
+      "accuracy": false
+    },
+    {
+      "tier": "S",
+      "instance_seed": 2006,
+      "encoding": "slack",
+      "embedder": "custom",
+      "placement_seed": 2,
+      "accuracy": false
+    },
+    {
+      "tier": "M",
+      "instance_seed": 2007,
+      "encoding": "reduced",
+      "embedder": "blade",
+      "placement_seed": 2,
+      "accuracy": false
+    },
+    {
+      "tier": "M",
+      "instance_seed": 2007,
+      "encoding": "reduced",
+      "embedder": "custom",
+      "placement_seed": 2,
+      "accuracy": false
+    },
+    {
+      "tier": "M",
+      "instance_seed": 2007,
+      "encoding": "slack",
+      "embedder": "blade",
+      "placement_seed": 2,
+      "accuracy": false
+    },
+    {
+      "tier": "M",
+      "instance_seed": 2007,
+      "encoding": "slack",
+      "embedder": "custom",
+      "placement_seed": 2,
+      "accuracy": false
+    },
+    {
+      "tier": "L",
+      "instance_seed": 2011,
+      "encoding": "reduced",
+      "embedder": "blade",
+      "placement_seed": 2,
+      "accuracy": false
+    },
+    {
+      "tier": "L",
+      "instance_seed": 2011,
+      "encoding": "reduced",
+      "embedder": "custom",
+      "placement_seed": 2,
+      "accuracy": false
+    },
+    {
+      "tier": "L",
+      "instance_seed": 2011,
+      "encoding": "slack",
+      "embedder": "blade",
+      "placement_seed": 2,
+      "accuracy": false
+    },
+    {
+      "tier": "L",
+      "instance_seed": 2011,
+      "encoding": "slack",
+      "embedder": "custom",
+      "placement_seed": 2,
+      "accuracy": false
+    },
+    {
+      "tier": "L",
+      "instance_seed": 2013,
+      "encoding": "reduced",
+      "embedder": "blade",
+      "placement_seed": 2,
+      "accuracy": false
+    },
+    {
+      "tier": "L",
+      "instance_seed": 2013,
+      "encoding": "reduced",
+      "embedder": "custom",
+      "placement_seed": 2,
+      "accuracy": false
+    },
+    {
+      "tier": "L",
+      "instance_seed": 2013,
+      "encoding": "slack",
+      "embedder": "blade",
+      "placement_seed": 2,
+      "accuracy": false
+    },
+    {
+      "tier": "L",
+      "instance_seed": 2013,
+      "encoding": "slack",
+      "embedder": "custom",
+      "placement_seed": 2,
+      "accuracy": false
+    },
+    {
+      "tier": "L",
+      "instance_seed": 2015,
+      "encoding": "reduced",
+      "embedder": "blade",
+      "placement_seed": 2,
+      "accuracy": false
+    },
+    {
+      "tier": "L",
+      "instance_seed": 2015,
+      "encoding": "reduced",
+      "embedder": "custom",
+      "placement_seed": 2,
+      "accuracy": false
+    },
+    {
+      "tier": "L",
+      "instance_seed": 2015,
+      "encoding": "slack",
+      "embedder": "blade",
+      "placement_seed": 2,
+      "accuracy": false
+    },
+    {
+      "tier": "L",
+      "instance_seed": 2015,
+      "encoding": "slack",
+      "embedder": "custom",
+      "placement_seed": 2,
+      "accuracy": false
+    },
+    {
+      "tier": "S",
+      "instance_seed": 2012,
+      "encoding": "reduced",
+      "embedder": "blade",
+      "placement_seed": 2,
+      "accuracy": false
+    },
+    {
+      "tier": "S",
+      "instance_seed": 2012,
+      "encoding": "reduced",
+      "embedder": "custom",
+      "placement_seed": 2,
+      "accuracy": false
+    },
+    {
+      "tier": "S",
+      "instance_seed": 2012,
+      "encoding": "slack",
+      "embedder": "blade",
+      "placement_seed": 2,
+      "accuracy": false
+    },
+    {
+      "tier": "S",
+      "instance_seed": 2012,
+      "encoding": "slack",
+      "embedder": "custom",
+      "placement_seed": 2,
+      "accuracy": false
+    },
+    {
+      "tier": "L",
+      "instance_seed": 2017,
+      "encoding": "reduced",
+      "embedder": "blade",
+      "placement_seed": 2,
+      "accuracy": false
+    },
+    {
+      "tier": "L",
+      "instance_seed": 2017,
+      "encoding": "reduced",
+      "embedder": "custom",
+      "placement_seed": 2,
+      "accuracy": false
+    },
+    {
+      "tier": "L",
+      "instance_seed": 2017,
+      "encoding": "slack",
+      "embedder": "blade",
+      "placement_seed": 2,
+      "accuracy": false
+    },
+    {
+      "tier": "L",
+      "instance_seed": 2017,
+      "encoding": "slack",
+      "embedder": "custom",
+      "placement_seed": 2,
+      "accuracy": false
+    },
+    {
+      "tier": "M",
+      "instance_seed": 2017,
+      "encoding": "reduced",
+      "embedder": "blade",
+      "placement_seed": 2,
+      "accuracy": false
+    },
+    {
+      "tier": "M",
+      "instance_seed": 2017,
+      "encoding": "reduced",
+      "embedder": "custom",
+      "placement_seed": 2,
+      "accuracy": false
+    },
+    {
+      "tier": "M",
+      "instance_seed": 2017,
+      "encoding": "slack",
+      "embedder": "blade",
+      "placement_seed": 2,
+      "accuracy": false
+    },
+    {
+      "tier": "M",
+      "instance_seed": 2017,
+      "encoding": "slack",
+      "embedder": "custom",
+      "placement_seed": 2,
+      "accuracy": false
+    },
+    {
+      "tier": "M",
+      "instance_seed": 2018,
+      "encoding": "reduced",
+      "embedder": "blade",
+      "placement_seed": 2,
+      "accuracy": false
+    },
+    {
+      "tier": "M",
+      "instance_seed": 2018,
+      "encoding": "reduced",
+      "embedder": "custom",
+      "placement_seed": 2,
+      "accuracy": false
+    },
+    {
+      "tier": "M",
+      "instance_seed": 2018,
+      "encoding": "slack",
+      "embedder": "blade",
+      "placement_seed": 2,
+      "accuracy": false
+    },
+    {
+      "tier": "M",
+      "instance_seed": 2018,
+      "encoding": "slack",
+      "embedder": "custom",
+      "placement_seed": 2,
+      "accuracy": false
+    },
+    {
+      "tier": "S",
+      "instance_seed": 2031,
+      "encoding": "reduced",
+      "embedder": "blade",
+      "placement_seed": 2,
+      "accuracy": false
+    },
+    {
+      "tier": "S",
+      "instance_seed": 2031,
+      "encoding": "reduced",
+      "embedder": "custom",
+      "placement_seed": 2,
+      "accuracy": false
+    },
+    {
+      "tier": "S",
+      "instance_seed": 2031,
+      "encoding": "slack",
+      "embedder": "blade",
+      "placement_seed": 2,
+      "accuracy": false
+    },
+    {
+      "tier": "S",
+      "instance_seed": 2031,
+      "encoding": "slack",
+      "embedder": "custom",
+      "placement_seed": 2,
+      "accuracy": false
+    },
+    {
+      "tier": "S",
+      "instance_seed": 2040,
+      "encoding": "reduced",
+      "embedder": "blade",
+      "placement_seed": 2,
+      "accuracy": false
+    },
+    {
+      "tier": "S",
+      "instance_seed": 2040,
+      "encoding": "reduced",
+      "embedder": "custom",
+      "placement_seed": 2,
+      "accuracy": false
+    },
+    {
+      "tier": "S",
+      "instance_seed": 2040,
+      "encoding": "slack",
+      "embedder": "blade",
+      "placement_seed": 2,
+      "accuracy": false
+    },
+    {
+      "tier": "S",
+      "instance_seed": 2040,
+      "encoding": "slack",
+      "embedder": "custom",
+      "placement_seed": 2,
+      "accuracy": false
+    },
+    {
+      "tier": "S",
+      "instance_seed": 2042,
+      "encoding": "reduced",
+      "embedder": "blade",
+      "placement_seed": 2,
+      "accuracy": false
+    },
+    {
+      "tier": "S",
+      "instance_seed": 2042,
+      "encoding": "reduced",
+      "embedder": "custom",
+      "placement_seed": 2,
+      "accuracy": false
+    },
+    {
+      "tier": "S",
+      "instance_seed": 2042,
+      "encoding": "slack",
+      "embedder": "blade",
+      "placement_seed": 2,
+      "accuracy": false
+    },
+    {
+      "tier": "S",
+      "instance_seed": 2042,
+      "encoding": "slack",
+      "embedder": "custom",
+      "placement_seed": 2,
+      "accuracy": false
+    },
+    {
+      "tier": "S",
+      "instance_seed": 2060,
+      "encoding": "reduced",
+      "embedder": "blade",
+      "placement_seed": 2,
+      "accuracy": false
+    },
+    {
+      "tier": "S",
+      "instance_seed": 2060,
+      "encoding": "reduced",
+      "embedder": "custom",
+      "placement_seed": 2,
+      "accuracy": false
+    },
+    {
+      "tier": "S",
+      "instance_seed": 2060,
+      "encoding": "slack",
+      "embedder": "blade",
+      "placement_seed": 2,
+      "accuracy": false
+    },
+    {
+      "tier": "S",
+      "instance_seed": 2060,
+      "encoding": "slack",
+      "embedder": "custom",
+      "placement_seed": 2,
+      "accuracy": false
+    },
+    {
+      "tier": "S",
+      "instance_seed": 2062,
+      "encoding": "reduced",
+      "embedder": "blade",
+      "placement_seed": 2,
+      "accuracy": false
+    },
+    {
+      "tier": "S",
+      "instance_seed": 2062,
+      "encoding": "reduced",
+      "embedder": "custom",
+      "placement_seed": 2,
+      "accuracy": false
+    },
+    {
+      "tier": "S",
+      "instance_seed": 2062,
+      "encoding": "slack",
+      "embedder": "blade",
+      "placement_seed": 2,
+      "accuracy": false
+    },
+    {
+      "tier": "S",
+      "instance_seed": 2062,
+      "encoding": "slack",
+      "embedder": "custom",
+      "placement_seed": 2,
+      "accuracy": false
+    },
+    {
+      "tier": "S",
+      "instance_seed": 2063,
+      "encoding": "reduced",
+      "embedder": "blade",
+      "placement_seed": 2,
+      "accuracy": false
+    },
+    {
+      "tier": "S",
+      "instance_seed": 2063,
+      "encoding": "reduced",
+      "embedder": "custom",
+      "placement_seed": 2,
+      "accuracy": false
+    },
+    {
+      "tier": "S",
+      "instance_seed": 2063,
+      "encoding": "slack",
+      "embedder": "blade",
+      "placement_seed": 2,
+      "accuracy": false
+    },
+    {
+      "tier": "S",
+      "instance_seed": 2063,
+      "encoding": "slack",
+      "embedder": "custom",
+      "placement_seed": 2,
+      "accuracy": false
+    },
+    {
+      "tier": "S",
+      "instance_seed": 2073,
+      "encoding": "reduced",
+      "embedder": "blade",
+      "placement_seed": 2,
+      "accuracy": false
+    },
+    {
+      "tier": "S",
+      "instance_seed": 2073,
+      "encoding": "reduced",
+      "embedder": "custom",
+      "placement_seed": 2,
+      "accuracy": false
+    },
+    {
+      "tier": "S",
+      "instance_seed": 2073,
+      "encoding": "slack",
+      "embedder": "blade",
+      "placement_seed": 2,
+      "accuracy": false
+    },
+    {
+      "tier": "S",
+      "instance_seed": 2073,
+      "encoding": "slack",
+      "embedder": "custom",
+      "placement_seed": 2,
+      "accuracy": false
+    }
+  ]
+}

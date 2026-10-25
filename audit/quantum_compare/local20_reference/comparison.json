@@ -1,0 +1,71 @@
+{
+  "runs": [
+    {
+      "id": "M_2002_reduced_original_geometric",
+      "dt_ns": 10,
+      "seconds": 569.7590525830165,
+      "norm": 0.9999999999999023,
+      "scores": {
+        "assignment_valid": 0.9998613978908052,
+        "feasible": 0.038913227172386086,
+        "optimal": 1.146500767671123e-05,
+        "full_encoding_feasible": 0.038913227172386086,
+        "optimal_full_encoding": 1.146500767671123e-05
+      }
+    },
+    {
+      "id": "M_2002_reduced_original_intended",
+      "dt_ns": 10,
+      "seconds": 891.140326666995,
+      "norm": 1.0000000000003817,
+      "scores": {
+        "assignment_valid": 0.99999081953258,
+        "feasible": 0.36794574478649833,
+        "optimal": 0.006612819129052648,
+        "full_encoding_feasible": 0.36794574478649833,
+        "optimal_full_encoding": 0.006612819129052648
+      }
+    },
+    {
+      "id": "M_2002_reduced_original_intended",
+      "dt_ns": 5,
+      "seconds": 749.1893691249425,
+      "norm": 1.0000000000002485,
+      "scores": {
+        "assignment_valid": 0.9999906737526139,
+        "feasible": 0.36794195431993393,
+        "optimal": 0.0066125707071348384,
+        "full_encoding_feasible": 0.36794195431993393,
+        "optimal_full_encoding": 0.0066125707071348384
+      }
+    }
+  ],
+  "comparison_available": true,
+  "intended_timestep_probability_TV": 3.600600056110107e-05,
+  "intended_timestep_score_changes": {
+    "assignment_valid": -1.4577996609865806e-07,
+    "feasible": -3.79046656440174e-06,
+    "optimal": -2.484219178092856e-07,
+    "full_encoding_feasible": -3.79046656440174e-06,
+    "optimal_full_encoding": -2.484219178092856e-07
+  },
+  "cloud_invalid_examples": [
+    {
+      "bitstring": "01001000101001110000",
+      "count": 1,
+      "logical_index": 58642,
+      "local_probability": 1.2330189472799992e-09,
+      "fine_dt_probability": 1.2554600820675084e-09
+    },
+    {
+      "bitstring": "01000001110010001010",
+      "count": 1,
+      "logical_index": 332674,
+      "local_probability": 8.731056622611296e-10,
+      "fine_dt_probability": 8.934489499676391e-10
+    }
+  ],
+  "fine_dt_invalid_probability": 9.326247386143294e-06,
+  "fine_dt_cloud_count_upper_tail": 0.015376090419155393,
+  "scope": "One halving of timestep on intended arm. No geometric timestep refinement, tensor-network or global convergence guarantee. Cloud rare-tail finding retained without selective resampling."
+}

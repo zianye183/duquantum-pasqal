@@ -1,3 +1,18 @@
+# Track A submission
+
+Start with the [complete methods, results and reproduction guide](audit/quantum_compare/REPORT.md). The [submission folder](submission/) contains the final report, presentation and per-condition metrics.
+
+```bash
+python3.12 -m venv .venv
+source .venv/bin/activate
+python -m pip install -r requirements-replay.txt
+python reproduce.py
+```
+
+The default command is offline. See the guide for fresh small simulations, CPLEX verification, source provenance and unresolved limitations.
+
+---
+
 # DuQuantum × Pasqal Challenge
 
 Workspace for the Pasqal analog quantum optimization challenge (neutral atoms, QUBO).

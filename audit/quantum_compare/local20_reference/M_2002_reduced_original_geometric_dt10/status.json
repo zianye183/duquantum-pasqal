@@ -1,0 +1,81 @@
+{
+  "id": "M_2002_reduced_original_geometric",
+  "status": "completed",
+  "configuration_changes": [
+    "gpu=False",
+    "additional local final-state observable",
+    "dt=10 ns"
+  ],
+  "dt_ns": 10,
+  "source_hashes": {
+    "sequence": "d01b5d5358c25f029906c865b8643a79861e7b14b8276d8aba01c3d4dca6a03b",
+    "config": "f14dd3fb22405a3cfc5dad2638243c8d2851882e2f71deaf4ec1a0c2ebafd24e",
+    "metadata": "5b8ffa260951aa2a900903ef5c0fc71046d01b8c3f2d1ba1f87b55f21dedef68"
+  },
+  "counts": 20000,
+  "atom_order": [
+    "q0",
+    "q1",
+    "q2",
+    "q3",
+    "q4",
+    "q5",
+    "q6",
+    "q7",
+    "q8",
+    "q9",
+    "q10",
+    "q11",
+    "q12",
+    "q13",
+    "q14",
+    "q15",
+    "q16",
+    "q17",
+    "q18",
+    "q19"
+  ],
+  "scores": {
+    "assignment_valid": 0.9999499999999999,
+    "feasible": 0.037500000000000006,
+    "optimal": 0.0,
+    "full_encoding_feasible": 0.037500000000000006,
+    "optimal_full_encoding": 0.0
+  },
+  "state_class": "StateVector",
+  "state_public_attributes": [
+    "data",
+    "eigenstates",
+    "from_state_amplitudes",
+    "get_basis_state_from_index",
+    "infer_one_state",
+    "inner",
+    "make",
+    "n_qudits",
+    "norm",
+    "overlap",
+    "qudit_dim",
+    "sample",
+    "zero"
+  ],
+  "raw_state_attribute": "data",
+  "raw_state_norm": 0.9999999999999023,
+  "state_conversion": "Installed emu-sv2.10 data uses occupation bits (verified StateVector.from_state_amplitudes and sample); reversed/permuted to logical little-endian, no complement.",
+  "eigenstates": [
+    "r",
+    "g"
+  ],
+  "exact_probability_scores": {
+    "assignment_valid": 0.9998613978908052,
+    "feasible": 0.038913227172386086,
+    "optimal": 1.146500767671123e-05,
+    "full_encoding_feasible": 0.038913227172386086,
+    "optimal_full_encoding": 1.146500767671123e-05
+  },
+  "seconds": 569.7590525830165,
+  "versions": {
+    "pulser": "1.9.1",
+    "emu-sv": "2.10.0",
+    "torch": "2.14.1"
+  }
+}

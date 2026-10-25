@@ -1,0 +1,52 @@
+{
+  "id": "S_2002_slack_original_geometric",
+  "status": "completed",
+  "digest": "9a812ba6bc87f7edf3ba7e65fc62096c28f2872b596c269be7832414fad41c1d",
+  "submitted_config_sha256": "6362f9f25489f82c01d26ed5751c8d74e9cc2208a48648a7916d2c44b7a39f53",
+  "submitted_at": "2026-10-25T01:23:43.177763-04:00",
+  "batch_id": "cc8e7316-60c8-4bdf-8c96-77cf6f2a9887",
+  "remote_status": "BatchStatus.DONE",
+  "last_observed_at": "2026-10-25T01:24:26.566722-04:00",
+  "remote_job_status_counts": {
+    "PENDING": 0,
+    "RUNNING": 0,
+    "DONE": 1,
+    "ERROR": 0,
+    "CANCELED": 0,
+    "CANCELING": 0
+  },
+  "finished_at": "2026-10-25T01:24:27.919146-04:00",
+  "shots": 20000,
+  "result_atom_order": [
+    "q0",
+    "q1",
+    "q2",
+    "q3",
+    "q4",
+    "q5",
+    "q6",
+    "q7",
+    "q8",
+    "q9",
+    "q10",
+    "q11",
+    "q12",
+    "q13"
+  ],
+  "sequence_atom_order": [
+    "q0",
+    "q1",
+    "q2",
+    "q3",
+    "q4",
+    "q5",
+    "q6",
+    "q7",
+    "q8",
+    "q9",
+    "q10",
+    "q11",
+    "q12",
+    "q13"
+  ]
+}

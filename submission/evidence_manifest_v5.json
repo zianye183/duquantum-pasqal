@@ -1,0 +1,359 @@
+{
+  "captured_et": "2026-10-25T09:01:05.251260-04:00",
+  "note": "Source reports can have earlier evidence cutoffs. Distinct study counts are not additive because instances and controls overlap.",
+  "sources": [
+    {
+      "key": "audit",
+      "source": "/Users/alanye/duquantum-pasqal/audit/REPORT.md",
+      "snapshot": "/Users/alanye/.codex/worktrees/2da4/duquantum-pasqal/audit/challenge_wrapup/sources/audit.md",
+      "sha256": "4e1da659fe7637d558ab4e53b2f2bb9425e26bad93a7543dbaf52e7914ad5791",
+      "source_modified_et": "2026-10-24T21:43:10.185322-04:00"
+    },
+    {
+      "key": "scaling",
+      "source": "/Users/alanye/duquantum-pasqal/audit/scaling/REPORT.md",
+      "snapshot": "/Users/alanye/.codex/worktrees/2da4/duquantum-pasqal/audit/challenge_wrapup/sources/scaling.md",
+      "sha256": "e7b4faa807984c12cca9e13d7581aeda86aee0fc63934a06c13b357a34b04b71",
+      "source_modified_et": "2026-10-25T00:11:09.237288-04:00"
+    },
+    {
+      "key": "screen",
+      "source": "/Users/alanye/duquantum-pasqal/audit/encoding/report.md",
+      "snapshot": "/Users/alanye/.codex/worktrees/2da4/duquantum-pasqal/audit/challenge_wrapup/sources/screen.md",
+      "sha256": "2073f83407f590ed7e7faaf54be02fd17a4b43f37c1a6362f6774dd00e8cc9d4",
+      "source_modified_et": "2026-10-24T21:38:06.605387-04:00"
+    },
+    {
+      "key": "tuning",
+      "source": "/Users/alanye/duquantum-pasqal/audit/scaling/tuning_pilot/REPORT.md",
+      "snapshot": "/Users/alanye/.codex/worktrees/2da4/duquantum-pasqal/audit/challenge_wrapup/sources/tuning.md",
+      "sha256": "854d89716dec503eb3f63087d006ab2654a8c0dcdaf118d8cf1c93d2cf6023c9",
+      "source_modified_et": "2026-10-24T22:44:05.743160-04:00"
+    },
+    {
+      "key": "initialization",
+      "source": "/Users/alanye/duquantum-pasqal/audit/scaling/init_diagnostic/REPORT.md",
+      "snapshot": "/Users/alanye/.codex/worktrees/2da4/duquantum-pasqal/audit/challenge_wrapup/sources/initialization.md",
+      "sha256": "737b2dec7f7645c1050c86eb4bff1befe3b44df32f893d31d63801fbd44e9ec4",
+      "source_modified_et": "2026-10-24T22:40:08.317260-04:00"
+    },
+    {
+      "key": "classical",
+      "source": "/Users/alanye/.codex/worktrees/75c0/duquantum-pasqal/audit/fidelity/classical_compare/REPORT.md",
+      "snapshot": "/Users/alanye/.codex/worktrees/2da4/duquantum-pasqal/audit/challenge_wrapup/sources/classical.md",
+      "sha256": "a3606c8719a3ce7aff3f87fc9a20b1953239935f2c38414cd606ecfcea93533e",
+      "source_modified_et": "2026-10-25T00:36:38.075833-04:00"
+    },
+    {
+      "key": "fidelity",
+      "source": "/Users/alanye/.codex/worktrees/75c0/duquantum-pasqal/audit/fidelity/REPORT.md",
+      "snapshot": "/Users/alanye/.codex/worktrees/2da4/duquantum-pasqal/audit/challenge_wrapup/sources/fidelity.md",
+      "sha256": "b55af3366757ba7243be3e87c12f573bf9a064673b49b611e0e203ea0c03fb5d",
+      "source_modified_et": "2026-10-25T00:36:38.072949-04:00"
+    },
+    {
+      "key": "free_helpers",
+      "source": "/Users/alanye/.codex/worktrees/75c0/duquantum-pasqal/audit/auxiliary_atoms/REPORT.md",
+      "snapshot": "/Users/alanye/.codex/worktrees/2da4/duquantum-pasqal/audit/challenge_wrapup/sources/free_helpers.md",
+      "sha256": "d832836a68b5d684bba91185602916f2e9fbeb9dd72dd8c96f022bb319f8c81a",
+      "source_modified_et": "2026-10-25T07:13:23.972708-04:00"
+    },
+    {
+      "key": "expanded_helpers",
+      "source": "/Users/alanye/.codex/worktrees/75c0/duquantum-pasqal/audit/auxiliary_atoms/expansion/analysis/REPORT.md",
+      "snapshot": "/Users/alanye/.codex/worktrees/2da4/duquantum-pasqal/audit/challenge_wrapup/sources/expanded_helpers.md",
+      "sha256": "c9d87f1a04d3add2c3a7335213b753a311d622cd5ddd0d9b1c25e046070e1e82",
+      "source_modified_et": "2026-10-25T08:59:21.715062-04:00"
+    },
+    {
+      "key": "correction",
+      "source": "/Users/alanye/.codex/worktrees/75c0/duquantum-pasqal/audit/auxiliary_atoms/interpolation/REPORT.md",
+      "snapshot": "/Users/alanye/.codex/worktrees/2da4/duquantum-pasqal/audit/challenge_wrapup/sources/correction.md",
+      "sha256": "07e90da0167b588bad8c684251998d870bde9b1cf00da26c108135971490a641",
+      "source_modified_et": "2026-10-25T06:42:03.815321-04:00"
+    },
+    {
+      "key": "wire_static",
+      "source": "/Users/alanye/duquantum-pasqal/audit/redundancy/static/SUMMARY.md",
+      "snapshot": "/Users/alanye/.codex/worktrees/2da4/duquantum-pasqal/audit/challenge_wrapup/sources/wire_static.md",
+      "sha256": "a511a0c3d077ad62a5a6a13697ec949cfe8d365ae7f2e4a6070abb30aae46853",
+      "source_modified_et": "2026-10-25T06:59:59.531893-04:00"
+    },
+    {
+      "key": "wire_quantum",
+      "source": "/Users/alanye/duquantum-pasqal/audit/redundancy/REPORT.md",
+      "snapshot": "/Users/alanye/.codex/worktrees/2da4/duquantum-pasqal/audit/challenge_wrapup/sources/wire_quantum.md",
+      "sha256": "b16308740e953554e02215b3e15e51cc19066de1c6be8f2dd660ebdfeea9ba7d",
+      "source_modified_et": "2026-10-25T09:00:59.019067-04:00"
+    },
+    {
+      "key": "wire_protocol",
+      "source": "/Users/alanye/duquantum-pasqal/audit/redundancy/PROTOCOL.md",
+      "snapshot": "/Users/alanye/.codex/worktrees/2da4/duquantum-pasqal/audit/challenge_wrapup/sources/wire_protocol.md",
+      "sha256": "0ed28750fcfb623ba231d30ab2ed060b591669a3f3641a69ae092df35ef2935a",
+      "source_modified_et": "2026-10-25T06:58:25.301240-04:00"
+    },
+    {
+      "key": "quantum_compare",
+      "source": "/Users/alanye/.codex/worktrees/667b/duquantum-pasqal/audit/quantum_compare/REPORT.md",
+      "snapshot": "/Users/alanye/.codex/worktrees/2da4/duquantum-pasqal/audit/challenge_wrapup/sources/quantum_compare.md",
+      "sha256": "7e29f4f516479116c6ff57a549731dee2f2cfaf92d68021d893d16f9deca82ad",
+      "source_modified_et": "2026-10-25T07:38:08.907074-04:00"
+    },
+    {
+      "key": "small_pulse",
+      "source": "/Users/alanye/.codex/worktrees/667b/duquantum-pasqal/audit/quantum_compare/small_results/REPORT.md",
+      "snapshot": "/Users/alanye/.codex/worktrees/2da4/duquantum-pasqal/audit/challenge_wrapup/sources/small_pulse.md",
+      "sha256": "f756be8745844d89da5b65f702be97ab515cb5e04ee72bcce0c8dd15ccd82a2d",
+      "source_modified_et": "2026-10-25T07:35:13.695416-04:00"
+    },
+    {
+      "key": "formulations",
+      "source": "/Users/alanye/.codex/worktrees/667b/duquantum-pasqal/audit/quantum_compare/formulation_search/REPORT.md",
+      "snapshot": "/Users/alanye/.codex/worktrees/2da4/duquantum-pasqal/audit/challenge_wrapup/sources/formulations.md",
+      "sha256": "af17b8ca7fb9931259cacea830377cbf487388b65622ed1657db34cd66db6883",
+      "source_modified_et": "2026-10-25T01:23:06.165456-04:00"
+    },
+    {
+      "key": "placement",
+      "source": "/Users/alanye/.codex/worktrees/4ec6/duquantum-pasqal/audit/fidelity/multistart/REPORT.md",
+      "snapshot": "/Users/alanye/.codex/worktrees/2da4/duquantum-pasqal/audit/challenge_wrapup/sources/placement.md",
+      "sha256": "6c31004b15404c932c3ae29da6b596ebe91168df53fe3cb2c6cb197484359a12",
+      "source_modified_et": "2026-10-25T08:05:20.088333-04:00"
+    },
+    {
+      "key": "broader",
+      "source": "/Users/alanye/.codex/worktrees/track-a-research/duquantum-pasqal/research/track_a/REPORT.md",
+      "snapshot": "/Users/alanye/.codex/worktrees/2da4/duquantum-pasqal/audit/challenge_wrapup/sources/broader.md",
+      "sha256": "de59bd028d125504ea95f2814d036920323d3bc7fc0db24063ea368ad0943778",
+      "source_modified_et": "2026-10-24T17:21:09.970668-04:00"
+    },
+    {
+      "key": "candidate_protocol",
+      "source": "/Users/alanye/duquantum-pasqal/audit/candidate_ordering/PROTOCOL.md",
+      "snapshot": "/Users/alanye/.codex/worktrees/2da4/duquantum-pasqal/audit/challenge_wrapup/sources/candidate_protocol.md",
+      "sha256": "16865f393bfdfaf70cd6033848cb2b993ddb22f7e1974cf25824833443bf6ed5",
+      "source_modified_et": "2026-10-25T08:57:51.325670-04:00"
+    },
+    {
+      "key": "candidate_progress",
+      "source": "/Users/alanye/duquantum-pasqal/audit/candidate_ordering/state/fitting_progress.json",
+      "snapshot": "/Users/alanye/.codex/worktrees/2da4/duquantum-pasqal/audit/challenge_wrapup/sources/candidate_progress.json",
+      "sha256": "8211137468d85eea429668c364288ce76b0a320887542c2ae2d9a9799ed8be1b",
+      "source_modified_et": "2026-10-25T09:01:01.435230-04:00"
+    },
+    {
+      "key": "candidate_inputs",
+      "source": "/Users/alanye/duquantum-pasqal/audit/candidate_ordering/input_validation.json",
+      "snapshot": "/Users/alanye/.codex/worktrees/2da4/duquantum-pasqal/audit/challenge_wrapup/sources/candidate_inputs.json",
+      "sha256": "3d27dbd84f1207539910f5e56d9e282e75c9c9802cce4f358c9723d60610f299",
+      "source_modified_et": "2026-10-25T08:56:27.696978-04:00"
+    },
+    {
+      "key": "candidate_generation_2002",
+      "source": "/Users/alanye/duquantum-pasqal/audit/candidate_ordering/inputs/M_2002_reduced/generation_report.json",
+      "snapshot": "/Users/alanye/.codex/worktrees/2da4/duquantum-pasqal/audit/challenge_wrapup/sources/candidate_generation_2002.json",
+      "sha256": "9cfd267d6c3b2c2135eb03d6510f6d0763437d3f493bd49378ce072c54f441db",
+      "source_modified_et": "2026-10-25T08:54:32.090580-04:00"
+    },
+    {
+      "key": "candidate_generation_2006",
+      "source": "/Users/alanye/duquantum-pasqal/audit/candidate_ordering/inputs/M_2006_reduced/generation_report.json",
+      "snapshot": "/Users/alanye/.codex/worktrees/2da4/duquantum-pasqal/audit/challenge_wrapup/sources/candidate_generation_2006.json",
+      "sha256": "b939c0a8be3ef4c36a073bc50c2de21f85153aecf26ce4248f956c51db705ed1",
+      "source_modified_et": "2026-10-25T08:54:32.913125-04:00"
+    },
+    {
+      "key": "candidate_generation_2017",
+      "source": "/Users/alanye/duquantum-pasqal/audit/candidate_ordering/inputs/M_2017_reduced/generation_report.json",
+      "snapshot": "/Users/alanye/.codex/worktrees/2da4/duquantum-pasqal/audit/challenge_wrapup/sources/candidate_generation_2017.json",
+      "sha256": "d7b8865987a5a364b7e9a5cefb94d9e9c0510d5f6a85264f6aa1a039558b49cb",
+      "source_modified_et": "2026-10-25T08:54:33.761312-04:00"
+    },
+    {
+      "key": "candidate_final.md",
+      "snapshot": "/Users/alanye/.codex/worktrees/2da4/duquantum-pasqal/audit/track_a_report/build/candidate_final.md",
+      "sha256": "3c78a8827d833aab33f23719f1999cf06413ccc76dcd3d52233d64fddec77ceb"
+    },
+    {
+      "key": "candidate_review.md",
+      "snapshot": "/Users/alanye/.codex/worktrees/2da4/duquantum-pasqal/audit/track_a_report/build/candidate_review.md",
+      "sha256": "014e9ddac343806f8f9af1aeb52929b670b67dee0e1f5030e5c4ebe6160fa528"
+    },
+    {
+      "key": "best_gaps.csv",
+      "snapshot": "/Users/alanye/.codex/worktrees/2da4/duquantum-pasqal/audit/track_a_report/build/best_gaps.csv",
+      "sha256": "7cef0d01a88e01e6976033c8093473b03345ea413d8fcd7ed6640df48a9bd116"
+    },
+    {
+      "key": "historical_tuning",
+      "source": "/Users/alanye/.codex/worktrees/2da4/duquantum-pasqal/audit/track_a_talk/review/historical_tuning.md",
+      "snapshot": "/Users/alanye/.codex/worktrees/2da4/duquantum-pasqal/audit/track_a_talk/review/historical_tuning.md",
+      "sha256": "10204e22c5c9f7048d28fb52367740dbfb1b2b25630a87cec9d35821d53f7866"
+    },
+    {
+      "key": "historical_baselines",
+      "source": "/Users/alanye/.codex/worktrees/2da4/duquantum-pasqal/audit/track_a_talk/review/historical_baselines.md",
+      "snapshot": "/Users/alanye/.codex/worktrees/2da4/duquantum-pasqal/audit/track_a_talk/review/historical_baselines.md",
+      "sha256": "0f2a60fea905949c891ab6c2ccfc5898db92c1c26fe7c2524f6c218cb3ee7c7e"
+    },
+    {
+      "key": "report",
+      "source": "/Users/alanye/.codex/worktrees/2da4/duquantum-pasqal/audit/encoding/report.md",
+      "snapshot": "/Users/alanye/.codex/worktrees/2da4/duquantum-pasqal/audit/encoding/report.md",
+      "sha256": "2073f83407f590ed7e7faaf54be02fd17a4b43f37c1a6362f6774dd00e8cc9d4"
+    },
+    {
+      "key": "heldout",
+      "source": "/Users/alanye/.codex/worktrees/2da4/duquantum-pasqal/audit/encoding/heldout.json",
+      "snapshot": "/Users/alanye/.codex/worktrees/2da4/duquantum-pasqal/audit/encoding/heldout.json",
+      "sha256": "6dbae392800c86e4cb6327f468fd6a3202593faf41fab6a805a266f1fcbe5e56"
+    },
+    {
+      "key": "2012_full_balance_layout",
+      "source": "/Users/alanye/.codex/worktrees/2da4/duquantum-pasqal/audit/encoding_matched_controls/2012_full_balance_layout.json",
+      "snapshot": "/Users/alanye/.codex/worktrees/2da4/duquantum-pasqal/audit/encoding_matched_controls/2012_full_balance_layout.json",
+      "sha256": "f01cf162a1c102ccaa41190126fe423e2e63e797d8f30aed7a64910c84c16d61"
+    },
+    {
+      "key": "2002_reduced_balance_layout",
+      "source": "/Users/alanye/.codex/worktrees/2da4/duquantum-pasqal/audit/encoding_matched_controls/2002_reduced_balance_layout.json",
+      "snapshot": "/Users/alanye/.codex/worktrees/2da4/duquantum-pasqal/audit/encoding_matched_controls/2002_reduced_balance_layout.json",
+      "sha256": "0b0aa2406f042a3ace70117a6dfae728fd71d638a5cdd169f0fe0d4ed14e6836"
+    },
+    {
+      "key": "2006_slack_layout",
+      "source": "/Users/alanye/.codex/worktrees/2da4/duquantum-pasqal/audit/encoding_matched_controls/2006_slack_layout.json",
+      "snapshot": "/Users/alanye/.codex/worktrees/2da4/duquantum-pasqal/audit/encoding_matched_controls/2006_slack_layout.json",
+      "sha256": "03850bb95cbca2121da7aa831ba53fdd82aeb779ffb4f1dfe2558ee98a663fcc"
+    },
+    {
+      "key": "results",
+      "source": "/Users/alanye/.codex/worktrees/2da4/duquantum-pasqal/audit/encoding_matched_controls/results.json",
+      "snapshot": "/Users/alanye/.codex/worktrees/2da4/duquantum-pasqal/audit/encoding_matched_controls/results.json",
+      "sha256": "faddcf062ed69b2b53064586917fa8d908dbc04fb8e9133dafe24ecae7ad2a35"
+    },
+    {
+      "key": "2002_slack_layout",
+      "source": "/Users/alanye/.codex/worktrees/2da4/duquantum-pasqal/audit/encoding_matched_controls/2002_slack_layout.json",
+      "snapshot": "/Users/alanye/.codex/worktrees/2da4/duquantum-pasqal/audit/encoding_matched_controls/2002_slack_layout.json",
+      "sha256": "79e375a1f768669b98773524b18bb2ebe515bdd7a971f2adb2471e79776e1ff7"
+    },
+    {
+      "key": "2006_reduced_balance_layout",
+      "source": "/Users/alanye/.codex/worktrees/2da4/duquantum-pasqal/audit/encoding_matched_controls/2006_reduced_balance_layout.json",
+      "snapshot": "/Users/alanye/.codex/worktrees/2da4/duquantum-pasqal/audit/encoding_matched_controls/2006_reduced_balance_layout.json",
+      "sha256": "0dc96e3055a5eed628fbacce5732e962a8d86da8fd18f1042cc5135d6afba19e"
+    },
+    {
+      "key": "2012_slack_layout",
+      "source": "/Users/alanye/.codex/worktrees/2da4/duquantum-pasqal/audit/encoding_matched_controls/2012_slack_layout.json",
+      "snapshot": "/Users/alanye/.codex/worktrees/2da4/duquantum-pasqal/audit/encoding_matched_controls/2012_slack_layout.json",
+      "sha256": "055335bd86cdc5cb76f1e145304d16496df1d431308455fadbdf9c3004a867df"
+    },
+    {
+      "key": "manifest",
+      "source": "/Users/alanye/.codex/worktrees/2da4/duquantum-pasqal/audit/encoding_matched_controls/manifest.json",
+      "snapshot": "/Users/alanye/.codex/worktrees/2da4/duquantum-pasqal/audit/encoding_matched_controls/manifest.json",
+      "sha256": "0d93c4479d3ad6f44a82497fe47320aae8bcaba36531354821391376e02094d8"
+    },
+    {
+      "key": "progress",
+      "source": "/Users/alanye/.codex/worktrees/2da4/duquantum-pasqal/audit/encoding_matched_controls/progress.json",
+      "snapshot": "/Users/alanye/.codex/worktrees/2da4/duquantum-pasqal/audit/encoding_matched_controls/progress.json",
+      "sha256": "1a2e9ce8086abab764b4e14f04df255281c200d4435a425cdbc42656c175f2db"
+    },
+    {
+      "key": "2012_reduced_balance_layout",
+      "source": "/Users/alanye/.codex/worktrees/2da4/duquantum-pasqal/audit/encoding_matched_controls/2012_reduced_balance_layout.json",
+      "snapshot": "/Users/alanye/.codex/worktrees/2da4/duquantum-pasqal/audit/encoding_matched_controls/2012_reduced_balance_layout.json",
+      "sha256": "3a12a9db9b7be0d4feadeaaa95a4dc5c27a68d39ba3d82cdd16567ab057f1fde"
+    },
+    {
+      "key": "review",
+      "source": "/Users/alanye/.codex/worktrees/2da4/duquantum-pasqal/audit/encoding_matched_controls/review.json",
+      "snapshot": "/Users/alanye/.codex/worktrees/2da4/duquantum-pasqal/audit/encoding_matched_controls/review.json",
+      "sha256": "4459c4b1b752a0a2c257bb00d168766ab2084ac7f1c14fe767bc55edba401e06"
+    },
+    {
+      "key": "2002_full_balance_layout",
+      "source": "/Users/alanye/.codex/worktrees/2da4/duquantum-pasqal/audit/encoding_matched_controls/2002_full_balance_layout.json",
+      "snapshot": "/Users/alanye/.codex/worktrees/2da4/duquantum-pasqal/audit/encoding_matched_controls/2002_full_balance_layout.json",
+      "sha256": "d2d466262a967d418d932c569ad7cdc7524abaf51032c76bac36267087334a01"
+    },
+    {
+      "key": "2006_full_balance_layout",
+      "source": "/Users/alanye/.codex/worktrees/2da4/duquantum-pasqal/audit/encoding_matched_controls/2006_full_balance_layout.json",
+      "snapshot": "/Users/alanye/.codex/worktrees/2da4/duquantum-pasqal/audit/encoding_matched_controls/2006_full_balance_layout.json",
+      "sha256": "4699a0a545ec7bb34f689c8aaded3964056ff7eb484b6cd4c0930aa335368010"
+    },
+    {
+      "key": "obsidian_record",
+      "source": "/Users/alanye/.codex/worktrees/2da4/duquantum-pasqal/audit/encoding_matched_controls/obsidian_record.md",
+      "snapshot": "/Users/alanye/.codex/worktrees/2da4/duquantum-pasqal/audit/encoding_matched_controls/obsidian_record.md",
+      "sha256": "eb7a2bb29b7fc4e744f1a5ecc7a3a4cced76a1fddc7c2202f602ac9120fa266e"
+    },
+    {
+      "key": "summary",
+      "source": "/Users/alanye/.codex/worktrees/2da4/duquantum-pasqal/audit/encoding_matched_controls/summary.md",
+      "snapshot": "/Users/alanye/.codex/worktrees/2da4/duquantum-pasqal/audit/encoding_matched_controls/summary.md",
+      "sha256": "1a94769b457c72bbaa315f86e99c7b418e0d7a34645876ae478c7c8dd7245493"
+    },
+    {
+      "key": "REPORT",
+      "source": "/Users/alanye/.codex/worktrees/2da4/duquantum-pasqal/audit/encoding_matched_controls/REPORT.md",
+      "snapshot": "/Users/alanye/.codex/worktrees/2da4/duquantum-pasqal/audit/encoding_matched_controls/REPORT.md",
+      "sha256": "2aac14c08f62ff2d9650228662ee81cb761c40ef2ecb84ef59889eba1c7fe6f5"
+    },
+    {
+      "key": "PROTOCOL",
+      "source": "/Users/alanye/.codex/worktrees/2da4/duquantum-pasqal/audit/encoding_matched_controls/PROTOCOL.md",
+      "snapshot": "/Users/alanye/.codex/worktrees/2da4/duquantum-pasqal/audit/encoding_matched_controls/PROTOCOL.md",
+      "sha256": "a3911cdd07f133a4f76e25351631d9b31e625fe4f458c57b44bea47793516ca7"
+    },
+    {
+      "key": "results_track_a",
+      "source": "/Users/alanye/.codex/worktrees/2da4/duquantum-pasqal/audit/track_a_report/output/results_track_a.csv",
+      "sha256": "b448b74720d4fdb63419b16744eb2b7a3b7adcdb3b33856701bec56f252dfe7a"
+    },
+    {
+      "key": "cplex_scaling_small",
+      "source": "/Users/alanye/.codex/worktrees/2da4/duquantum-pasqal/audit/track_a_report/build/requirements/cplex_scaling_small.json",
+      "sha256": "6962e5426a31ddac8b68cb8c94c82b587ad160410ab7c93f216c68b0ae864850"
+    },
+    {
+      "key": "build_report_v4",
+      "source": "/Users/alanye/.codex/worktrees/2da4/duquantum-pasqal/audit/track_a_report/build/build_report_v4.py",
+      "sha256": "fbe3db436ea148bb6175ed874002bed21bd9cf0975e44843c09ffd25310c6105"
+    },
+    {
+      "key": "canonical_results_csv",
+      "source": "submission/results_track_a.csv",
+      "sha256": "808822d1988be067d8b3fe75d130de4d5cda273b40d72b21744a6ca64a36becf"
+    }
+  ],
+  "report": "track_a_report_v5",
+  "report_addendum": "Final scientific ledger includes two successful retry observations. Large best CVRP gap corrected from 24.46% to 16.19%; primary completed count 209. See submission review.",
+  "updated_et": "2026-10-25T11:05:28.221150-04:00",
+  "reference_groups": {
+    "1": [
+      "encoding audit and heldout screening"
+    ],
+    "2": [
+      "scaling",
+      "historical_baselines"
+    ],
+    "3": [
+      "classical",
+      "historical_tuning"
+    ],
+    "4": [
+      "encoding_matched_controls"
+    ],
+    "5": [
+      "quantum_compare",
+      "small_pulse",
+      "historical_tuning"
+    ]
+  }
+}

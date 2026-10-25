@@ -1,0 +1,9 @@
+{
+  "prepared_digest": "00590d2b24cbfc15632829ad35e22411de3e80c3a1ccaa7a890e38fe9e66a02f",
+  "runner_sha256": "62a551deb260177f6a4c3649f2ebc7b0cc1f4d946e92561da7153e4b8d830dff",
+  "submitted_sequence_sha256": "d01b5d5358c25f029906c865b8643a79861e7b14b8276d8aba01c3d4dca6a03b",
+  "submitted_config_sha256": "b3dfc2613d3483d4b367533e43890a9c787e53032cba939c0cd9d6707cd800e9",
+  "official_mps_validation": false,
+  "added_defaults": {},
+  "explicit_config_options_unchanged": true
+}

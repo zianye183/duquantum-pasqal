@@ -1,0 +1,65 @@
+{
+  "passed": true,
+  "source_hashes": {
+    "global_cloud_check_retry.py": "69f969d594c34bcfd3b3dc0dfb0149469f2cebd2722f0a9b86f64c054dfe50b5",
+    "geometric_compare_retry.py": "e2091e966a940ee0c311f07902f860a73ed6cba35534ea153446a5fa06ab8a3b"
+  },
+  "runs": [
+    {
+      "arm": "intended",
+      "dt": 10,
+      "raw_to_logical_max_error": 0.0,
+      "score_recompute_max_error": 5.551115123125783e-17,
+      "norm": 1.0000000000003817,
+      "seconds": 891.140326666995,
+      "source_hashes_verified": true
+    },
+    {
+      "arm": "geometric",
+      "dt": 10,
+      "raw_to_logical_max_error": 0.0,
+      "score_recompute_max_error": 1.1102230246251565e-16,
+      "norm": 0.9999999999999023,
+      "seconds": 569.7590525830165,
+      "source_hashes_verified": true
+    },
+    {
+      "arm": "intended",
+      "dt": 5,
+      "raw_to_logical_max_error": 0.0,
+      "score_recompute_max_error": 1.1102230246251565e-16,
+      "norm": 1.0000000000002485,
+      "seconds": 749.1893691249425,
+      "source_hashes_verified": true
+    },
+    {
+      "arm": "geometric",
+      "dt": 5,
+      "raw_to_logical_max_error": 0.0,
+      "score_recompute_max_error": 1.1102230246251565e-16,
+      "norm": 1.0000000000000553,
+      "seconds": 596.2239877500106,
+      "source_hashes_verified": true
+    }
+  ],
+  "timestep_TV": {
+    "intended": 3.600600056110107e-05,
+    "geometric": 2.4789925006191174e-05
+  },
+  "global_checks": [
+    {
+      "arm": "intended",
+      "grouping_and_counts_match": true,
+      "MC_exceedances_reproduced": 1433,
+      "tail": 0.7166416791604198
+    },
+    {
+      "arm": "geometric",
+      "grouping_and_counts_match": true,
+      "MC_exceedances_reproduced": 160,
+      "tail": 0.08045977011494253
+    }
+  ],
+  "original_timeout_retained": true,
+  "scope": "Artifact/source checks and deterministic scoring/Monte Carlo replay only; no new quantum simulation. Empirical diagnostic agreement is not a universal convergence or rare-tail accuracy certificate."
+}

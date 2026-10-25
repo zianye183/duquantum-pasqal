@@ -1,0 +1,23 @@
+{
+  "status": "complete",
+  "frozen_conditions": 208,
+  "exact_conditions": 178,
+  "exact_comparisons": 534,
+  "exact_unique_hamiltonians": 486,
+  "exact_state_evaluations": 35982144,
+  "exact_seconds": 37.26204504200723,
+  "larger_conditions": 40,
+  "larger_condition_variants": 112,
+  "larger_unique_coefficient_systems": 96,
+  "larger_certified_rows": 79,
+  "larger_time_limited_rows": 33,
+  "larger_solver_seconds": 333.3116847514175,
+  "medium_textbook_feasible_exclusion_proofs": 15,
+  "feasibility_solver_seconds": 30.258545208140276,
+  "cloud_submissions": 0,
+  "scope": "Classical diagonal energies; all primary small/medium claims independently checked; large timeout statuses retained",
+  "superseded_solver_seconds": 29.87000920891296,
+  "certificate_validation_failures": [],
+  "independent_review": "passed",
+  "figure_visually_inspected": true
+}

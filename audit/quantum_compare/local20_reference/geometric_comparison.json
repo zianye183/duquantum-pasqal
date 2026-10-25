@@ -1,0 +1,43 @@
+{
+  "probability_TV": 2.4789925006191174e-05,
+  "score_changes": {
+    "assignment_valid": -2.711730608950802e-07,
+    "feasible": -1.094992912745174e-06,
+    "optimal": 5.565200244253354e-10,
+    "full_encoding_feasible": -1.094992912745174e-06,
+    "optimal_full_encoding": 5.565200244253354e-10
+  },
+  "coarse_scores": {
+    "assignment_valid": 0.9998613978908052,
+    "feasible": 0.038913227172386086,
+    "optimal": 1.146500767671123e-05,
+    "full_encoding_feasible": 0.038913227172386086,
+    "optimal_full_encoding": 1.146500767671123e-05
+  },
+  "fine_scores": {
+    "assignment_valid": 0.9998611267177443,
+    "feasible": 0.03891213217947334,
+    "optimal": 1.1465564196735656e-05,
+    "full_encoding_feasible": 0.03891213217947334,
+    "optimal_full_encoding": 1.1465564196735656e-05
+  },
+  "fine_seconds": 596.2239877500106,
+  "cloud_optimal_examples": [
+    {
+      "bitstring": "00100110010100010010",
+      "count": 1,
+      "logical_index": 297572,
+      "local_probability": 1.2323968774017577e-06,
+      "fine_dt_probability": 1.2328959975727765e-06
+    },
+    {
+      "bitstring": "10010001000010001001",
+      "count": 1,
+      "logical_index": 594057,
+      "local_probability": 4.781064588479835e-06,
+      "fine_dt_probability": 4.780827818508725e-06
+    }
+  ],
+  "fine_dt_cloud_count_upper_tail": 0.02259715069848549,
+  "scope": "One timestep halving at unchanged official solver tolerances, not universal convergence certification. Cloud rare finding retained."
+}

@@ -1,0 +1,129 @@
+{
+  "all_pass": true,
+  "models": 3,
+  "pools": 9,
+  "rows": 4992,
+  "feasible_rows": 2496,
+  "checks": [
+    {
+      "id": "M_2002_reduced",
+      "split_overlap": 0,
+      "splits": [
+        {
+          "split": "train",
+          "rows": 768,
+          "unique_rows": 768,
+          "feasible": 384,
+          "unique_feasible_cost_levels": 332,
+          "checks_passed": true
+        },
+        {
+          "split": "validation",
+          "rows": 384,
+          "unique_rows": 384,
+          "feasible": 192,
+          "unique_feasible_cost_levels": 173,
+          "checks_passed": true
+        },
+        {
+          "split": "test",
+          "rows": 512,
+          "unique_rows": 512,
+          "feasible": 256,
+          "unique_feasible_cost_levels": 236,
+          "checks_passed": true
+        }
+      ]
+    },
+    {
+      "id": "M_2006_reduced",
+      "split_overlap": 0,
+      "splits": [
+        {
+          "split": "train",
+          "rows": 768,
+          "unique_rows": 768,
+          "feasible": 384,
+          "unique_feasible_cost_levels": 350,
+          "checks_passed": true
+        },
+        {
+          "split": "validation",
+          "rows": 384,
+          "unique_rows": 384,
+          "feasible": 192,
+          "unique_feasible_cost_levels": 182,
+          "checks_passed": true
+        },
+        {
+          "split": "test",
+          "rows": 512,
+          "unique_rows": 512,
+          "feasible": 256,
+          "unique_feasible_cost_levels": 240,
+          "checks_passed": true
+        }
+      ]
+    },
+    {
+      "id": "M_2017_reduced",
+      "split_overlap": 0,
+      "splits": [
+        {
+          "split": "train",
+          "rows": 768,
+          "unique_rows": 768,
+          "feasible": 384,
+          "unique_feasible_cost_levels": 339,
+          "checks_passed": true
+        },
+        {
+          "split": "validation",
+          "rows": 384,
+          "unique_rows": 384,
+          "feasible": 192,
+          "unique_feasible_cost_levels": 177,
+          "checks_passed": true
+        },
+        {
+          "split": "test",
+          "rows": 512,
+          "unique_rows": 512,
+          "feasible": 256,
+          "unique_feasible_cost_levels": 234,
+          "checks_passed": true
+        }
+      ]
+    }
+  ],
+  "file_hashes": {
+    "inputs/M_2002_reduced/model.json": "d5ddd42272f32c3fb88b378138b2bad4d0266469f7f8e8b1648a01de26632d7f",
+    "inputs/M_2002_reduced/train.npz": "47201cfd294115dfd2f8a265dca9e752896abfa922322b4c30b1cf32dcee2070",
+    "inputs/M_2002_reduced/generation_report.json": "9cfd267d6c3b2c2135eb03d6510f6d0763437d3f493bd49378ce072c54f441db",
+    "inputs/M_2002_reduced/validation_metadata.json": "103b9b6c11dc77e644574be67e19df58ded0cd0110bf2d26a7cad7c10e8dfc6f",
+    "inputs/M_2002_reduced/test.npz": "0a109070dd6b6d3bc3e0cb48c3a7871583d19955d254d2289fa559a9917f2332",
+    "inputs/M_2002_reduced/train_metadata.json": "1dfdf227cbcab65016f43dbd9fd3b9c2762cb0db25a9a24901cf432ef84d169d",
+    "inputs/M_2002_reduced/test_metadata.json": "81d5ee0af8260cd421c7632d78123aee138ead054922a2ab02bf3734b4a8e403",
+    "inputs/M_2002_reduced/validation.npz": "0c88b035cfdeaa2109b88d6319ce26e38e1bbe9628a5277a30d102627af3c4f1",
+    "inputs/M_2006_reduced/model.json": "f1c9ed84713ac58506968719b9935a6161e1ca118dd185aff178fd7e0f5086dd",
+    "inputs/M_2006_reduced/train.npz": "b7b9f26e60445a7760122afe27b8207ab38526d1713c19f569c0e387f61e14fc",
+    "inputs/M_2006_reduced/generation_report.json": "b939c0a8be3ef4c36a073bc50c2de21f85153aecf26ce4248f956c51db705ed1",
+    "inputs/M_2006_reduced/validation_metadata.json": "128ef7561b7bcb4c862ecb0a617d67628d7e073a78a935714efe87346f642bbd",
+    "inputs/M_2006_reduced/test.npz": "0bfbd01d53f91d513491727043f7e82fa4264ffe534a13d8ef43db2d99e83c16",
+    "inputs/M_2006_reduced/train_metadata.json": "7e8142248a4427bddc32d0b2ab8bd53d99d1883b34508344184e08ab692524ac",
+    "inputs/M_2006_reduced/test_metadata.json": "574bceac6a99d8cc39672b5d61f98cd7c0015df00f0f0b21baf011f3d8b58b17",
+    "inputs/M_2006_reduced/validation.npz": "46347a0459af36780a32cf3cc52ad25c355a1846002bcd61a29eebfbb1e84b0d",
+    "inputs/M_2017_reduced/model.json": "8672983394b563550077e25e34eab6a1271e6c9cfc191ad22ade22cb069b9161",
+    "inputs/M_2017_reduced/train.npz": "d645b7cb0d42203ebac74502522119ef5d742a8cb01409e90bbf9c617a5555f7",
+    "inputs/M_2017_reduced/generation_report.json": "d7b8865987a5a364b7e9a5cefb94d9e9c0510d5f6a85264f6aa1a039558b49cb",
+    "inputs/M_2017_reduced/validation_metadata.json": "ce107b7483a9a84cc882bd2dd09d8b66ccfe6a5c8516a0cea5991f53d2f8a8a9",
+    "inputs/M_2017_reduced/test.npz": "bf7b382f16003b7dececa1da81891cdb96d98acbd01f8116c0d927624df325ee",
+    "inputs/M_2017_reduced/train_metadata.json": "3ed883e5c6e47f9c553c7eacc6c9f7310c1f495c9baa272f02c29bebb0eed1bd",
+    "inputs/M_2017_reduced/test_metadata.json": "d232e6eccb7d7c46eccd595e1b592a219803adcfe8e53464cbf2e28b80e780c9",
+    "inputs/M_2017_reduced/validation.npz": "9569e296a2c399163a7602b000994b1a6e051cacd535100dff5965dc55ef51c1",
+    "candidates.py": "0dcc416111ac2b9e2518ad98157b79456f6dc120953074cb789bad9348253363",
+    "prepare_inputs.py": "b50aaf9da7edd341e37bfc746455de50ee48fc9b38bebf5b8af813fce6e8b26e",
+    "test_candidates.py": "e6794fd7571e6bfef1f280b772e3cbada147a06559dbadfa13f3c9d1c64b97d2"
+  },
+  "note": "Disjoint binary encodings, not necessarily disjoint vehicle-permutation-equivalent partitions; same three retrospective problems across splits."
+}

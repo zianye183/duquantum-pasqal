@@ -1,0 +1,39 @@
+{
+  "id": "S_2031_slack_alternative",
+  "mode": "intended",
+  "converged": true,
+  "history": [
+    {
+      "dt": 0.0025,
+      "tv_previous": 6.788478062266452e-05,
+      "seconds": 7.879577958025038,
+      "score": {
+        "assignment_valid": 0.9998611707741581,
+        "feasible": 0.9994938646286539,
+        "optimal": 0.002733966071660873,
+        "full_encoding_feasible": 0.042442723948983754,
+        "optimal_full_encoding": 0.00033333605728545654,
+        "conditional_feasible_cost": 94.12384625581304,
+        "normalization_error": 1.7985612998927536e-14
+      }
+    }
+  ],
+  "score": {
+    "assignment_valid": 0.9998611707741581,
+    "feasible": 0.9994938646286539,
+    "optimal": 0.002733966071660873,
+    "full_encoding_feasible": 0.042442723948983754,
+    "optimal_full_encoding": 0.00033333605728545654,
+    "conditional_feasible_cost": 94.12384625581304,
+    "normalization_error": 1.7985612998927536e-14
+  },
+  "study": "alternative_intended_tpe_11",
+  "split": "validation",
+  "pulse": {
+    "duration": 6.940779743893294,
+    "omega": 8.58323088576111,
+    "initial_detuning": -11.737886584104842,
+    "ramp_power": 1.1575788957786624,
+    "drive_power": 1.211268161809692
+  }
+}

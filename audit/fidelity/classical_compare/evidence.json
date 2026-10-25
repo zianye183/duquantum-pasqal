@@ -1,0 +1,128 @@
+{
+  "exhaustive_case_variant_checks": 534,
+  "exhaustive_checks_passed": true,
+  "checked_cases_by_atoms": {
+    "4": 60,
+    "14": 108,
+    "20": 10
+  },
+  "medium_exact_checks": [
+    {
+      "id": "M_2002_reduced_blade_0",
+      "variant": "intended",
+      "exact_minimum": -126.89268181013688,
+      "minimizer_bits": [
+        "00011001101000100001",
+        "00100110010100010010",
+        "01001000101001100100",
+        "01100010000001000110",
+        "10000100010110011000",
+        "10010001000010001001"
+      ],
+      "minimizers": 6,
+      "feasible_minimizers": 6,
+      "optimal_minimizers": 6
+    },
+    {
+      "id": "M_2002_reduced_blade_0",
+      "variant": "pairs_only",
+      "exact_minimum": -279.79980320766646,
+      "minimizer_bits": [
+        "01101010010110101001"
+      ],
+      "minimizers": 1,
+      "feasible_minimizers": 0,
+      "optimal_minimizers": 0
+    },
+    {
+      "id": "M_2002_reduced_blade_0",
+      "variant": "actual_endpoint",
+      "exact_minimum": -279.79980320766646,
+      "minimizer_bits": [
+        "01101010010110101001"
+      ],
+      "minimizers": 1,
+      "feasible_minimizers": 0,
+      "optimal_minimizers": 0
+    },
+    {
+      "id": "M_2002_reduced_custom_0",
+      "variant": "intended",
+      "exact_minimum": -94.56240417684998,
+      "minimizer_bits": [
+        "00011001101000100001",
+        "00100110010100010010",
+        "01001000101001100100",
+        "01100010000001000110",
+        "10000100010110011000",
+        "10010001000010001001"
+      ],
+      "minimizers": 6,
+      "feasible_minimizers": 6,
+      "optimal_minimizers": 6
+    },
+    {
+      "id": "M_2002_reduced_custom_0",
+      "variant": "pairs_only",
+      "exact_minimum": -217.52857644784243,
+      "minimizer_bits": [
+        "00101110111001100111"
+      ],
+      "minimizers": 1,
+      "feasible_minimizers": 0,
+      "optimal_minimizers": 0
+    },
+    {
+      "id": "M_2002_reduced_custom_0",
+      "variant": "actual_endpoint",
+      "exact_minimum": -219.9317461808927,
+      "minimizer_bits": [
+        "10101110111001101001"
+      ],
+      "minimizers": 1,
+      "feasible_minimizers": 0,
+      "optimal_minimizers": 0
+    }
+  ],
+  "milp_comparisons": [
+    {
+      "id": "M_2002_reduced_blade_0",
+      "variant": "intended",
+      "milp_status": 0,
+      "gap_to_exhaustive": 7.105427357601002e-14
+    },
+    {
+      "id": "M_2002_reduced_blade_0",
+      "variant": "pairs_only",
+      "milp_status": 0,
+      "gap_to_exhaustive": 5.684341886080802e-14
+    },
+    {
+      "id": "M_2002_reduced_blade_0",
+      "variant": "actual_endpoint",
+      "milp_status": 0,
+      "gap_to_exhaustive": 5.684341886080802e-14
+    },
+    {
+      "id": "M_2002_reduced_custom_0",
+      "variant": "intended",
+      "milp_status": 0,
+      "gap_to_exhaustive": 0.0
+    },
+    {
+      "id": "M_2002_reduced_custom_0",
+      "variant": "pairs_only",
+      "milp_status": 0,
+      "gap_to_exhaustive": 5.684341886080802e-14
+    },
+    {
+      "id": "M_2002_reduced_custom_0",
+      "variant": "actual_endpoint",
+      "milp_status": 0,
+      "gap_to_exhaustive": -5.684341886080802e-14
+    }
+  ],
+  "unique_enumerations": 486,
+  "seconds": 3.3177407080074772,
+  "method": "Full symmetric quadratic matrix evaluation, big-endian enumeration, independent per-customer membership decoding; no solver/production scorer imports"
+}

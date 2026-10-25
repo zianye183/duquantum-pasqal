@@ -1,0 +1,19 @@
+{
+  "status": "prepared_requires_parent_authorization_no_launch",
+  "prerequisite": "original assignment PID93809 absent; guard fails closed while any process occupies that PID",
+  "reason": "Original1200s monotonic-wall cap reached amid CPU contention; incomplete propagation703/800, no performance outcome. Same planned timestep, controls, solver tolerances and scoring.",
+  "old_attempt_preserved": "M_2002_reduced_original_geometric_dt5",
+  "new_attempt": "M_2002_reduced_original_geometric_dt5_retry3600",
+  "new_wall_cap_seconds": 3600,
+  "cpu_threads": 1,
+  "checkpoint_available": false,
+  "new_quantum_runs": 1,
+  "source_hashes": {
+    "sequence.json": "d01b5d5358c25f029906c865b8643a79861e7b14b8276d8aba01c3d4dca6a03b",
+    "config.json": "f14dd3fb22405a3cfc5dad2638243c8d2851882e2f71deaf4ec1a0c2ebafd24e",
+    "retry3600_worker.py": "80cc676871537455f7ba74d30d1a86f0c8b2e50fed7993c1c8ab8f13899205be",
+    "deferred_retry3600.py": "931f9a01692fbb0611ac99e122cb70e90a505e888746bc8a90afb94c6a42c918"
+  },
+  "command": "OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 MKL_NUM_THREADS=1 /Users/alanye/duquantum-pasqal/.venv/bin/python audit/quantum_compare/local20_reference/deferred_retry3600.py",
+  "followup": "Upon success, compare to saved geometric10ns probabilities and run frozen whole-distribution grouping plan using new geometric5ns retry distribution; retain previous rare-tail and timeout records. No selective resampling."
+}

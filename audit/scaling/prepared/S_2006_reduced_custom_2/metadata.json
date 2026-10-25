@@ -1,0 +1,39 @@
+{
+  "id": "S_2006_reduced_custom_2",
+  "tier": "S",
+  "instance_seed": 2006,
+  "encoding": "reduced",
+  "embedder": "custom",
+  "placement_seed": 2,
+  "started_at": "2026-10-24T22:07:32.129536-04:00",
+  "status": "ready",
+  "shots": 2000,
+  "cohort": "primary",
+  "instance_path": "/Users/alanye/duquantum-pasqal/audit/scaling/references/instances.json",
+  "reference_status": "proven_exact_subset_dynamic_programming",
+  "atoms": 4,
+  "parameters": {
+    "mu": 3.4747795455736106,
+    "M": 0.0,
+    "rule": "equal_mean_coupling_weight"
+  },
+  "prepared_at": "2026-10-24T22:07:32.157027-04:00",
+  "backend": "cloud-sv",
+  "bond_dimension": null,
+  "duration_ns": 4000,
+  "global_control": true,
+  "interaction_override": false,
+  "atom_order": [
+    "q0",
+    "q1",
+    "q2",
+    "q3"
+  ],
+  "eps_J": 0.28915602927904305,
+  "target_density": 1.0,
+  "realized_density_1pct": 1.0,
+  "physical_valid": true,
+  "fit_seconds": 0.024354125023819506,
+  "optimizer_success": true,
+  "linear_relative_error": 0.1460736043755099
+}

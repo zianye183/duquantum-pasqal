@@ -1,0 +1,52 @@
+{
+  "id": "S_2002_slack_original_intended",
+  "status": "completed",
+  "digest": "1bde3f70d46e9b546077c26538eae0e8a6e680df88da7d9f8e496edc326e3e8d",
+  "submitted_config_sha256": "95b9a2e889dad93a8595f5e57d58e5dcab53694135dd447d3493af4ad3cb35ea",
+  "submitted_at": "2026-10-25T01:23:44.840531-04:00",
+  "batch_id": "b18413e9-d36f-4ad7-b891-a15d5db42383",
+  "remote_status": "BatchStatus.DONE",
+  "last_observed_at": "2026-10-25T01:24:28.058274-04:00",
+  "remote_job_status_counts": {
+    "PENDING": 0,
+    "RUNNING": 0,
+    "DONE": 1,
+    "ERROR": 0,
+    "CANCELED": 0,
+    "CANCELING": 0
+  },
+  "finished_at": "2026-10-25T01:24:29.126579-04:00",
+  "shots": 20000,
+  "result_atom_order": [
+    "q0",
+    "q1",
+    "q2",
+    "q3",
+    "q4",
+    "q5",
+    "q6",
+    "q7",
+    "q8",
+    "q9",
+    "q10",
+    "q11",
+    "q12",
+    "q13"
+  ],
+  "sequence_atom_order": [
+    "q0",
+    "q1",
+    "q2",
+    "q3",
+    "q4",
+    "q5",
+    "q6",
+    "q7",
+    "q8",
+    "q9",
+    "q10",
+    "q11",
+    "q12",
+    "q13"
+  ]
+}

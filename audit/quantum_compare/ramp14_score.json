@@ -1,0 +1,139 @@
+{
+  "prepared_manifest_sha256": "e68ccf7d51c034e0faa000c069b136f21a16c419c173021303d3345bf2b87344",
+  "rows": [
+    {
+      "id": "S_2002_slack_original_intended",
+      "status": "completed",
+      "pair_id": "S_2002_slack_original",
+      "interaction_mode": "intended",
+      "backend": "cloud-sv",
+      "target_id": "S_2002_slack_original",
+      "prepared_digest": "1bde3f70d46e9b546077c26538eae0e8a6e680df88da7d9f8e496edc326e3e8d",
+      "shots": 20000,
+      "unique_bitstrings": 1958,
+      "metrics": {
+        "assignment_valid": {
+          "count": 1270,
+          "rate": 0.0635,
+          "shot_wilson_95": [
+            0.06020344231111343,
+            0.06696420516586592
+          ]
+        },
+        "feasible": {
+          "count": 1141,
+          "rate": 0.05705,
+          "shot_wilson_95": [
+            0.053919806179728066,
+            0.06035031856237501
+          ]
+        },
+        "optimal": {
+          "count": 538,
+          "rate": 0.0269,
+          "shot_wilson_95": [
+            0.024746957244675162,
+            0.02923474727161103
+          ]
+        },
+        "full_encoding_feasible": {
+          "count": 278,
+          "rate": 0.0139,
+          "shot_wilson_95": [
+            0.012368260459034976,
+            0.015618436994709939
+          ]
+        },
+        "optimal_full_encoding": {
+          "count": 132,
+          "rate": 0.0066,
+          "shot_wilson_95": [
+            0.005568673082089122,
+            0.007820828098074923
+          ]
+        }
+      },
+      "best_feasible_cost": 100.4038457708054,
+      "conditional_feasible_cost": 108.93754321542545,
+      "counts_sha256": "a5a570897c85550dbd68e0a9ecb46e629f2753fa6d4d422febc07dced1702392",
+      "state_sha256": "0a629a68622b1cf5384b474f1e877a65b46c95f7ba61f0d0458ee6d024eec086",
+      "elapsed_submission_to_observation_seconds": 44.286048
+    },
+    {
+      "id": "S_2002_slack_original_geometric",
+      "status": "completed",
+      "pair_id": "S_2002_slack_original",
+      "interaction_mode": "geometric",
+      "backend": "cloud-sv",
+      "target_id": "S_2002_slack_original",
+      "prepared_digest": "9a812ba6bc87f7edf3ba7e65fc62096c28f2872b596c269be7832414fad41c1d",
+      "shots": 20000,
+      "unique_bitstrings": 1682,
+      "metrics": {
+        "assignment_valid": {
+          "count": 471,
+          "rate": 0.02355,
+          "shot_wilson_95": [
+            0.021538089558824112,
+            0.025744901599037983
+          ]
+        },
+        "feasible": {
+          "count": 205,
+          "rate": 0.01025,
+          "shot_wilson_95": [
+            0.008945107513430632,
+            0.01174299180352385
+          ]
+        },
+        "optimal": {
+          "count": 162,
+          "rate": 0.0081,
+          "shot_wilson_95": [
+            0.006948743571097038,
+            0.009440181500898693
+          ]
+        },
+        "full_encoding_feasible": {
+          "count": 42,
+          "rate": 0.0021,
+          "shot_wilson_95": [
+            0.001554076741242182,
+            0.0028371527634268043
+          ]
+        },
+        "optimal_full_encoding": {
+          "count": 41,
+          "rate": 0.00205,
+          "shot_wilson_95": [
+            0.0015115810586180745,
+            0.0027796676496565226
+          ]
+        }
+      },
+      "best_feasible_cost": 100.4038457708054,
+      "conditional_feasible_cost": 103.79088454219556,
+      "counts_sha256": "e96f9948fdbc89af54bb914fa4b88184ac6c2798214f6e58f54da1ba44df95c8",
+      "state_sha256": "7f4173a99c22a08e13c3d10d38add79935be515e8208f19b685d2ad32a286580",
+      "elapsed_submission_to_observation_seconds": 44.741383
+    }
+  ],
+  "pairs": [
+    {
+      "pair_id": "S_2002_slack_original",
+      "complete": true,
+      "geometric_minus_intended": {
+        "assignment_valid": -0.03995,
+        "feasible": -0.046799999999999994,
+        "optimal": -0.0188,
+        "full_encoding_feasible": -0.0118,
+        "optimal_full_encoding": -0.00455
+      }
+    }
+  ],
+  "completed": 2,
+  "total": 2,
+  "interval_scope": "Shot sampling only; excludes problem variation and numerical approximation error",
+  "elapsed_scope": "Submission until local completion observation, including queue and polling latency",
+  "cost": "Unknown; not exposed by inspected SDK"
+}

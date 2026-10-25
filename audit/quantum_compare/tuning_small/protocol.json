@@ -1,0 +1,145 @@
+{
+  "manifest_hash": "5fc98200353912577b761d2995cb8e3a78e8f631bfa7ec0b64f703ee6d2f96a3",
+  "development": [
+    2002,
+    2006,
+    2012
+  ],
+  "validation": [
+    2031,
+    2040
+  ],
+  "evaluation": [
+    2042,
+    2060,
+    2062,
+    2063,
+    2073
+  ],
+  "retrospective": true,
+  "alternative_oracle_informed": true,
+  "objective": "mean original clustering optimum probability across development instances; no repair; all basis states denominator",
+  "trial_budget": 32,
+  "tpe_seeds": [
+    11,
+    29,
+    47
+  ],
+  "random_seeds": [
+    11
+  ],
+  "equal_budget": "32 trials per optimizer run; three TPE replications versus one random replication per arm/formulation; do not compare pooled TPE best against one random run",
+  "search_dt": 0.01,
+  "convergence_TV_gate": 0.001,
+  "versions": {
+    "numpy": "2.4.1",
+    "optuna": "4.5.0"
+  },
+  "source_hashes": {
+    "tune_small.py": "344f8796ba11ededecaef03872d77a924f72770a4a6fea19429151b4c9f6fba8",
+    "dynamics.py": "fbda77897b0bb18bcf7092fc874a5b19d883d4f7b5eef1abfe319b2aef1d5af1",
+    "formulations.py": "9ac4bfc96ee15f528cc11dd6c1ef56dba64d32ec935d72cd5e10a3647ef7636d"
+  },
+  "inputs": [
+    {
+      "id": "S_2002_slack_alternative",
+      "geometry_hash": "6c6ef2679cc64dddf746c8ce76bd4e1139b8e1f93ee4ac98f38fcde77e9a558f",
+      "target_hash": "4554546fea82ad6d4f36707b7542a4e94c5f104a3f56973f6fe87e6823801c2d"
+    },
+    {
+      "id": "S_2006_slack_alternative",
+      "geometry_hash": "f2457390619acf9fc41b6f5b3a96632cda32db5c8c27c46661c9e9fc9b84b67c",
+      "target_hash": "fa6af88117e29c8758f281b4472b9f3d810b0bec1d5842ff0cbe66b945d641da"
+    },
+    {
+      "id": "S_2012_slack_alternative",
+      "geometry_hash": "59adda967cb0daf224825255a2264be5da8fb6769da014178c8b30a60ddecb08",
+      "target_hash": "26f05fd9bfdb32b0cba0e8e5a0aed5381ed8c1b660c1a9bf6b53728b4987f252"
+    },
+    {
+      "id": "S_2031_slack_alternative",
+      "geometry_hash": "9d6ce4f6796a57bc0e4ea1472ec1fab4e76ed3ab9af069f87a05fe07e06a3b92",
+      "target_hash": "ad21d8afb3f1973f07a4e93ab5e7500f44942db0edc0671923b03bb2382d6886"
+    },
+    {
+      "id": "S_2040_slack_alternative",
+      "geometry_hash": "cff6374e2d4420cc072c8a5260a7ebc284b0f6a632b73668554767226b5981b8",
+      "target_hash": "f9cb5caece1858b3ed6f4db96ae3378b41d8edc3858876b74c2745c643c94709"
+    },
+    {
+      "id": "S_2042_slack_alternative",
+      "geometry_hash": "8c562868c79b8c68a6d4ff271e712d40f5e2a151c352b00e23096570f819fe8e",
+      "target_hash": "680c36acf5ca271d8634be2efe792134e389ef321fde0ba9d06c2a016f9ae85c"
+    },
+    {
+      "id": "S_2060_slack_alternative",
+      "geometry_hash": "2c124acc9cb4cc4d4d2b5c08f97dce9775c97a24f8287e3c53fabe0cad2b7976",
+      "target_hash": "c03125fe7a7ab63da9871cdc61214507e6f39bad18ff46eead215d845b997228"
+    },
+    {
+      "id": "S_2062_slack_alternative",
+      "geometry_hash": "b9a0f9787750a1bc0fd720091c34b07ad3ed8f45a4a648f1d1078eecbd404bbb",
+      "target_hash": "7bd537e57f4f5280f576b6ff69bc557e76677f86d6e5dc48df87549a3063e693"
+    },
+    {
+      "id": "S_2063_slack_alternative",
+      "geometry_hash": "2bb4db0b2040b2615f91d9a8195459a82e6463daab30359d0edcf3e958b377f1",
+      "target_hash": "6cd6cd20bf51997df531433f10bfb70addcc1a8318de00168e99c8479dc4d1aa"
+    },
+    {
+      "id": "S_2073_slack_alternative",
+      "geometry_hash": "5bfeceb91990f3f3283a37f632dd7c93f6c6aff88709c716a514e729a1736b55",
+      "target_hash": "0dca69c65e24fda6a561edb1a54bbc723928bcc1cbadcd1d2fab255f8765f05d"
+    },
+    {
+      "id": "S_2002_slack_original",
+      "geometry_hash": "535b265588683d2058122bf19748a8666ed79039c0ba4a0f610c640062b9ae47",
+      "target_hash": "5d7cea69b8259d51371f0e7fd4d268f716c928f645f27ad6a6af8d2eadf20386"
+    },
+    {
+      "id": "S_2006_slack_original",
+      "geometry_hash": "9dc62d31a1d50502ca255c7a80e7775d495e52d02917f8baad83c47d92cc115d",
+      "target_hash": "c98c43873074f378a9bedaf9086175f156325450fdf8b314bf3fca51f795ea4e"
+    },
+    {
+      "id": "S_2012_slack_original",
+      "geometry_hash": "afc27d2758e80ea2145edbdcd1fe9d1a582d33896dd0dc7c4e21291e924fb1f6",
+      "target_hash": "80a59b6f33535fed7f80de13a50222c8e4b030460ef9096f23fb2fbca281fe1b"
+    },
+    {
+      "id": "S_2031_slack_original",
+      "geometry_hash": "5dd10895cbc1fc43db7c6566646c36c916537191988bfe4142569a5d83fa6563",
+      "target_hash": "8530d0d621249e37afcb84496d8d4d8a6076878446301ae2586952891b54e188"
+    },
+    {
+      "id": "S_2040_slack_original",
+      "geometry_hash": "7fec8749ffdecdd96c16dbf0c44641b68ab6751e6ddc413ff0c5bf4d25eea103",
+      "target_hash": "e4a8abd5f33bb70cd31fec3b6dfdec56aa6e027a10d25be055b91624ef7cea5e"
+    },
+    {
+      "id": "S_2042_slack_original",
+      "geometry_hash": "745190e8df7b7bde21709df2c34d2b989a211d45853070db3439d64dc1271eb2",
+      "target_hash": "831c567ffe1625e3d6fa8669b8ceaa6816d254e511babe069f289ad5c06bc7df"
+    },
+    {
+      "id": "S_2060_slack_original",
+      "geometry_hash": "035aeb1764c3a69f0e2fd7e6031037f10494b2620788f5a5841a2131962aa760",
+      "target_hash": "af228c9255e3907d76d4c119f4d21fb328213c20b7ba7eab55cd619e7ef9b560"
+    },
+    {
+      "id": "S_2062_slack_original",
+      "geometry_hash": "faead7d69bf0caa49000501998dde7a2b957bf14f2a95bcf80a239077bd67750",
+      "target_hash": "bb1f1b30d8d18b3ee7be29c8af9ed89ad4a397584105b31166e39533864022e9"
+    },
+    {
+      "id": "S_2063_slack_original",
+      "geometry_hash": "9587d01da43ca0e30e1209497d0cc2fbef126a9b8084ab55050cdb37fc5c0dab",
+      "target_hash": "3c2173ed01bb07adf0b70a113163773e9e16afec3377245ba700da1cfc62a63a"
+    },
+    {
+      "id": "S_2073_slack_original",
+      "geometry_hash": "c25d32191b46e197dd60157ddef6bff8a11b14358c54a7cb3412cb901bf9387c",
+      "target_hash": "1a50661372fce552eaa423338f92cc2bfc896b1168533822aa909508aaeef164"
+    }
+  ]
+}

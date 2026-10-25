@@ -1,0 +1,9 @@
+# Preserve frozen evidence bytes across platforms; checksums are byte-level.
+audit/** -text
+submission/** -text
+*.pdf binary
+*.pptx binary
+*.docx binary
+*.npz binary
+*.npy binary
+*.png binary

@@ -1,0 +1,96 @@
+{
+  "worker_sha256": "80cc676871537455f7ba74d30d1a86f0c8b2e50fed7993c1c8ab8f13899205be",
+  "per_run_wall_limit_seconds": 3600,
+  "cpu_threads": 1,
+  "runs": [
+    {
+      "name": "M_2002_reduced_original_geometric",
+      "dt": 5,
+      "process_outcome": "process_completed",
+      "elapsed_seconds": 602.0473000420025,
+      "result": {
+        "id": "M_2002_reduced_original_geometric",
+        "status": "completed",
+        "configuration_changes": [
+          "gpu=False",
+          "additional local final-state observable",
+          "dt=5 ns"
+        ],
+        "dt_ns": 5,
+        "source_hashes": {
+          "sequence": "d01b5d5358c25f029906c865b8643a79861e7b14b8276d8aba01c3d4dca6a03b",
+          "config": "f14dd3fb22405a3cfc5dad2638243c8d2851882e2f71deaf4ec1a0c2ebafd24e",
+          "metadata": "5b8ffa260951aa2a900903ef5c0fc71046d01b8c3f2d1ba1f87b55f21dedef68"
+        },
+        "counts": 20000,
+        "atom_order": [
+          "q0",
+          "q1",
+          "q2",
+          "q3",
+          "q4",
+          "q5",
+          "q6",
+          "q7",
+          "q8",
+          "q9",
+          "q10",
+          "q11",
+          "q12",
+          "q13",
+          "q14",
+          "q15",
+          "q16",
+          "q17",
+          "q18",
+          "q19"
+        ],
+        "scores": {
+          "assignment_valid": 0.99985,
+          "feasible": 0.038500000000000006,
+          "optimal": 5e-05,
+          "full_encoding_feasible": 0.038500000000000006,
+          "optimal_full_encoding": 5e-05
+        },
+        "state_class": "StateVector",
+        "state_public_attributes": [
+          "data",
+          "eigenstates",
+          "from_state_amplitudes",
+          "get_basis_state_from_index",
+          "infer_one_state",
+          "inner",
+          "make",
+          "n_qudits",
+          "norm",
+          "overlap",
+          "qudit_dim",
+          "sample",
+          "zero"
+        ],
+        "raw_state_attribute": "data",
+        "raw_state_norm": 1.0000000000000553,
+        "state_conversion": "Installed emu-sv2.10 data uses occupation bits (verified StateVector.from_state_amplitudes and sample); reversed/permuted to logical little-endian, no complement.",
+        "eigenstates": [
+          "r",
+          "g"
+        ],
+        "exact_probability_scores": {
+          "assignment_valid": 0.9998611267177443,
+          "feasible": 0.03891213217947334,
+          "optimal": 1.1465564196735656e-05,
+          "full_encoding_feasible": 0.03891213217947334,
+          "optimal_full_encoding": 1.1465564196735656e-05
+        },
+        "seconds": 596.2239877500106,
+        "versions": {
+          "pulser": "1.9.1",
+          "emu-sv": "2.10.0",
+          "torch": "2.14.1"
+        }
+      }
+    }
+  ],
+  "complete": true,
+  "all_passed": true
+}

@@ -1,0 +1,13 @@
+# Small-study reporting
+
+This is a separate, read-only aggregator of the two existing searches. It never launches simulations, changes winners, updates live studies, or treats missing results as failures with zero probability.
+
+Use `python aggregate.py --inventory` for coverage only. Final aggregation without that switch refuses until both studies have their completion markers, all declared fresh-trial budgets, all expected instance/arm rows, unchanged pinned sources, matching frozen winner controls, and successful saved convergence checks. `--output` permits writes only inside this reporting directory. The live inventory is a snapshot and is not a final result.
+
+Final JSON retains every optimizer seed and includes per-instance, same-pulse intended/geometric probabilities and differences, split and training objective. Descriptive summaries give means and minima separately by study, split and evaluated arm. Assignment-objective TPE runs are each compared with the single equally budgeted random run; the random reference is explicitly reused and no best-of-three comparison is made. The ground-objective study has no random comparator; its twelve shared cached warm-start points are distinguished from twenty-four fresh adaptive trials.
+
+The searches differ in objective, pulse family and formulation/layout menu. Between-search comparisons cannot isolate the effect of changing the objective. Saved-instance evaluation is retrospective. Successive-step total variation below 0.001 provides empirical absolute stability, not certified dynamics or relative precision for tiny probabilities. Values below the absolute floor are flagged. No best-of-many-shot probabilities are exported, even if those fields exist in source artifacts. Existing one-case independent rare-tail evidence is not generalized to other winners.
+
+Focused tests use a synthetic complete artifact tree and check refusal for missing completion, budget, arm, convergence, winner-control or source-provenance requirements. No scientific output is overwritten.
+
+Independent review prompted stronger corruption checks: actual geometry/target files are checked against frozen scientific-input hashes, finalists must contain the three distinct expected development cases, trial indices must match the declared budgets, and numerical scores must be finite, normalized within the original scoring tolerance, nonnegative, and consistent with event-subset relationships. These were synthetic malformed-fixture weaknesses in the initial reporter, not observed defects in saved experiments. Shared warm-start counts are explicitly protocol declarations with the pinned twelve-point source checked; optimizer pickle contents are not reloaded.

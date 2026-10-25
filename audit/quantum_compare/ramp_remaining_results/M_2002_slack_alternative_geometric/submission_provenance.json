@@ -1,0 +1,13 @@
+{
+  "prepared_digest": "2a7f2f96268dd9fe000ccba7ceb44cf47aa4248178d0b8fa684d65155d9969f4",
+  "runner_sha256": "62a551deb260177f6a4c3649f2ebc7b0cc1f4d946e92561da7153e4b8d830dff",
+  "submitted_sequence_sha256": "506096ff41e5800205f720ebc9105c7a7b3f403172d93f69c50f92c6e2706a43",
+  "submitted_config_sha256": "a91b78f5cac2794a060cd037337c6939a5458c2f6a15defa15ffb653ca1b3ffb",
+  "official_mps_validation": true,
+  "added_defaults": {
+    "num_gpus_to_use": 1,
+    "autosave_dt": "Infinity",
+    "optimize_qubit_ordering": true
+  },
+  "explicit_config_options_unchanged": true
+}

@@ -1,0 +1,13 @@
+{
+  "status": "complete_small_studies_only",
+  "files": {
+    "aggregate.py": "2fdc37d45b67c610426ec6b763fb3f52a7a5be346342feacd69e8e829aba9f2b",
+    "final.json": "803839e8cd8c9beec32fbc9be00424de9aba7312b5fd598b17a37ed8b733de2d",
+    "REPORT.md": "f756be8745844d89da5b65f702be97ab515cb5e04ee72bcce0c8dd15ccd82a2d",
+    "evaluation_details.csv": "6c7eafba9eed9484a58aadb0f9ce9f2b80a2ccf565d875780ce6775ba1ef4d65",
+    "paired_evaluation.csv": "96f70b3bd11671c3eb1362a566c9a80881c9ace3618c25f64cda86f650a27261",
+    "write_report.py": "70781f2db728548d61f4201928728cccea8e1ef44b4e26599b15ba3f0e2c42cf"
+  },
+  "evaluation_pairs": 170,
+  "evaluation_summaries": 68
+}

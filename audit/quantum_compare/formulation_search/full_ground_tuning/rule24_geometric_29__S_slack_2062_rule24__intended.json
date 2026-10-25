@@ -1,0 +1,45 @@
+{
+  "case": "S_slack_2062_rule24",
+  "converged": true,
+  "score": {
+    "assignment_valid": 0.43388567927862903,
+    "feasible": 0.19139986002934645,
+    "optimal": 0.09750226320201187,
+    "full_encoding_feasible": 0.004910256655328455,
+    "optimal_full_encoding": 0.0024951094925064954,
+    "conditional_feasible_cost": 80.97205078778946,
+    "normalization_error": 3.26405569239796e-14
+  },
+  "history": [
+    {
+      "dt": 0.0025,
+      "tv_previous": 0.0001685818471088067,
+      "seconds": 0.5939989999169484,
+      "score": {
+        "assignment_valid": 0.43388567927862903,
+        "feasible": 0.19139986002934645,
+        "optimal": 0.09750226320201187,
+        "full_encoding_feasible": 0.004910256655328455,
+        "optimal_full_encoding": 0.0024951094925064954,
+        "conditional_feasible_cost": 80.97205078778946,
+        "normalization_error": 3.26405569239796e-14
+      }
+    }
+  ],
+  "arm": "intended",
+  "trained_arm": "geometric",
+  "rule": 24,
+  "optimizer_seed": 29,
+  "params": {
+    "duration": 1.3250167463120037,
+    "omega": 9.231018802855687,
+    "initial_detuning": -7.401873230934143,
+    "ramp_power": 1.956615025177598,
+    "drive_power": 1.5804415959864855,
+    "ramp_beta": 1.0
+  },
+  "split": "evaluation",
+  "p_any_optimal_2000_independent_shots": 1.0,
+  "p_any_optimal_full_encoding_2000_independent_shots": 0.99323812412733,
+  "p_any_feasible_2000_independent_shots": 1.0
+}

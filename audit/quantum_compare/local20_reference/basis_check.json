@@ -1,0 +1,34 @@
+{
+  "passed": true,
+  "atoms": 20,
+  "tests": [
+    {
+      "atom": 0,
+      "raw_index": 524288,
+      "logical_index": 1,
+      "counts": {
+        "10000000000000000000": 10
+      },
+      "passed": true
+    },
+    {
+      "atom": 1,
+      "raw_index": 262144,
+      "logical_index": 2,
+      "counts": {
+        "01000000000000000000": 10
+      },
+      "passed": true
+    },
+    {
+      "atom": 19,
+      "raw_index": 1,
+      "logical_index": 524288,
+      "counts": {
+        "00000000000000000001": 10
+      },
+      "passed": true
+    }
+  ],
+  "aborted_attempt": "Initial adaptation retained a14-bit shift constant; stopped before scientific output, corrected to20-bit shift. Approximately40seconds preliminary work retained in aborted_preflight_conversion_fix."
+}

@@ -1,0 +1,647 @@
+{
+  "prepared_manifest_sha256": "f6c16a6153007cec2db577ad83a7202922ea76f3046dc0fb53778e55f784f214",
+  "rows": [
+    {
+      "id": "M_2002_reduced_alternative_geometric",
+      "status": "completed",
+      "pair_id": "M_2002_reduced_alternative",
+      "interaction_mode": "geometric",
+      "backend": "cloud-sv",
+      "target_id": "M_2002_reduced_alternative",
+      "prepared_digest": "a2cb87d2ef70a2fd0500d4bc994c04c734de8c737942efa3368c4a8a55f317b2",
+      "shots": 20000,
+      "unique_bitstrings": 1816,
+      "metrics": {
+        "assignment_valid": {
+          "count": 2491,
+          "rate": 0.12455,
+          "shot_wilson_95": [
+            0.12004560663112272,
+            0.12919859324340624
+          ]
+        },
+        "feasible": {
+          "count": 61,
+          "rate": 0.00305,
+          "shot_wilson_95": [
+            0.002375347333783003,
+            0.003915517302379385
+          ]
+        },
+        "optimal": {
+          "count": 0,
+          "rate": 0.0,
+          "shot_wilson_95": [
+            0.0,
+            0.00019203605610462553
+          ]
+        },
+        "full_encoding_feasible": {
+          "count": 61,
+          "rate": 0.00305,
+          "shot_wilson_95": [
+            0.002375347333783003,
+            0.003915517302379385
+          ]
+        },
+        "optimal_full_encoding": {
+          "count": 0,
+          "rate": 0.0,
+          "shot_wilson_95": [
+            0.0,
+            0.00019203605610462553
+          ]
+        }
+      },
+      "best_feasible_cost": 546.3955509345002,
+      "conditional_feasible_cost": 684.6669220869219,
+      "counts_sha256": "41638798220c7fc8549a9c822545dffa2741203dea724af0370a0cb6dafd9505",
+      "state_sha256": "2937813a07f088db88a8023d4786e263137a2387c6d25f34db2d6ece6de56175",
+      "elapsed_submission_to_observation_seconds": 987.668767
+    },
+    {
+      "id": "M_2002_reduced_alternative_intended",
+      "status": "completed",
+      "pair_id": "M_2002_reduced_alternative",
+      "interaction_mode": "intended",
+      "backend": "cloud-sv",
+      "target_id": "M_2002_reduced_alternative",
+      "prepared_digest": "b535c0888e54d966949109ddb70b3fc88d190ce15357518c7cd5e65eadf8f4a9",
+      "shots": 20000,
+      "unique_bitstrings": 6716,
+      "metrics": {
+        "assignment_valid": {
+          "count": 19999,
+          "rate": 0.99995,
+          "shot_wilson_95": [
+            0.9997168094297738,
+            0.9999911737177268
+          ]
+        },
+        "feasible": {
+          "count": 8793,
+          "rate": 0.43965,
+          "shot_wilson_95": [
+            0.4327833825239756,
+            0.4465397962279963
+          ]
+        },
+        "optimal": {
+          "count": 105,
+          "rate": 0.00525,
+          "shot_wilson_95": [
+            0.004339065918743494,
+            0.006350953758772034
+          ]
+        },
+        "full_encoding_feasible": {
+          "count": 8793,
+          "rate": 0.43965,
+          "shot_wilson_95": [
+            0.4327833825239756,
+            0.4465397962279963
+          ]
+        },
+        "optimal_full_encoding": {
+          "count": 105,
+          "rate": 0.00525,
+          "shot_wilson_95": [
+            0.004339065918743494,
+            0.006350953758772034
+          ]
+        }
+      },
+      "best_feasible_cost": 438.92329718537223,
+      "conditional_feasible_cost": 619.7427852000894,
+      "counts_sha256": "f196a25dc89b1784753d47d108684d25273e044526a05dac702520ac8b73fc00",
+      "state_sha256": "3c73a630b474378d049e81d0209942bed27064e074c0eebba7d664ac6076e0e4",
+      "elapsed_submission_to_observation_seconds": 987.601772
+    },
+    {
+      "id": "M_2002_reduced_original_geometric",
+      "status": "completed",
+      "pair_id": "M_2002_reduced_original",
+      "interaction_mode": "geometric",
+      "backend": "cloud-sv",
+      "target_id": "M_2002_reduced_original",
+      "prepared_digest": "a3dab222788a039c01f579e69ee90b34342bb0cfe005476a0443e9fab9787e42",
+      "shots": 20000,
+      "unique_bitstrings": 4919,
+      "metrics": {
+        "assignment_valid": {
+          "count": 19997,
+          "rate": 0.99985,
+          "shot_wilson_95": [
+            0.9995590363727073,
+            0.999948985182005
+          ]
+        },
+        "feasible": {
+          "count": 804,
+          "rate": 0.0402,
+          "shot_wilson_95": [
+            0.037564824647306004,
+            0.04301177170988781
+          ]
+        },
+        "optimal": {
+          "count": 2,
+          "rate": 0.0001,
+          "shot_wilson_95": [
+            2.7424035272726838e-05,
+            0.0003645736136206778
+          ]
+        },
+        "full_encoding_feasible": {
+          "count": 804,
+          "rate": 0.0402,
+          "shot_wilson_95": [
+            0.037564824647306004,
+            0.04301177170988781
+          ]
+        },
+        "optimal_full_encoding": {
+          "count": 2,
+          "rate": 0.0001,
+          "shot_wilson_95": [
+            2.7424035272726838e-05,
+            0.0003645736136206778
+          ]
+        }
+      },
+      "best_feasible_cost": 438.92329718537223,
+      "conditional_feasible_cost": 671.1408752755264,
+      "counts_sha256": "22a2c5278f6b3c7bbf9567e18a6f680225542c09dc6ebc75ca13026c1bbabb18",
+      "state_sha256": "c426a856cd322d9ee82ffb0bf7babc81ea31405c467af3572a7a2a7e6fe26776",
+      "elapsed_submission_to_observation_seconds": 987.898556
+    },
+    {
+      "id": "M_2002_reduced_original_intended",
+      "status": "completed",
+      "pair_id": "M_2002_reduced_original",
+      "interaction_mode": "intended",
+      "backend": "cloud-sv",
+      "target_id": "M_2002_reduced_original",
+      "prepared_digest": "00590d2b24cbfc15632829ad35e22411de3e80c3a1ccaa7a890e38fe9e66a02f",
+      "shots": 20000,
+      "unique_bitstrings": 4917,
+      "metrics": {
+        "assignment_valid": {
+          "count": 19998,
+          "rate": 0.9999,
+          "shot_wilson_95": [
+            0.9996354263863794,
+            0.9999725759647273
+          ]
+        },
+        "feasible": {
+          "count": 7405,
+          "rate": 0.37025,
+          "shot_wilson_95": [
+            0.3635833775533669,
+            0.3769664558031923
+          ]
+        },
+        "optimal": {
+          "count": 131,
+          "rate": 0.00655,
+          "shot_wilson_95": [
+            0.005522897083232833,
+            0.007766623300536823
+          ]
+        },
+        "full_encoding_feasible": {
+          "count": 7405,
+          "rate": 0.37025,
+          "shot_wilson_95": [
+            0.3635833775533669,
+            0.3769664558031923
+          ]
+        },
+        "optimal_full_encoding": {
+          "count": 131,
+          "rate": 0.00655,
+          "shot_wilson_95": [
+            0.005522897083232833,
+            0.007766623300536823
+          ]
+        }
+      },
+      "best_feasible_cost": 438.92329718537223,
+      "conditional_feasible_cost": 594.0442235604868,
+      "counts_sha256": "6b8e34f034051a2231a9dcdea07bd681a3d0b8e5b7b0c1b0c3011ca04d86d9d6",
+      "state_sha256": "0e84bd70f085aa8b26910726299e0e3ed9e7d56569f83cc7fa2d9ac190018665",
+      "elapsed_submission_to_observation_seconds": 1012.395692
+    },
+    {
+      "id": "M_2002_slack_alternative_geometric",
+      "status": "completed",
+      "pair_id": "M_2002_slack_alternative",
+      "interaction_mode": "geometric",
+      "backend": "cloud-mps",
+      "target_id": "M_2002_slack_alternative",
+      "prepared_digest": "2a7f2f96268dd9fe000ccba7ceb44cf47aa4248178d0b8fa684d65155d9969f4",
+      "shots": 20000,
+      "unique_bitstrings": 3625,
+      "metrics": {
+        "assignment_valid": {
+          "count": 0,
+          "rate": 0.0,
+          "shot_wilson_95": [
+            0.0,
+            0.00019203605610462553
+          ]
+        },
+        "feasible": {
+          "count": 0,
+          "rate": 0.0,
+          "shot_wilson_95": [
+            0.0,
+            0.00019203605610462553
+          ]
+        },
+        "optimal": {
+          "count": 0,
+          "rate": 0.0,
+          "shot_wilson_95": [
+            0.0,
+            0.00019203605610462553
+          ]
+        },
+        "full_encoding_feasible": {
+          "count": 0,
+          "rate": 0.0,
+          "shot_wilson_95": [
+            0.0,
+            0.00019203605610462553
+          ]
+        },
+        "optimal_full_encoding": {
+          "count": 0,
+          "rate": 0.0,
+          "shot_wilson_95": [
+            0.0,
+            0.00019203605610462553
+          ]
+        }
+      },
+      "best_feasible_cost": null,
+      "conditional_feasible_cost": null,
+      "counts_sha256": "f3c3dad6de4d3ced2af7479f83fcad222fe4f74e0fc205fc8b448fd4d57f0e74",
+      "state_sha256": "12e6625cbd177ea3b1f0b44040b6de9429319baa6ded80e0e87dcf1a086e4d5c",
+      "elapsed_submission_to_observation_seconds": 1912.275925
+    },
+    {
+      "id": "M_2002_slack_alternative_intended",
+      "status": "completed",
+      "pair_id": "M_2002_slack_alternative",
+      "interaction_mode": "intended",
+      "backend": "cloud-mps",
+      "target_id": "M_2002_slack_alternative",
+      "prepared_digest": "cf5c874d2878e6bebdb29bdb29353348e860768c091ed31a4e35f32aedc89192",
+      "shots": 20000,
+      "unique_bitstrings": 20000,
+      "metrics": {
+        "assignment_valid": {
+          "count": 3,
+          "rate": 0.00015,
+          "shot_wilson_95": [
+            5.101481799495055e-05,
+            0.0004409636272928435
+          ]
+        },
+        "feasible": {
+          "count": 2,
+          "rate": 0.0001,
+          "shot_wilson_95": [
+            2.7424035272726838e-05,
+            0.0003645736136206778
+          ]
+        },
+        "optimal": {
+          "count": 0,
+          "rate": 0.0,
+          "shot_wilson_95": [
+            0.0,
+            0.00019203605610462553
+          ]
+        },
+        "full_encoding_feasible": {
+          "count": 0,
+          "rate": 0.0,
+          "shot_wilson_95": [
+            0.0,
+            0.00019203605610462553
+          ]
+        },
+        "optimal_full_encoding": {
+          "count": 0,
+          "rate": 0.0,
+          "shot_wilson_95": [
+            0.0,
+            0.00019203605610462553
+          ]
+        }
+      },
+      "best_feasible_cost": 586.1852162245614,
+      "conditional_feasible_cost": 662.601992294268,
+      "counts_sha256": "17aca0cfb6f0e72aa73f5712ee2bb674cce6051339e5a7c48fd59b8be976dccc",
+      "state_sha256": "5249bb44487a90c2d1ae0aa829ffe368ab5351ca243837abf937c92ffb1f2631",
+      "elapsed_submission_to_observation_seconds": 1857.854612
+    },
+    {
+      "id": "M_2002_slack_original_geometric",
+      "status": "completed",
+      "pair_id": "M_2002_slack_original",
+      "interaction_mode": "geometric",
+      "backend": "cloud-mps",
+      "target_id": "M_2002_slack_original",
+      "prepared_digest": "7b4f8dec672e301ef25fde13796f5562b21659bbe0590b75b87271709ca848c1",
+      "shots": 20000,
+      "unique_bitstrings": 18366,
+      "metrics": {
+        "assignment_valid": {
+          "count": 0,
+          "rate": 0.0,
+          "shot_wilson_95": [
+            0.0,
+            0.00019203605610462553
+          ]
+        },
+        "feasible": {
+          "count": 0,
+          "rate": 0.0,
+          "shot_wilson_95": [
+            0.0,
+            0.00019203605610462553
+          ]
+        },
+        "optimal": {
+          "count": 0,
+          "rate": 0.0,
+          "shot_wilson_95": [
+            0.0,
+            0.00019203605610462553
+          ]
+        },
+        "full_encoding_feasible": {
+          "count": 0,
+          "rate": 0.0,
+          "shot_wilson_95": [
+            0.0,
+            0.00019203605610462553
+          ]
+        },
+        "optimal_full_encoding": {
+          "count": 0,
+          "rate": 0.0,
+          "shot_wilson_95": [
+            0.0,
+            0.00019203605610462553
+          ]
+        }
+      },
+      "best_feasible_cost": null,
+      "conditional_feasible_cost": null,
+      "counts_sha256": "4a1084520b537e4e72243b32f143895fdfb52474b97a9df54e8bb9d2a4e50adc",
+      "state_sha256": "b6bc41e291ca7bfae274a8e13f8840fa2371983b40db2b9a266fbe1e98b4fa24",
+      "elapsed_submission_to_observation_seconds": 1767.101391
+    },
+    {
+      "id": "M_2002_slack_original_intended",
+      "status": "completed",
+      "pair_id": "M_2002_slack_original",
+      "interaction_mode": "intended",
+      "backend": "cloud-mps",
+      "target_id": "M_2002_slack_original",
+      "prepared_digest": "52b4d417d8b6f0726dc38653f72ae8fb23dd0c52e03734c8ab38382b8af56763",
+      "shots": 20000,
+      "unique_bitstrings": 19999,
+      "metrics": {
+        "assignment_valid": {
+          "count": 2,
+          "rate": 0.0001,
+          "shot_wilson_95": [
+            2.7424035272726838e-05,
+            0.0003645736136206778
+          ]
+        },
+        "feasible": {
+          "count": 2,
+          "rate": 0.0001,
+          "shot_wilson_95": [
+            2.7424035272726838e-05,
+            0.0003645736136206778
+          ]
+        },
+        "optimal": {
+          "count": 0,
+          "rate": 0.0,
+          "shot_wilson_95": [
+            0.0,
+            0.00019203605610462553
+          ]
+        },
+        "full_encoding_feasible": {
+          "count": 1,
+          "rate": 5e-05,
+          "shot_wilson_95": [
+            8.826282272974824e-06,
+            0.0002831905702260402
+          ]
+        },
+        "optimal_full_encoding": {
+          "count": 0,
+          "rate": 0.0,
+          "shot_wilson_95": [
+            0.0,
+            0.00019203605610462553
+          ]
+        }
+      },
+      "best_feasible_cost": 634.050822391604,
+      "conditional_feasible_cost": 745.1040967034644,
+      "counts_sha256": "f24a01bd84a5f03d670d9c55d83815a38a6e18b655f5a468280acb5957e3f055",
+      "state_sha256": "6866aa35dda39947e02a48e6adb89f5cb0303254a11a12c7c2e5a4f0b7de5098",
+      "elapsed_submission_to_observation_seconds": 1768.813351
+    },
+    {
+      "id": "S_2002_slack_alternative_geometric",
+      "status": "completed",
+      "pair_id": "S_2002_slack_alternative",
+      "interaction_mode": "geometric",
+      "backend": "cloud-sv",
+      "target_id": "S_2002_slack_alternative",
+      "prepared_digest": "5eef8b6a9a5db514cd2c705d293b7df9a247abd7a7b766b6fa994ce11121a30b",
+      "shots": 20000,
+      "unique_bitstrings": 2042,
+      "metrics": {
+        "assignment_valid": {
+          "count": 1348,
+          "rate": 0.0674,
+          "shot_wilson_95": [
+            0.06400776792087953,
+            0.07095838167486218
+          ]
+        },
+        "feasible": {
+          "count": 613,
+          "rate": 0.03065,
+          "shot_wilson_95": [
+            0.02834981291260217,
+            0.033130451333263235
+          ]
+        },
+        "optimal": {
+          "count": 596,
+          "rate": 0.0298,
+          "shot_wilson_95": [
+            0.02753226820710118,
+            0.0322483225000596
+          ]
+        },
+        "full_encoding_feasible": {
+          "count": 44,
+          "rate": 0.0022,
+          "shot_wilson_95": [
+            0.0016393270230052992,
+            0.002951864074452466
+          ]
+        },
+        "optimal_full_encoding": {
+          "count": 40,
+          "rate": 0.002,
+          "shot_wilson_95": [
+            0.0014691757997049196,
+            0.0027220921121752875
+          ]
+        }
+      },
+      "best_feasible_cost": 100.4038457708054,
+      "conditional_feasible_cost": 100.85165601088637,
+      "counts_sha256": "44abc11a43b7150eac644627226ddca54635559460bb6123b94665f3c0ba3952",
+      "state_sha256": "b3439c05cb254de10051c649e89be29bb66d9a75f37990a009cfec57a1bdbf34",
+      "elapsed_submission_to_observation_seconds": 115.911596
+    },
+    {
+      "id": "S_2002_slack_alternative_intended",
+      "status": "completed",
+      "pair_id": "S_2002_slack_alternative",
+      "interaction_mode": "intended",
+      "backend": "cloud-sv",
+      "target_id": "S_2002_slack_alternative",
+      "prepared_digest": "14c3a2077c83929e287ae2450c487170eae59ba31b7a1a8aca3c9117f2bf1b5f",
+      "shots": 20000,
+      "unique_bitstrings": 1904,
+      "metrics": {
+        "assignment_valid": {
+          "count": 5147,
+          "rate": 0.25735,
+          "shot_wilson_95": [
+            0.25133819098544163,
+            0.26345500411258604
+          ]
+        },
+        "feasible": {
+          "count": 3600,
+          "rate": 0.18,
+          "shot_wilson_95": [
+            0.17473713954741799,
+            0.1853857635284889
+          ]
+        },
+        "optimal": {
+          "count": 1200,
+          "rate": 0.06,
+          "shot_wilson_95": [
+            0.0567923881636152,
+            0.06337660356575688
+          ]
+        },
+        "full_encoding_feasible": {
+          "count": 31,
+          "rate": 0.00155,
+          "shot_wilson_95": [
+            0.001092225196048294,
+            0.002199215548282407
+          ]
+        },
+        "optimal_full_encoding": {
+          "count": 12,
+          "rate": 0.0006,
+          "shot_wilson_95": [
+            0.0003432700669267663,
+            0.0010485355459105335
+          ]
+        }
+      },
+      "best_feasible_cost": 100.4038457708054,
+      "conditional_feasible_cost": 111.16885271863457,
+      "counts_sha256": "aa17bf2069699ec0ae5a4d902842e154edf0c6cc3f37ba398d6d8fd233375e65",
+      "state_sha256": "f58dde0b0f94000551b2374589d5c3322b7e5fcc6269c4c35c187f80b2b79296",
+      "elapsed_submission_to_observation_seconds": 118.642524
+    }
+  ],
+  "pairs": [
+    {
+      "pair_id": "M_2002_reduced_alternative",
+      "complete": true,
+      "geometric_minus_intended": {
+        "assignment_valid": -0.8754,
+        "feasible": -0.4366,
+        "optimal": -0.00525,
+        "full_encoding_feasible": -0.4366,
+        "optimal_full_encoding": -0.00525
+      }
+    },
+    {
+      "pair_id": "M_2002_reduced_original",
+      "complete": true,
+      "geometric_minus_intended": {
+        "assignment_valid": -4.999999999999449e-05,
+        "feasible": -0.33005,
+        "optimal": -0.00645,
+        "full_encoding_feasible": -0.33005,
+        "optimal_full_encoding": -0.00645
+      }
+    },
+    {
+      "pair_id": "M_2002_slack_alternative",
+      "complete": true,
+      "geometric_minus_intended": {
+        "assignment_valid": -0.00015,
+        "feasible": -0.0001,
+        "optimal": 0.0,
+        "full_encoding_feasible": 0.0,
+        "optimal_full_encoding": 0.0
+      }
+    },
+    {
+      "pair_id": "M_2002_slack_original",
+      "complete": true,
+      "geometric_minus_intended": {
+        "assignment_valid": -0.0001,
+        "feasible": -0.0001,
+        "optimal": 0.0,
+        "full_encoding_feasible": -5e-05,
+        "optimal_full_encoding": 0.0
+      }
+    },
+    {
+      "pair_id": "S_2002_slack_alternative",
+      "complete": true,
+      "geometric_minus_intended": {
+        "assignment_valid": -0.18995,
+        "feasible": -0.14934999999999998,
+        "optimal": -0.030199999999999998,
+        "full_encoding_feasible": 0.0006500000000000002,
+        "optimal_full_encoding": 0.0014000000000000002
+      }
+    }
+  ],
+  "completed": 10,
+  "total": 10,
+  "interval_scope": "Shot sampling only; excludes problem variation and numerical approximation error",
+  "elapsed_scope": "Submission until local completion observation, including queue and polling latency",
+  "cost": "Unknown; not exposed by inspected SDK"
+}

@@ -1,0 +1,13 @@
+{
+  "jobs": [
+    {
+      "id": "S_2002_slack_original_intended",
+      "digest": "1bde3f70d46e9b546077c26538eae0e8a6e680df88da7d9f8e496edc326e3e8d"
+    },
+    {
+      "id": "S_2002_slack_original_geometric",
+      "digest": "9a812ba6bc87f7edf3ba7e65fc62096c28f2872b596c269be7832414fad41c1d"
+    }
+  ],
+  "frozen_at": "2026-10-25T01:23:22.268747-04:00"
+}

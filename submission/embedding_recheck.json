@@ -1,0 +1,26 @@
+{
+  "S_reduced": {
+    "conditions": 30,
+    "eps_J_mean": 0.20360818867668215
+  },
+  "S_slack": {
+    "conditions": 30,
+    "eps_J_mean": 0.4968527596260966
+  },
+  "M_reduced": {
+    "conditions": 15,
+    "eps_J_mean": 0.5341316733089692
+  },
+  "M_slack": {
+    "conditions": 15,
+    "eps_J_mean": 0.9933899794216982
+  },
+  "L_reduced": {
+    "conditions": 15,
+    "eps_J_mean": 0.36983230553176505
+  },
+  "L_slack": {
+    "conditions": 15,
+    "eps_J_mean": 1.2007689402227375
+  }
+}

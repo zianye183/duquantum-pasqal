@@ -1,0 +1,65 @@
+{
+  "started_at": "2026-10-25T10:45:09.323566-04:00",
+  "status": "complete",
+  "cloud_jobs": 0,
+  "protocol_sha256": "a3911cdd07f133a4f76e25351631d9b31e625fe4f458c57b44bea47793516ca7",
+  "source_hashes": {
+    "run.py": "9a7810abb774840a9b0364d93eaeaaf28e1fcc55170449dde7862826a01bf439",
+    "snapshot/dynamics.py": "fbda77897b0bb18bcf7092fc874a5b19d883d4f7b5eef1abfe319b2aef1d5af1",
+    "snapshot/embedding.py": "7424c2ca09af82d2c023681bd2a3edd355d234fd86c7401c21920791b1152bcd",
+    "snapshot/instances.json": "d65bdd7b9df0ac84cc8fa706d29d0524eae5d89244da6472151d552ca82cea96",
+    "snapshot/track_a.py": "d84ab76ef99246978b024b9b6ffbc098d094c5b1a3afa8b84d1ffdc84ef8435a"
+  },
+  "finished_at": "2026-10-25T10:46:24.606927-04:00",
+  "elapsed_seconds": 75.28568237496074,
+  "summary": {
+    "slack": {
+      "cases": 3,
+      "completed": 3,
+      "means": {
+        "exact": {
+          "feasible": 0.07812827080667177,
+          "optimal": 0.03901578326644418,
+          "complete_optimal": 0.005092160798155803
+        },
+        "geometric": {
+          "feasible": 0.010985064222856977,
+          "optimal": 0.005475862490572501,
+          "complete_optimal": 0.0003085495597809293
+        }
+      }
+    },
+    "full_balance": {
+      "cases": 3,
+      "completed": 3,
+      "means": {
+        "exact": {
+          "feasible": 0.2160690806385138,
+          "optimal": 0.16002953902556213,
+          "complete_optimal": 0.16002953902556213
+        },
+        "geometric": {
+          "feasible": 0.10551772287178253,
+          "optimal": 0.09671556352951209,
+          "complete_optimal": 0.09671556352951209
+        }
+      }
+    },
+    "reduced_balance": {
+      "cases": 3,
+      "completed": 3,
+      "means": {
+        "exact": {
+          "feasible": 0.3605064372981366,
+          "optimal": 0.2903422387206665,
+          "complete_optimal": 0.2903422387206665
+        },
+        "geometric": {
+          "feasible": 0.24000813256904405,
+          "optimal": 0.16378229198570365,
+          "complete_optimal": 0.16378229198570365
+        }
+      }
+    }
+  }
+}
